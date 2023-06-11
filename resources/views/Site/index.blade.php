@@ -8,116 +8,61 @@
                     <div class="col-lg-7">
                         <div class="hero-content">
                             <div class="section-heading">
-                                <h2 class="section__title text-white fs-45 lh-55 pb-3">
-                                    اولین قدم از سفر خود را به سوی موفقیت بردارید
-                                </h2>
-                                <p class="section__desc text-white pb-4">
-                                    چه کسی به شما می گوید که نمی توانید این کار را انجام دهید؟ برای به دست گرفتن کنترل آینده خود، اعتماد به نفس، مهارت ها و صلاحیت هایی را ایجاد کنید. امروز یکی از 1000 دوره آموزشی با کیفیت بالا را از
-                                    کارشناسان برجسته جهان شروع کنید!
-                                </p>
+                                <h1 class="section__title text-white fs-45 lh-55 pb-3">آژانس تخصصی تبلیغات بستا</h1>
+                                <p class="section__desc text-white pt-4 pb-2">اولین قدم برای موفقیت در کسب و کار، داشتن <strong>هویت بصری</strong> برای معرفیتونه!</p>
+                                <p class="section__desc text-white pb-2">دومین قدم برای موفقیت در کسب و کار، داشتن <strong>تبلیغ موثر</strong> برای مشتریتونه!</p>
+                                <p class="section__desc text-white pb-2">سومین قدم برای موفقیت در کسب و کار، داشتن <strong>بستری مناسب</strong> برای فروشتونه!</p>
+                                <h2 class="section__title text-white fs-30 lh-55 pt-3">ما برای دیده شدن کسب و کار شما تلاش می کنیم</h2>
                             </div>
-                            <!-- end section-heading -->
-                            <form method="post" class="w-75 pt-2">
-                                <label class="label-text bg-white rounded py-1 px-2 fs-14 font-weight-medium lh-20">چه چیز را میخواهی یاد بگیری؟</label>
-                                <div class="form-group mb-0">
-                                    <input class="form-control form--control pl-3" type="text" name="search" placeholder="جستجوی دوره ها با کلمات کلیدی" />
-                                    <span class="la la-search search-icon"></span>
-                                </div>
-                            </form>
                         </div>
-                        <!-- end hero-content -->
                     </div>
-                    <!-- end col-lg-7 -->
                     <div class="col-lg-5">
                         <div class="row hero-category-wrap">
-                            <div class="col-lg-4 responsive-column-half">
+                            <div class="col-lg-6 responsive-column-half">
                                 <div class="category-item category-item-layout-2">
                                     <a href="#" class="category-content">
                                         <div class="icon-element icon-element-md shadow-sm text-color">
                                             <i class="la la-desktop"></i>
                                         </div>
-                                        <h3 class="cat__title fs-16">برنامه نویسی</h3>
+                                        <h3 class="cat__title fs-16">طراحی وبسایت</h3>
                                     </a>
-                                    <!-- end category-content -->
                                 </div>
-                                <!-- end category-item -->
                             </div>
-                            <!-- end col-lg-4 -->
-                            <div class="col-lg-4 responsive-column-half">
-                                <div class="category-item category-item-layout-2">
-                                    <a href="#" class="category-content">
-                                        <div class="icon-element icon-element-md shadow-sm text-color-2">
-                                            <i class="la la-briefcase"></i>
-                                        </div>
-                                        <h3 class="cat__title fs-16">کسب و کار</h3>
-                                    </a>
-                                    <!-- end category-content -->
-                                </div>
-                                <!-- end category-item -->
-                            </div>
-                            <!-- end col-lg-4 -->
-                            <div class="col-lg-4 responsive-column-half">
+                            <div class="col-lg-6 responsive-column-half">
                                 <div class="category-item category-item-layout-2">
                                     <a href="#" class="category-content">
                                         <div class="icon-element icon-element-md shadow-sm text-color-3">
                                             <i class="la la-paint-brush"></i>
                                         </div>
-                                        <h3 class="cat__title fs-16">طرح</h3>
+                                        <h3 class="cat__title fs-16">طرحی گرافیک</h3>
                                     </a>
-                                    <!-- end category-content -->
                                 </div>
-                                <!-- end category-item -->
                             </div>
-                            <!-- end col-lg-4 -->
-                            <div class="col-lg-4 responsive-column-half">
-                                <div class="category-item category-item-layout-2">
-                                    <a href="#" class="category-content">
-                                        <div class="icon-element icon-element-md shadow-sm text-color-4">
-                                            <i class="la la-laptop"></i>
-                                        </div>
-                                        <h3 class="cat__title fs-16">فناوری اطلاعات</h3>
-                                    </a>
-                                    <!-- end category-content -->
-                                </div>
-                                <!-- end category-item -->
-                            </div>
-                            <!-- end col-lg-4 -->
-                            <div class="col-lg-4 responsive-column-half">
-                                <div class="category-item category-item-layout-2">
-                                    <a href="#" class="category-content">
-                                        <div class="icon-element icon-element-md shadow-sm text-color-5">
-                                            <i class="la la-calculator"></i>
-                                        </div>
-                                        <h3 class="cat__title fs-16">ریاضیات</h3>
-                                    </a>
-                                    <!-- end category-content -->
-                                </div>
-                                <!-- end category-item -->
-                            </div>
-                            <!-- end col-lg-4 -->
-                            <div class="col-lg-4 responsive-column-half">
+                            <div class="col-lg-6 responsive-column-half">
                                 <div class="category-item category-item-layout-2">
                                     <a href="#" class="category-content">
                                         <div class="icon-element icon-element-md shadow-sm text-color-6">
                                             <i class="la la-magic"></i>
                                         </div>
-                                        <h3 class="cat__title fs-16">بازار یابی</h3>
+                                        <h3 class="cat__title fs-16">استودیو عکاسی و تیزر</h3>
                                     </a>
-                                    <!-- end category-content -->
                                 </div>
-                                <!-- end category-item -->
                             </div>
-                            <!-- end col-lg-4 -->
+                            <div class="col-lg-6 responsive-column-half">
+                                <div class="category-item category-item-layout-2">
+                                    <a href="#" class="category-content">
+                                        <div class="icon-element icon-element-md shadow-sm text-color-4">
+                                            <i class="la la-laptop"></i>
+                                        </div>
+                                        <h3 class="cat__title fs-16">چاپ و بسته بندی</h3>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <!-- end row -->
                     </div>
-                    <!-- end col-lg-5 -->
                 </div>
-                <!-- end row -->
             </div>
-            <!-- end container -->
         </div>
-        <!-- end hero-slider-item -->
     </section>
 
     <section class="course-area section--padding position-relative overflow-hidden">
