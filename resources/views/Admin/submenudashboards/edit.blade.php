@@ -126,18 +126,6 @@
     <script src="{{asset('admin/assets/plugins/select2/js/select2.min.js')}}"></script>
     <script src="{{asset('admin/assets/js/select2.js')}}"></script>
     <script src="{{asset('admin/assets/plugins/perfect-scrollbar/perfect-scrollbar.min-rtl.js')}}"></script>
-{{--    <script src="{{asset('admin/assets/plugins/jquery-ui/ui/widgets/datepicker.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/bootstrap-daterangepicker/moment.min.js')}}"></script>
-    <script src="{{asset('admin/assets/js/advanced-form-elements.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/sumoselect/jquery.sumoselect.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/fileuploads/js/fileupload.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/fileuploads/js/file-upload.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/fancyuploder/jquery.ui.widget.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/fancyuploder/jquery.fileupload.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/fancyuploder/jquery.iframe-transport.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/fancyuploder/jquery.fancy-fileupload.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/fancyuploder/fancy-uploader.js')}}"></script>--}}
     <script src="{{asset('admin/assets/plugins/telephoneinput/telephoneinput.js')}}"></script>
     <script src="{{asset('admin/assets/plugins/telephoneinput/inttelephoneinput.js')}}"></script>
 
@@ -155,13 +143,14 @@
                     method: 'PATCH',
                     data: {
                         "_token": "{{ csrf_token() }}",
+                        submenu_panel_id    : jQuery('#submenu_panel_id').val(),
                         title               : jQuery('#title').val(),
                         label               : jQuery('#label').val(),
                         class               : jQuery('#class').val(),
-                        status              : jQuery('#status').val(),
                         controller          : jQuery('#controller').val(),
-                        submenu_panel_id    : jQuery('#submenu_panel_id').val(),
-                        method              : jQuery('#method').val()
+                        method              : jQuery('#method').val(),
+                        menu_id             : jQuery('#menu_id').val(),
+                        status              : jQuery('#status').val(),
                     },
                     success: function (data) {
                         swal(data.subject, data.message, data.flag);

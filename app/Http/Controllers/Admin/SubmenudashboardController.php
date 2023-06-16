@@ -22,30 +22,41 @@ class SubmenudashboardController extends Controller
         $submenupanels  = Submenu_panel::whereStatus(4)->get();
 
         if ($request->ajax()) {
-            $data = Submenu_panel::select('id', 'title', 'slug', 'status')
+            $data = Submenu_panel::
+            join('menu_panels' ,'menu_panels.id' ,'=' ,'submenu_panels.menu_id')
+            ->select('submenu_panels.id', 'submenu_panels.title', 'submenu_panels.slug', 'submenu_panels.status' , 'submenu_panels.class' , 'submenu_panels.controller' , 'submenu_panels.method' , 'menu_panels.title as menu_title')
                 ->get();
 
             return Datatables::of($data)
-                ->editColumn('id', function ($data) {
+                ->addColumn('id', function ($data) {
                     return ($data->id);
                 })
-                ->editColumn('title', function ($data) {
+                ->addColumn('title', function ($data) {
                     return ($data->title);
                 })
-                ->editColumn('slug', function ($data) {
+                ->addColumn('slug', function ($data) {
                     return ($data->slug);
                 })
-                ->editColumn('menu_id', function ($data) {
-                    return ($data->menu_id);
+                ->addColumn('menu_title', function ($data) {
+                    return ($data->menu_title);
                 })
-                ->editColumn('status', function ($data) {
+                ->addColumn('class', function ($data) {
+                    return ($data->class);
+                })
+                ->addColumn('controller', function ($data) {
+                    return ($data->controller);
+                })
+                ->addColumn('method', function ($data) {
+                    return ($data->method);
+                })
+                ->addColumn('status', function ($data) {
                     if ($data->status == "0") {
                         return "عدم نمایش";
                     } elseif ($data->status == "4") {
                         return "در حال نمایش";
                     }
                 })
-                ->addColumn('action', function ($data) {
+                ->editColumn('action', function ($data) {
                     $actionBtn = '<a href="' . route('submenu-dashboard.edit', $data->id) . '" class="btn ripple btn-outline-info btn-icon" style="float: right;margin: 0 5px;"><i class="fe fe-edit-2"></i></a>
                     <button type="button" id="submit" data-toggle="modal" data-target="#myModal'.$data->id.'" class="btn ripple btn-outline-danger btn-icon " style="float: right;"><i class="fe fe-trash-2 "></i></button>';
 
@@ -147,6 +158,7 @@ class SubmenudashboardController extends Controller
         $submenu_panel->class        = $request->input('class');
         $submenu_panel->controller   = $request->input('controller');
         $submenu_panel->method       = $request->input('method');
+        $submenu_panel->menu_id      = $request->input('menu_id');
         $submenu_panel->user_id      = Auth::user()->id;
         $submenu_panel->status       = $request->input('status');
 
@@ -197,7 +209,7 @@ class SubmenudashboardController extends Controller
             $submenu_panel = Submenu_panel::findOrfail($request->input('id'));
             $result1 = $submenu_panel->delete();
 
-            $permission = Permission::whereMenu_panel_id($request->input('id'))->first();
+            $permission = Permission::whereSubmenu_panel_id($request->input('id'))->first();
             $result2 = $permission->delete();
 
 

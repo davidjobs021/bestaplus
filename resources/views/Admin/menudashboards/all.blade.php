@@ -41,6 +41,8 @@
                                             <th class="wd-10p"> ردیف </th>
                                             <th class="wd-10p"> نام صفحه </th>
                                             <th class="wd-10p"> آدرس صفحه </th>
+                                            <th class="wd-10p"> کلاس </th>
+                                            <th class="wd-10p"> کنترلر </th>
                                             <th class="wd-10p"> وضعیت </th>
                                             <th class="wd-10p"> تغییر </th>
                                         </tr>
@@ -95,6 +97,8 @@
                     {data: 'id'             , name: 'id'        },
                     {data: 'title'          , name: 'title'     },
                     {data: 'slug'           , name: 'slug'      },
+                    {data: 'class'          , name: 'class'      },
+                    {data: 'controller'     , name: 'controller'      },
                     {data: 'status'         , name: 'status'    },
                     {data: 'action'         , name: 'action', orderable: true, searchable: true},
                 ]

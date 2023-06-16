@@ -41,7 +41,9 @@
                                                 table-layout: fixed;
                                                 word-wrap:break-word;
                                             }
-
+                                            td{
+                                                overflow-x: auto;
+                                            }
                                         </style>
                                         <table id="sample1" class="table table-striped table-bordered yajra-datatable">
                                             <thead>
@@ -49,7 +51,10 @@
                                                 <th class="wd-10p"> ردیف </th>
                                                 <th class="wd-10p"> عنوان صفحه </th>
                                                 <th class="wd-10p"> آدرس صفحه </th>
-                                                <th class="wd-10p"> لیبل صفحه </th>
+                                                <th class="wd-10p"> کلاس </th>
+                                                <th class="wd-10p"> کنترولر </th>
+                                                <th class="wd-10p"> متد </th>
+                                                <th class="wd-10p"> منو </th>
                                                 <th class="wd-10p"> وضعیت </th>
                                                 <th class="wd-10p"> تغییر </th>
                                             </tr>
@@ -105,7 +110,10 @@
                     {data: 'id'             , name: 'id'},
                     {data: 'title'          , name: 'title'},
                     {data: 'slug'           , name: 'slug'},
-                    {data: 'menu_id'        , name: 'menu_id'},
+                    {data: 'class'          , name: 'class'},
+                    {data: 'controller'     , name: 'controller'},
+                    {data: 'method'         , name: 'method'},
+                    {data: 'menu_title'     , name: 'menu_title'},
                     {data: 'status'         , name: 'status'},
                     {data: 'action'         , name: 'action', orderable: true, searchable: true
                     },

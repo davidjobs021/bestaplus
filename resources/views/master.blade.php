@@ -50,7 +50,7 @@
                     <div class="header-widget">
                         <ul class="generic-list-item d-flex flex-wrap align-items-center fs-14">
                             <li class="d-flex align-items-center pr-3 mr-3 border-left border-left-gray"><i class="la la-phone mr-1"></i><a href="tel:00123456789">021-77116213</a></li>
-                            <li class="d-flex align-items-center"><i class="la la-envelope-o mr-1"></i><a href="mailto:info@heydarikashani.ir"> info@bestagroup.ir</a></li>
+                            <li class="d-flex align-items-center"><i class="la la-envelope-o mr-1"></i><a href="mailto:info@bestagroup.ir"> info@bestagroup.ir </a></li>
                         </ul>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                     <div class="col-lg-2">
                         <div class="logo-box">
                             <a href="{{route('/')}}" class="logo">
-                                <img src="{{asset($logos['file_link'])}}" alt="{{$logos['title']}}" style="width: 70%">
+                                <img src="{{asset($logos['file_link'])}}" alt="{{$logos['title']}}" style="width: 55%">
                             </a>
                             <div class="user-btn-action d-flex">
                                 <div class="search-menu-toggle icon-element icon-element-sm shadow-sm mr-2" data-toggle="tooltip" data-placement="top" title="جستجو کردن">
@@ -137,7 +137,11 @@
                                     @endforeach
                                 </ul>
                             </nav>
+
+                        <div class="nav-left-button">
+                            <a href="admission.html" class="btn theme-btn d-none d-lg-inline-block"><i class="la la-user-plus mr-1"></i> سفارش</a>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -170,6 +174,7 @@
             </li>
         </ul>
     </div>
+
     <div class="mobile-search-form">
         <div class="d-flex align-items-center">
             <form method="post" class="flex-grow-1 mr-3">
@@ -188,16 +193,16 @@
 
 @yield('main')
 
-<section class="footer-area pt-30px">
+<section class="footer-area bg-gray pt-30px">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 responsive-column-half">
                 <div class="footer-item">
                     <a href="{{route('/')}}">
-{{--                        <img src="{{asset($logos['file_link'])}}" alt="{{$logos['title']}}" class="footer__logo" style="width: 30%">--}}
+                        <img src="{{asset($logos['file_link'])}}" alt="{{$logos['title']}}" class="footer__logo" style="width: 30%">
                     </a>
                     <ul class="generic-list-item pt-4 ">
-                        <li>وبسایت اطلاع رسانی و آرشیو تمامی سخنرانی ها ، تصاویر و برنامه های<br> استاد محمد باقر حیدری کاشانی</li>
+                        <li> آژانس تخصصی تبلیغات بستا</li>
                     </ul>
                 </div>
             </div>
@@ -240,8 +245,9 @@
                     </ul>
                     <h3 class="fs-20 font-weight-semi-bold pt-4 pb-2">راه های ارتباطی</h3>
                     <ul class="generic-list-item pt-4">
-                        <li><a href="tel:+1631237884">021-77116213</a></li>
-                        <li><a href="mailto:info@heydarikashani.ir">info@bestagroup.ir</a></li>
+                        <li><a href="tel:+989128119938">+989128119938</a></li>
+                        <li><a href="tel:+982177116213">021-77116213</a></li>
+                        <li><a href="mailto:info@bestagroup.ir">info@bestagroup.ir</a></li>
                     </ul>
                 </div>
             </div>
@@ -252,7 +258,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <p class="copy-desc">کلیه حقوق مادی و معنوی وبسایت برای آژانس تخصصی تبلیغات محفوظ می باشد</p>
+                    <p class="copy-desc">کلیه حقوق مادی و معنوی وبسایت برای آژانس تخصصی تبلیغات بستا محفوظ می باشد</p>
                 </div>
                 <div class="col-lg-6">
                     <div class="d-flex flex-wrap align-items-center justify-content-end">
@@ -264,17 +270,6 @@
                             <select class="select-container-select">
                                 <option value="1">فارسی</option>
                                 <option value="2">انگلیسی</option>
-                                <option value="3">عربی</option>
-                                <option value="4">روسی</option>
-                                <option value="5">ترکی</option>
-                                <option value="6">آلمانی</option>
-                                <option value="7">اسپانیا</option>
-                                <option value="8">فرانسه</option>
-                                <option value="9">ایتالیایی</option>
-                                <option value="10">چینی</option>
-                                <option value="11">کره ای</option>
-                                <option value="12">ژاپنی</option>
-                                <option value="13">هندی</option>
                             </select>
                         </div>
                     </div>

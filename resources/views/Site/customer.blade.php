@@ -1,21 +1,21 @@
 @extends('master')
 @section('main')
 
-    <section class="breadcrumb-area section-padding img-bg-2">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="breadcrumb-content d-flex flex-wrap align-items-center justify-content-between">
-                <div class="section-heading">
-                    <h2 class="section__title text-white">وبلاگ بدون سایدبار</h2>
-                </div>
-                <ul class="generic-list-item generic-list-item-white generic-list-item-arrow d-flex flex-wrap align-items-center">
-                    <li><a href="index.html">صفحه اصلی</a></li>
-                    <li>وبلاگ</li>
-                    <li>وبلاگ بدون سایدبار</li>
-                </ul>
+<section class="breadcrumb-area section-padding img-bg-2">
+    <div class="overlay" @if ($slides) style="background-image: url({{asset('storage/'.$slides['file_link'])}})" @endif ></div>
+    <div class="container">
+        <div class="breadcrumb-content d-flex flex-wrap align-items-center justify-content-between">
+            
+            <ul class="generic-list-item generic-list-item-white generic-list-item-arrow d-flex flex-wrap align-items-center">
+                <li><a href="{{url('/')}}">صفحه اصلی</a></li>
+                <li>{{request()->segment(1)}}</li>
+            </ul>
+            <div class="section-heading">
+                <h2 class="section__title text-white">{{request()->segment(1)}}</h2>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <section class="blog-area section--padding">
         <div class="container-fluid">
@@ -25,7 +25,7 @@
                     <div class="card card-item">
                         <div class="card-image">
                             <a href="{{url('blug')}}" class="d-block">
-                                <img class="card-img-top lazy" style="width: 50%;margin: 0 auto;display: block;" src="{{asset('storage/'.$customer->file_link)}}" data-src="{{asset('storage/'.$customer->file_link)}}" alt="{{$customer->name}}" />
+                                <img class="card-img-top lazy" style="width: 200px;margin: 0 auto;display: block;" src="{{asset('storage/'.$customer->file_link)}}" data-src="{{asset('storage/'.$customer->file_link)}}" alt="{{$customer->name}}" />
                             </a>
                             <div class="course-badge-labels">
                                 <div class="course-badge">{{jdate($customer->created)->ago()}}</div>

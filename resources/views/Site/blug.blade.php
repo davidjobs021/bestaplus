@@ -1,21 +1,21 @@
 @extends('master')
 @section('main')
 
-    <section class="breadcrumb-area section-padding img-bg-2">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="breadcrumb-content d-flex flex-wrap align-items-center justify-content-between">
-                <div class="section-heading">
-                    <h2 class="section__title text-white">وبلاگ بدون سایدبار</h2>
-                </div>
-                <ul class="generic-list-item generic-list-item-white generic-list-item-arrow d-flex flex-wrap align-items-center">
-                    <li><a href="index.html">صفحه اصلی</a></li>
-                    <li>وبلاگ</li>
-                    <li>وبلاگ بدون سایدبار</li>
-                </ul>
+<section class="breadcrumb-area section-padding img-bg-2">
+    <div class="overlay" @if ($slides) style="background-image: url({{asset('storage/'.$slides['file_link'])}})" @endif ></div>
+    <div class="container">
+        <div class="breadcrumb-content d-flex flex-wrap align-items-center justify-content-between">
+            
+            <ul class="generic-list-item generic-list-item-white generic-list-item-arrow d-flex flex-wrap align-items-center">
+                <li><a href="{{url('/')}}">صفحه اصلی</a></li>
+                <li>{{request()->segment(1)}}</li>
+            </ul>
+            <div class="section-heading">
+                <h2 class="section__title text-white">{{request()->segment(1)}}</h2>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <section class="blog-area section--padding">
         <div class="container">

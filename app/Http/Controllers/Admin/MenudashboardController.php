@@ -23,26 +23,32 @@ class MenudashboardController extends Controller
         $submenupanels      = Submenu_panel::whereStatus(4)->get();
 
         if ($request->ajax()) {
-            $data = Menu_panel::select('id', 'title', 'slug', 'status')->get();
+            $data = Menu_panel::select('id', 'title', 'slug', 'status' , 'class' , 'controller')->get();
 
             return Datatables::of($data)
-                ->editColumn('id', function ($data) {
+                ->addColumn('id', function ($data) {
                     return ($data->id);
                 })
-                ->editColumn('title', function ($data) {
+                ->addColumn('title', function ($data) {
                     return ($data->title);
                 })
-                ->editColumn('slug', function ($data) {
+                ->addColumn('slug', function ($data) {
                     return ($data->slug);
                 })
-                ->editColumn('status', function ($data) {
+                ->addColumn('class', function ($data) {
+                    return ($data->class);
+                })
+                ->addColumn('controller', function ($data) {
+                    return ($data->controller);
+                })
+                ->addColumn('status', function ($data) {
                     if ($data->status == "0") {
                         return "عدم نمایش";
                     } elseif ($data->status == "4") {
                         return "در حال نمایش";
                     }
                 })
-                ->addColumn('action', function ($data) {
+                ->editColumn('action', function ($data) {
                     $actionBtn = '<a href="' . route('menu-dashboard.edit', $data->id) . '" class="btn ripple btn-outline-info btn-icon" style="float: right;margin: 0 5px;"><i class="fe fe-edit-2"></i></a>
                     <button type="button" id="submit" data-toggle="modal" data-target="#myModal'.$data->id.'" class="btn ripple btn-outline-danger btn-icon " style="float: right;"><i class="fe fe-trash-2 "></i></button>';
 
@@ -68,8 +74,6 @@ class MenudashboardController extends Controller
 
     public function store(MenuRequest $request)
     {
-
-
         try {
 
         $menu_panel = new Menu_panel();

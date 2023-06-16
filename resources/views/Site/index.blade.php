@@ -17,284 +17,439 @@
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <div class="row hero-category-wrap">
-                            <div class="col-lg-6 responsive-column-half">
-                                <div class="category-item category-item-layout-2">
-                                    <a href="#" class="category-content">
-                                        <div class="icon-element icon-element-md shadow-sm text-color">
-                                            <i class="la la-desktop"></i>
-                                        </div>
-                                        <h3 class="cat__title fs-16">طراحی وبسایت</h3>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 responsive-column-half">
-                                <div class="category-item category-item-layout-2">
-                                    <a href="#" class="category-content">
-                                        <div class="icon-element icon-element-md shadow-sm text-color-3">
-                                            <i class="la la-paint-brush"></i>
-                                        </div>
-                                        <h3 class="cat__title fs-16">طرحی گرافیک</h3>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 responsive-column-half">
-                                <div class="category-item category-item-layout-2">
-                                    <a href="#" class="category-content">
-                                        <div class="icon-element icon-element-md shadow-sm text-color-6">
-                                            <i class="la la-magic"></i>
-                                        </div>
-                                        <h3 class="cat__title fs-16">استودیو عکاسی و تیزر</h3>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 responsive-column-half">
-                                <div class="category-item category-item-layout-2">
-                                    <a href="#" class="category-content">
-                                        <div class="icon-element icon-element-md shadow-sm text-color-4">
-                                            <i class="la la-laptop"></i>
-                                        </div>
-                                        <h3 class="cat__title fs-16">چاپ و بسته بندی</h3>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="course-area section--padding position-relative overflow-hidden">
+    <section class="client-logo-area section-padding position-relative overflow-hidden text-center">
         <span class="stroke-shape stroke-shape-1"></span>
         <span class="stroke-shape stroke-shape-2"></span>
         <span class="stroke-shape stroke-shape-3"></span>
         <span class="stroke-shape stroke-shape-4"></span>
         <span class="stroke-shape stroke-shape-5"></span>
         <span class="stroke-shape stroke-shape-6"></span>
-        <div class="course-wrapper">
-            <div class="container">
-                <div class="section-heading text-center">
-                    <h2 class="section__title">دوره های پرطرفدار را کاوش کنید</h2>
-                </div>
-                <!-- end section-heading -->
-                <div class="course-carousel owl-action-styled owl--action-styled mt-50px">
-                    <div class="card card-item card-preview" data-tooltip-content="#tooltip_content_3">
-                        <div class="card-image">
-                            <a href="course-details.html" class="d-block">
-                                <img class="card-img-top" src="images/img8.jpg" alt="درپوش تصویر کارت" />
-                            </a>
-                            <div class="course-badge-labels">
-                                <div class="course-badge">کتاب پرفروش</div>
-                                <div class="course-badge blue">-39٪</div>
-                            </div>
-                        </div>
-                        <!-- end card-image -->
-                        <div class="card-body">
-                            <h6 class="ribbon ribbon-blue-bg fs-14 mb-3">همه مراحل</h6>
-                            <h5 class="card-title"><a href="course-details.html">دوره کامل کسب و کار وب سایت وردپرس</a></h5>
-                            <p class="card-text"><a href="teacher-detail.html">خوزه پورتیلا</a></p>
-                            <div class="rating-wrap d-flex align-items-center py-2">
-                                <div class="review-stars">
-                                    <span class="rating-number">4.4</span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star-o"></span>
-                                </div>
-                                <span class="rating-total pl-1">(20230)</span>
-                            </div>
-                            <!-- end rating-wrap -->
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="card-price text-black font-weight-bold">12.99 <span class="before-price font-weight-medium">129.99</span></p>
-                                <div class="icon-element icon-element-sm shadow-sm cursor-pointer" title="به لیست علاقه مندی ها اضافه کنید"><i class="la la-heart-o"></i></div>
-                            </div>
-                        </div>
-                        <!-- end card-body -->
-                    </div>
-                    <!-- end card -->
-                    <div class="card card-item card-preview" data-tooltip-content="#tooltip_content_3">
-                        <div class="card-image">
-                            <a href="course-details.html" class="d-block">
-                                <img class="card-img-top" src="images/img9.jpg" alt="درپوش تصویر کارت" />
-                            </a>
-                            <div class="course-badge-labels">
-                                <div class="course-badge">کتاب پرفروش</div>
-                            </div>
-                        </div>
-                        <!-- end card-image -->
-                        <div class="card-body">
-                            <h6 class="ribbon ribbon-blue-bg fs-14 mb-3">همه مراحل</h6>
-                            <h5 class="card-title"><a href="course-details.html">دوره کامل کسب و کار وب سایت وردپرس</a></h5>
-                            <p class="card-text"><a href="teacher-detail.html">خوزه پورتیلا</a></p>
-                            <div class="rating-wrap d-flex align-items-center py-2">
-                                <div class="review-stars">
-                                    <span class="rating-number">4.4</span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star-o"></span>
-                                </div>
-                                <span class="rating-total pl-1">(20230)</span>
-                            </div>
-                            <!-- end rating-wrap -->
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="card-price text-black font-weight-bold">129.99</p>
-                                <div class="icon-element icon-element-sm shadow-sm cursor-pointer" title="به لیست علاقه مندی ها اضافه کنید"><i class="la la-heart-o"></i></div>
-                            </div>
-                        </div>
-                        <!-- end card-body -->
-                    </div>
-                    <!-- end card -->
-                    <div class="card card-item card-preview" data-tooltip-content="#tooltip_content_3">
-                        <div class="card-image">
-                            <a href="course-details.html" class="d-block">
-                                <img class="card-img-top" src="images/img10.jpg" alt="درپوش تصویر کارت" />
-                            </a>
-                            <div class="course-badge-labels">
-                                <div class="course-badge green">رایگان</div>
-                            </div>
-                        </div>
-                        <!-- end card-image -->
-                        <div class="card-body">
-                            <h6 class="ribbon ribbon-blue-bg fs-14 mb-3">همه مراحل</h6>
-                            <h5 class="card-title"><a href="course-details.html">دوره کامل کسب و کار وب سایت وردپرس</a></h5>
-                            <p class="card-text"><a href="teacher-detail.html">خوزه پورتیلا</a></p>
-                            <div class="rating-wrap d-flex align-items-center py-2">
-                                <div class="review-stars">
-                                    <span class="rating-number">4.4</span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star-o"></span>
-                                </div>
-                                <span class="rating-total pl-1">(20230)</span>
-                            </div>
-                            <!-- end rating-wrap -->
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="card-price text-black font-weight-bold">رایگان</p>
-                                <div class="icon-element icon-element-sm shadow-sm cursor-pointer" title="به لیست علاقه مندی ها اضافه کنید"><i class="la la-heart-o"></i></div>
-                            </div>
-                        </div>
-                        <!-- end card-body -->
-                    </div>
-                    <!-- end card -->
-                    <div class="card card-item card-preview" data-tooltip-content="#tooltip_content_3">
-                        <div class="card-image">
-                            <a href="course-details.html" class="d-block">
-                                <img class="card-img-top" src="images/img11.jpg" alt="درپوش تصویر کارت" />
-                            </a>
-                        </div>
-                        <!-- end card-image -->
-                        <div class="card-body">
-                            <h6 class="ribbon ribbon-blue-bg fs-14 mb-3">همه مراحل</h6>
-                            <h5 class="card-title"><a href="course-details.html">دوره کامل کسب و کار وب سایت وردپرس</a></h5>
-                            <p class="card-text"><a href="teacher-detail.html">خوزه پورتیلا</a></p>
-                            <div class="rating-wrap d-flex align-items-center py-2">
-                                <div class="review-stars">
-                                    <span class="rating-number">4.4</span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star-o"></span>
-                                </div>
-                                <span class="rating-total pl-1">(20230)</span>
-                            </div>
-                            <!-- end rating-wrap -->
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="card-price text-black font-weight-bold">129.99</p>
-                                <div class="icon-element icon-element-sm shadow-sm cursor-pointer" title="به لیست علاقه مندی ها اضافه کنید"><i class="la la-heart-o"></i></div>
-                            </div>
-                        </div>
-                        <!-- end card-body -->
-                    </div>
-                    <!-- end card -->
-                    <div class="card card-item card-preview" data-tooltip-content="#tooltip_content_3">
-                        <div class="card-image">
-                            <a href="course-details.html" class="d-block">
-                                <img class="card-img-top" src="images/img12.jpg" alt="درپوش تصویر کارت" />
-                            </a>
-                            <div class="course-badge-labels">
-                                <div class="course-badge">ویژه</div>
-                            </div>
-                        </div>
-                        <!-- end card-image -->
-                        <div class="card-body">
-                            <h6 class="ribbon ribbon-blue-bg fs-14 mb-3">همه مراحل</h6>
-                            <h5 class="card-title"><a href="course-details.html">دوره کامل کسب و کار وب سایت وردپرس</a></h5>
-                            <p class="card-text"><a href="teacher-detail.html">خوزه پورتیلا</a></p>
-                            <div class="rating-wrap d-flex align-items-center py-2">
-                                <div class="review-stars">
-                                    <span class="rating-number">4.4</span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star-o"></span>
-                                </div>
-                                <span class="rating-total pl-1">(20230)</span>
-                            </div>
-                            <!-- end rating-wrap -->
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="card-price text-black font-weight-bold">129.99</p>
-                                <div class="icon-element icon-element-sm shadow-sm cursor-pointer" title="به لیست علاقه مندی ها اضافه کنید"><i class="la la-heart-o"></i></div>
-                            </div>
-                        </div>
-                        <!-- end card-body -->
-                    </div>
-                    <!-- end card -->
-                    <div class="card card-item card-preview" data-tooltip-content="#tooltip_content_3">
-                        <div class="card-image">
-                            <a href="course-details.html" class="d-block">
-                                <img class="card-img-top" src="images/img13.jpg" alt="درپوش تصویر کارت" />
-                            </a>
-                            <div class="course-badge-labels">
-                                <div class="course-badge">ویژه</div>
-                            </div>
-                        </div>
-                        <!-- end card-image -->
-                        <div class="card-body">
-                            <h6 class="ribbon ribbon-blue-bg fs-14 mb-3">همه مراحل</h6>
-                            <h5 class="card-title"><a href="course-details.html">دوره کامل کسب و کار وب سایت وردپرس</a></h5>
-                            <p class="card-text"><a href="teacher-detail.html">خوزه پورتیلا</a></p>
-                            <div class="rating-wrap d-flex align-items-center py-2">
-                                <div class="review-stars">
-                                    <span class="rating-number">4.4</span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star"></span>
-                                    <span class="la la-star-o"></span>
-                                </div>
-                                <span class="rating-total pl-1">(20230)</span>
-                            </div>
-                            <!-- end rating-wrap -->
-                            <div class="d-flex justify-content-between align-items-center">
-                                <p class="card-price text-black font-weight-bold">129.99</p>
-                                <div class="icon-element icon-element-sm shadow-sm cursor-pointer" title="به لیست علاقه مندی ها اضافه کنید"><i class="la la-heart-o"></i></div>
-                            </div>
-                        </div>
-                        <!-- end card-body -->
-                    </div>
-                    <!-- end card -->
-                </div>
-                <!-- end tab-content -->
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section__title mb-3">برخی مشتریان آژانس تبلیغاتی بستا</h2>
             </div>
-            <!-- end container -->
+            <div class="client-logo-carousel mt-40px">
+                @foreach($customers as $customer)
+                    <a href="#" class="client-logo-item" style="width:100px">
+                        <img src="{{asset('storage/'.$customer->file_link)}}" alt="{{$customer->name}}"/>
+                    </a>
+                @endforeach
+            </div>
         </div>
-        <!-- end course-wrapper -->
+    </section>
+
+    <section class="category-area bg-gray section-padding text-center">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section__title">انواع خدمات آژانس تبلیغاتی بستا</h2>
+            </div>
+            <div class="row pt-50px">
+                <div class="col-lg-4 responsive-column-half">
+                    <div class="flip-box">
+                        <div class="flip-box-front">
+                            <img src="site/images/img-loading.png" data-src="site/images/img1.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <h3 class="flip-title mb-1">طراحی و توسعه وبسایت</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flip-box-back">
+                            <img src="site/images/img-loading.png" data-src="site/images/img1.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <div class="icon-element icon-element-md mx-auto mb-3">
+                                        <svg class="svg-icon-color-1" width="35" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m456 48h-400a46 46 0 0 0 -46 46v324a46 46 0 0 0 46 46h400a46 46 0 0 0 46-46v-324a46 46 0 0 0 -46-46zm34 66h-382a6 6 0 0 0 0 12h382v291.818a34.194 34.194 0 0 1 -34 34.182h-400a34.194 34.194 0 0 1 -34-34.182v-291.818h44a6 6 0 0 0 0-12h-44v-19.818a34.194 34.194 0 0 1 34-34.182h400a34.194 34.194 0 0 1 34 34.182z"
+                                            ></path>
+                                            <path d="m57.435 81.651a8.511 8.511 0 1 0 8.509 8.51 8.52 8.52 0 0 0 -8.509-8.51z"></path>
+                                            <path d="m89.091 98.672a8.511 8.511 0 1 0 -8.511-8.511 8.521 8.521 0 0 0 8.511 8.511z"></path>
+                                            <path d="m121.748 81.651a8.511 8.511 0 1 0 8.51 8.51 8.521 8.521 0 0 0 -8.51-8.51z"></path>
+                                            <path d="m41 163.317a6 6 0 0 0 -6 6v84.572a6 6 0 0 0 12 0v-84.572a6 6 0 0 0 -6-6z"></path>
+                                            <path d="m41 140.053a6 6 0 0 0 -6 6v4.614a6 6 0 0 0 12 0v-4.614a6 6 0 0 0 -6-6z"></path>
+                                            <path d="m55.037 272.757a6 6 0 0 0 0 8.486l44.721 44.721a6 6 0 0 0 8.484-8.485l-40.477-40.479 40.477-40.479a6 6 0 0 0 -8.484-8.485z"></path>
+                                            <path d="m171.271 325.964a6 6 0 0 0 8.484 0l44.721-44.721a6 6 0 0 0 0-8.486l-44.721-44.721a6 6 0 0 0 -8.484 8.485l40.477 40.479-40.477 40.479a6 6 0 0 0 0 8.485z"></path>
+                                            <path d="m120.85 355.264a5.989 5.989 0 0 0 7.241-4.423l35-144.864a6 6 0 0 0 -11.664-2.818l-35 144.864a6 6 0 0 0 4.423 7.241z"></path>
+                                            <path d="m255.808 223h3a6 6 0 0 0 0-12h-3a6 6 0 0 0 0 12z"></path>
+                                            <path d="m288.717 223h10.318a6 6 0 1 0 0-12h-10.318a6 6 0 0 0 0 12z"></path>
+                                            <path d="m329.432 223h123.289a6 6 0 0 0 0-12h-123.289a6 6 0 0 0 0 12z"></path>
+                                            <path d="m255.808 263h3a6 6 0 1 0 0-12h-3a6 6 0 0 0 0 12z"></path>
+                                            <path d="m288.717 263h10.318a6 6 0 1 0 0-12h-10.318a6 6 0 0 0 0 12z"></path>
+                                            <path d="m329.432 263h123.289a6 6 0 0 0 0-12h-123.289a6 6 0 0 0 0 12z"></path>
+                                            <path d="m255.808 303h3a6 6 0 1 0 0-12h-3a6 6 0 0 0 0 12z"></path>
+                                            <path d="m288.717 303h10.318a6 6 0 1 0 0-12h-10.318a6 6 0 0 0 0 12z"></path>
+                                            <path d="m329.432 303h123.289a6 6 0 0 0 0-12h-123.289a6 6 0 0 0 0 12z"></path>
+                                            <path d="m255.808 343h3a6 6 0 1 0 0-12h-3a6 6 0 0 0 0 12z"></path>
+                                            <path d="m288.717 343h10.318a6 6 0 1 0 0-12h-10.318a6 6 0 0 0 0 12z"></path>
+                                            <path d="m329.432 343h123.289a6 6 0 0 0 0-12h-123.289a6 6 0 0 0 0 12z"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="flip-title">مشاهده نمونه کارها</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 responsive-column-half">
+                    <div class="flip-box">
+                        <div class="flip-box-front">
+                            <img src="site/images/img-loading.png" data-src="site/images/img2.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <h3 class="flip-title mb-1">طراحی گرافیک</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flip-box-back">
+                            <img src="site/images/img-loading.png" data-src="site/images/img2.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <div class="icon-element icon-element-md mx-auto mb-3">
+                                        <svg class="svg-icon-color-2" width="35" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <g>
+                                                    <path
+                                                        d="m309.502 248.521h-107.004c-12.035 0-21.827 9.792-21.827 21.827v30.547c0 12.036 9.792 21.827 21.827 21.827h107.004c12.035 0 21.827-9.792 21.827-21.827v-30.547c0-12.035-9.792-21.827-21.827-21.827zm6.827 52.374c0 3.765-3.062 6.827-6.827 6.827h-107.004c-3.764 0-6.827-3.062-6.827-6.827v-30.547c0-3.764 3.062-6.827 6.827-6.827h107.004c3.765 0 6.827 3.062 6.827 6.827z"
+                                                    ></path>
+                                                    <path
+                                                        d="m512 161.467c0-35.637-28.993-64.629-64.63-64.629h-94.006v-39.111c0-24.846-20.214-45.06-45.06-45.06h-104.609c-24.846 0-45.06 20.214-45.06 45.06v39.111h-94.005c-35.637-.001-64.63 28.992-64.63 64.629v273.236c0 35.637 28.993 64.63 64.63 64.63h382.74c35.637 0 64.63-28.993 64.63-64.63 0-15.012 0-263.147 0-273.236zm-338.364-103.74c0-16.575 13.485-30.06 30.06-30.06h104.609c16.575 0 30.06 13.485 30.06 30.06v39.111h-164.729zm323.364 376.976c0 27.366-22.264 49.63-49.63 49.63h-382.74c-27.366 0-49.63-22.264-49.63-49.63v-178.995c4.415 5.251 9.695 9.818 15.698 13.436 17.78 9.131 33.188 25.412 63.318 25.412h59.092c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-59.091c-24.831 0-37.424-13.764-55.576-23.259-14.459-8.714-23.441-24.613-23.441-41.495v-53.335c0-27.366 22.264-49.63 49.63-49.63h382.74c27.366 0 49.63 22.264 49.63 49.629v53.335c0 16.881-8.981 32.781-23.44 41.494-18.492 9.672-30.653 23.259-55.576 23.259h-59.092c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h59.092c30.085 0 45.847-16.439 63.318-25.412 6.004-3.618 11.283-8.185 15.698-13.436z"
+                                                    ></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <h3 class="flip-title">مشاهده نمونه کارها</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 responsive-column-half">
+                    <div class="flip-box">
+                        <div class="flip-box-front">
+                            <img src="site/images/img-loading.png" data-src="site/images/img3.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <h3 class="flip-title mb-1">چاپ و بسته بندی</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flip-box-back">
+                            <img src="site/images/img-loading.png" data-src="site/images/img3.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <div class="icon-element icon-element-md mx-auto mb-3">
+                                        <svg class="svg-icon-color-3" width="35" viewBox="-39 0 492 492.00126" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m392.125 310.632812 21.464844-55.617187c.910156-2.363281.238281-5.042969-1.679688-6.699219l-22.453125-19.378906c1.953125-17.320312 1.5-34.824219-1.347656-52.019531l21.601563-20.714844c1.816406-1.742187 2.351562-4.429687 1.34375-6.734375l-23.90625-54.640625c-1.015626-2.332031-3.394532-3.769531-5.933594-3.578125l-29.914063 2.199219c-10.648437-13.839844-23.367187-25.953125-37.707031-35.917969l.878906-29.886719c.078125-2.542969-1.460937-4.859375-3.835937-5.773437l-55.617188-21.46875c-2.363281-.910156-5.046875-.238282-6.703125 1.679687l-19.378906 22.460938c-17.320312-1.957031-34.828125-1.503907-52.023438 1.34375l-20.71875-21.597657c-1.742187-1.816406-4.429687-2.355468-6.734374-1.347656l-54.640626 23.90625c-2.332031 1.023438-3.765624 3.402344-3.578124 5.9375l2.199218 29.914063c-13.835937 10.644531-25.949218 23.363281-35.910156 37.703125l-29.890625-.878906c-2.546875-.089844-4.867187 1.453124-5.773437 3.835937l-21.464844 55.621094c-.910156 2.363281-.238282 5.042969 1.679687 6.699219l22.457031 19.382812c-1.953124 17.316406-1.5 34.824219 1.347657 52.015625l-21.601563 20.714844c-1.816406 1.742187-2.351562 4.429687-1.34375 6.734375l23.90625 54.640625c1.015625 2.339843 3.398438 3.777343 5.9375 3.578125l29.914063-2.199219c10.648437 13.839844 23.367187 25.953125 37.707031 35.914063l-.878906 29.890624c-.074219 2.542969 1.460937 4.855469 3.835937 5.773438l42.699219 16.480469v34.238281c.019531 13.679688 11.101562 24.761719 24.78125 24.777344h30.152344v18.378906c0 3.316406 2.683594 6 6 6 3.3125 0 6-2.683594 6-6v-18.375h30.148437c13.679688-.015625 24.765625-11.101562 24.78125-24.78125v-33.28125l51.242188-22.417969c2.328125-1.019531 3.765625-3.398437 3.578125-5.933593l-2.199219-29.917969c13.835937-10.644531 25.949219-23.363281 35.910156-37.703125l29.890625.878906c2.550782.09375 4.875-1.449219 5.777344-3.835938zm-136.199219 51.269532v14h-19.597656v-79.0625c.007813-6.722656 5.453125-12.167969 12.175781-12.175782 13.347656-.011718 24.167969-10.832031 24.179688-24.179687v-3.222656c10.4375-2.734375 17.730468-12.148438 17.773437-22.941407.042969-10.789062-7.175781-20.261718-17.589843-23.078124-10.417969-2.820313-21.425782 1.71875-26.832032 11.058593-5.402344 9.34375-3.851562 21.148438 3.785156 28.773438 3 3 6.753907 5.136719 10.863282 6.1875v3.226562c-.007813 6.722657-5.457032 12.167969-12.179688 12.175781-13.347656.015626-24.160156 10.832032-24.175781 24.179688v79.058594h-10.921875v-175.714844c11.660156-3.019531 19.257812-14.234375 17.734375-26.183594-1.523437-11.949218-11.6875-20.902344-23.734375-20.902344-12.042969 0-22.210938 8.953126-23.734375 20.902344-1.519531 11.949219 6.074219 23.164063 17.734375 26.183594v175.714844h-10.917969v-79.0625c-.015625-13.34375-10.832031-24.160156-24.179687-24.175782-6.722656-.007812-12.167969-5.457031-12.175782-12.179687v-3.222656c4.109376-1.050781 7.859376-3.1875 10.863282-6.183594 7.703125-7.652344 9.292968-19.53125 3.867187-28.9375-5.421875-9.40625-16.5-13.980469-26.980469-11.144531-10.480468 2.835937-17.738281 12.371094-17.679687 23.230468.058594 10.855469 7.417969 20.3125 17.929687 23.035157v3.226562c.011719 13.347657 10.832032 24.167969 24.179688 24.179688 6.722656.007812 12.167969 5.453125 12.175781 12.175781v79.058594h-20.425781v-14c.0625-25.777344-10.65625-50.410156-29.5625-67.933594-35.242188-32.359375-47.019531-83.027344-29.660156-127.613281 17.363281-44.585938 60.300781-73.949219 108.148437-73.953125.363281 0 .730469 0 1.089844.003906 44.867187.421875 85.472656 26.660156 104.289063 67.394531 18.816406 40.734375 12.46875 88.664063-16.300782 123.09375-3.101562 3.707031-6.429687 7.21875-9.964844 10.511719-19.097656 17.675781-30.023437 42.472656-30.175781 68.496094zm2.378907-119.316406c-4.625-4.625-4.625-12.128907 0-16.753907 4.628906-4.628906 12.128906-4.628906 16.757812 0 4.625 4.625 4.625 12.128907-.003906 16.753907-2.210938 2.242187-5.226563 3.503906-8.375 3.503906-3.148438.003906-6.164063-1.257813-8.378906-3.5zm-59.273438-57.070313c-4.628906-4.625-4.628906-12.128906 0-16.753906 4.625-4.628907 12.128906-4.628907 16.753906 0 4.628906 4.625 4.628906 12.128906 0 16.753906-4.628906 4.621094-12.125 4.621094-16.753906.003906zm-59.277344 57.074219c-4.625-4.625-4.625-12.125 0-16.753906 4.628906-4.625 12.128906-4.625 16.753906 0 4.628907 4.628906 4.628907 12.128906 0 16.753906-2.210937 2.242187-5.226562 3.503906-8.375 3.503906-3.148437 0-6.167968-1.261719-8.378906-3.503906zm103.390625 213.035156h-72.296875c-7.054687-.011719-12.773437-5.726562-12.78125-12.78125v-2.074219h52.578125c3.3125 0 6-2.6875 6-6 0-3.316406-2.6875-6-6-6h-52.578125v-14.855469h15.585938c3.3125 0 6-2.6875 6-6 0-3.316406-2.6875-6-6-6h-15.589844v-14.011718h97.863281v14.007812h-48.046875c-3.3125 0-6 2.683594-6 6 0 3.3125 2.6875 6 6 6h48.046875v14.855469h-14.011719c-3.3125 0-6 2.6875-6 6s2.6875 6 6 6h14.011719v2.074219c-.007812 7.054687-5.722656 12.773437-12.78125 12.785156zm110.382813-154.125c-2.066406-.058594-4.019532.949219-5.167969 2.671875-10.152344 15.238281-22.875 28.601563-37.601563 39.480469-1.65625 1.226562-2.566406 3.210937-2.414062 5.265625l2.125 28.941406-42.539062 18.609375v-34.65625c.164062-22.664062 9.703124-44.25 26.355468-59.628906 26.875-25.023438 41.710938-60.378906 40.738282-97.089844-1.535157-58.203125-42.136719-108.046875-98.828126-121.320312-56.691406-13.273438-115.203124 13.363281-142.417968 64.835937s-16.28125 114.828125 26.609375 154.203125c16.433593 15.246094 25.742187 36.671875 25.675781 59.089844v33.835937l-34.414062-13.28125.851562-28.929687c.058594-2.070313-.949219-4.023438-2.671875-5.171875-15.242187-10.148438-28.601563-22.871094-39.480469-37.597657-1.222656-1.660156-3.210937-2.574218-5.265625-2.417968l-28.941406 2.128906-20.527344-46.914062 20.882813-20.027344c1.453125-1.394532 2.109375-3.425782 1.75-5.410156-3.3125-18.0625-3.789063-36.527344-1.417969-54.734376.261719-2.003906-.5-4-2.027344-5.320312l-21.679687-18.707031 18.410156-47.710938 28.933594.851563c2.070312.074218 4.027344-.9375 5.167968-2.667969 10.148438-15.242187 22.871094-28.601563 37.597657-39.484375 1.65625-1.222656 2.570312-3.210938 2.417969-5.261719l-2.125-28.941406 46.914062-20.523437 20.027344 20.882812c1.394531 1.457031 3.425781 2.113281 5.410156 1.75 18.0625-3.308594 36.53125-3.785156 54.746094-1.414062 2 .253906 3.996094-.507813 5.3125-2.035157l18.707031-21.679687 47.710937 18.414062-.851562 28.929688c-.058594 2.066406.949219 4.019531 2.671875 5.167968 15.238281 10.148438 28.597656 22.875 39.480469 37.601563 1.222656 1.660156 3.210937 2.570313 5.265625 2.414063l28.9375-2.125 20.527343 46.914062-20.886718 20.027344c-1.457032 1.394531-2.113282 3.429687-1.75 5.410156 3.308594 18.0625 3.785156 36.527344 1.414062 54.738281-.257812 2 .503906 3.996094 2.03125 5.316407l21.675782 18.707031-18.414063 47.710937zm0 0"
+                                            ></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="flip-title">مشاهده نمونه کارها</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 responsive-column-half">
+                    <div class="flip-box">
+                        <div class="flip-box-front">
+                            <img src="site/images/img-loading.png" data-src="site/images/img4.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <h3 class="flip-title mb-1">عکاسی و فیلمبرداری</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flip-box-back">
+                            <img src="site/images/img-loading.png" data-src="site/images/img4.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <div class="icon-element icon-element-md mx-auto mb-3">
+                                        <svg class="svg-icon-color-4" width="35" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="media-monitor-screen-Digital_Marketing" data-name="media-monitor-screen-Digital Marketing">
+                                                <path
+                                                    d="m59 15h-2v-1h1a3 3 0 0 0 0-6h-1v-5a.968.968 0 0 0 -.41-.8.991.991 0 0 0 -.88-.16l-12.86 3.96h-6.85a1 1 0 0 0 -1 1v1h-2a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h2v1h-6v-9a1 1 0 0 0 -1-1h-20a1 1 0 0 0 -1 1v9h-2a3.009 3.009 0 0 0 -3 3v32a3.009 3.009 0 0 0 3 3h23v3h-6a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-6v-3h23a3.009 3.009 0 0 0 3-3v-32a3.009 3.009 0 0 0 -3-3zm-2-5h1a1 1 0 0 1 0 2h-1zm-13-2.26 11-3.39v13.3l-11-3.39zm-7 .26h5v6h-5zm2.85 8-.72 5h-1.13v-5zm-5.85-4v-2h1v2zm-25-5h18v14h-18zm32 51v2h-18v-2zm-11-2v-3h4v3zm30-6a1 1 0 0 1 -1 1h-54a1 1 0 0 1 -1-1v-1h56zm0-3h-56v-29a1 1 0 0 1 1-1h2v5a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1v-5h7v5a1 1 0 0 0 1 1h3a1 1 0 0 0 .99-.86l.88-6.14h.98l12.86 3.96a.925.925 0 0 0 .29.04 1.015 1.015 0 0 0 1-1v-2h2a1 1 0 0 1 1 1z"
+                                                ></path>
+                                                <path
+                                                    d="m7 45h26a1 1 0 0 0 1-1v-16a1 1 0 0 0 -1-1h-26a1 1 0 0 0 -1 1v16a1 1 0 0 0 1 1zm1-2v-13.211l11.476 7.063a1 1 0 0 0 1.048 0l11.476-7.063v13.211zm2.533-14h18.934l-9.467 5.826z"
+                                                ></path>
+                                                <path
+                                                    d="m37 39h2v3a1 1 0 0 0 1 1h17a1 1 0 0 0 1-1v-12a1 1 0 0 0 -1-1h-1v-3a1 1 0 0 0 -1-1h-18a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1zm19 2h-15v-10h15zm-18-14h16v2h-14a1 1 0 0 0 -1 1v7h-1z"
+                                                ></path>
+                                                <path d="m43 33h2v2h-2z"></path>
+                                                <path d="m47 33h7v2h-7z"></path>
+                                                <path d="m43 37h4v2h-4z"></path>
+                                                <path d="m49 37h5v2h-5z"></path>
+                                                <path d="m15.474 17.851a1 1 0 0 0 .973.044l6-3a1 1 0 0 0 0-1.79l-6-3a1 1 0 0 0 -1.447.895v6a1 1 0 0 0 .474.851zm1.526-5.233 2.764 1.382-2.764 1.382z"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <h3 class="flip-title">مشاهده نمونه کارها</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 responsive-column-half">
+                    <div class="flip-box">
+                        <div class="flip-box-front">
+                            <img src="site/images/img-loading.png" data-src="site/images/img5.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <h3 class="flip-title mb-1">تدوین و ساخت تیزر</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flip-box-back">
+                            <img src="site/images/img-loading.png" data-src="site/images/img5.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <div class="icon-element icon-element-md mx-auto mb-3">
+                                        <svg class="svg-icon-color-5" width="35" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 420.8 420.8" xml:space="preserve">
+                                                <g>
+                                                    <g>
+                                                        <path
+                                                            d="M413.6,204H378c14.8-33.6,13.2-60.8,7.6-79.2c-9.6-32.8-42-68.4-90-68.4c-12.8,0-25.6,2.4-38.8,7.2
+                                                C234,72,218.8,81.2,212,86c-6.8-4.8-21.6-14-44.8-22.4c-13.2-4.8-26.4-7.2-38.8-7.2c-48,0-80.4,35.6-90,68.4
+                                                c-5.6,19.6-7.6,49.2,11.2,86.4H6.4c-3.6,0-6.4,2.8-6.4,6.4c0,3.6,2.8,6.4,6.4,6.4h50.8c2,3.6,4.4,7.2,7.2,10.8
+                                                c41.6,60,132,125.2,148.4,129.2v0.4c0,0,0.4,0,0.8-0.4c0.4,0,0.8,0,1.2,0v-0.4c14-6.8,100.8-62.8,146.4-129.2c4.4-6,8-12,11.2-18
+                                                h42c3.6,0,6.4-2.8,6.4-6.4C420.8,206.4,417.2,204,413.6,204z M349.6,227.6c-42.4,62-120.4,112-137.2,122.8
+                                                c-17.2-10.8-94.8-61.2-137.6-122.8c-0.8-1.2-1.6-2.4-2.4-3.6h58.8c2.4,0,4.8-1.2,6-3.6l26.8-52.8l42,107.6c0.8,2.4,3.6,4,6,4
+                                                c0,0,0,0,0.4,0c2.8,0,5.2-2,6-4.8l36.8-126l19.6,63.6c0.8,2.4,2.8,4,5.2,4.4c2.4,0.4,4.8-0.8,6.4-2.8l15.6-22.8l13.2,22.4
+                                                c1.2,2,3.2,3.2,5.6,3.2h36C354.4,220.4,352,224,349.6,227.6z M364,204h-39.2l-16.4-28c-1.2-2-3.2-3.2-5.6-3.2
+                                                c-2.4,0-4.4,0.8-5.6,2.8l-13.6,20l-22-71.6c-0.8-2.8-3.6-4.4-6.4-4.8c-2.8,0-5.6,2-6.4,4.8l-37.2,128.4l-40.4-103.2
+                                                c-0.8-2.4-3.2-4-5.6-4c-2.8,0-4.8,1.2-6,3.6l-31.6,62H64.4c-16-29.2-20.4-57.2-13.2-82.4c8.4-28.4,36-58.8,77.6-58.8
+                                                c11.2,0,22.8,2.4,34.4,6.4c29.2,10.8,44.8,23.2,45.2,23.2c2.4,2,5.6,2,8,0c0,0,15.6-12.4,45.2-23.2c11.6-4.4,23.2-6.4,34.4-6.4
+                                                c41.2,0,69.2,30.4,77.6,58.8C380.4,151.6,376.8,177.2,364,204z"
+                                                        ></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                    </div>
+                                    <h3 class="flip-title">مشاهده نمونه کارها</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 responsive-column-half">
+                    <div class="flip-box">
+                        <div class="flip-box-front">
+                            <img src="site/images/img-loading.png" data-src="site/images/img6.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <h3 class="flip-title mb-1">مدیریت سوشال مدیا</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flip-box-back">
+                            <img src="site/images/img-loading.png" data-src="site/images/img6.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <div class="icon-element icon-element-md mx-auto mb-3">
+                                        <svg class="svg-icon-color-6" width="32" viewBox="0 0 512.00003 512" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m506.632812 316.320312c-3.253906-1.292968-6.96875-.484374-9.386718 2.046876l-36.445313 38.308593v-227.542969h.042969l34.773438-37.546874c3.199218-3.457032 2.988281-8.859376-.472657-12.058594 0 0-.003906-.003906-.007812-.007813l-12.515625-11.648437 17.390625-18.773438c3.195312-3.460937 2.980469-8.859375-.480469-12.054687l-37.546875-34.773438c-3.457031-3.199219-8.855469-2.992187-12.054687.46875l-60.671876 65.511719h-295.390624c-.027344-23.554688-19.113282-42.640625-42.667969-42.667969h-8.53125c-23.554688.027344-42.6406252 19.113281-42.667969 42.667969v366.933594c0 4.710937 3.820312 8.53125 8.535156 8.53125h129.175782l-17.921876 21.519531c-3.011718 3.625-2.519531 9.003906 1.101563 12.015625l39.347656 32.761719c3.621094 3.015625 9.003907 2.523437 12.019531-1.097657 0 0 .003907-.003906.003907-.003906l43.675781-52.472656c3.015625-3.632812 4.957031-8.042969 5.597656-12.722656h156.363282l-51.285157 53.855468c-3.246093 3.414063-3.109375 8.816407.304688 12.0625 1.585937 1.507813 3.691406 2.351563 5.882812 2.347657h170.664063c4.714844 0 8.535156-3.820313 8.535156-8.53125v-179.199219c0-3.492188-2.125-6.632812-5.367188-7.929688zm-29.335937-230.152343-16.496094 17.84375v-12.550781l10.238281-11.09375zm-33.5625-1.519531v.121093l-72.167969 77.996094-25.0625-23.1875 86.9375-93.953125 25.0625 23.1875-14.667968 15.835938zm-88.558594 86.1875-19.628906 5.726562 4.191406-20.019531zm101.453125-150.261719 25.050782 23.175781-11.59375 12.550781-25.054688-23.199219zm-413.960937 22.074219h8.53125c14.140625 0 25.601562 11.460937 25.601562 25.601562v324.488281c-7.34375-5.648437-16.339843-8.726562-25.601562-8.757812h-8.53125c-9.265625.03125-18.257813 3.109375-25.601563 8.757812v-324.488281c0-14.140625 11.460938-25.601562 25.601563-25.601562zm0 358.398437h8.53125c14.140625 0 25.601562 11.464844 25.601562 25.601563h-59.734375c0-14.136719 11.460938-25.601563 25.601563-25.601563zm160.160156 44.476563-5.460937 6.554687-26.230469-21.835937 5.453125-6.5625c3.015625-3.621094 8.394531-4.113282 12.015625-1.097657.003906 0 .003906.003907.007812.003907l13.113281 10.890624c3.625 3.011719 4.121094 8.390626 1.109376 12.015626-.003907.003906-.003907.003906-.007813.007812zm-38.21875 45.910156-26.234375-21.835938 21.839844-26.242187 26.230468 21.839843zm53.339844-64.785156c-1.417969-2.363282-3.210938-4.476563-5.308594-6.261719l-13.113281-10.914063c-10.867188-9.046875-27.007813-7.574218-36.054688 3.292969l-11.578125 13.882813h-58.027343v-341.332032h279.601562l-45.285156 48.9375c-.648438.730469-1.164063 1.574219-1.519532 2.484375-.101562.246094-.179687.476563-.265624.734375-.082032.253906-.210938.511719-.273438.785156l-10.1875 48.707032c-.960938 4.613281 2 9.132812 6.613281 10.09375 1.371094.285156 2.789063.230468 4.128907-.160156l47.789062-13.925782c.222656-.070312.410156-.199218.621094-.273437.214844-.078125.4375-.1875.667968-.300781.957032-.433594 1.824219-1.046876 2.558594-1.800782l65.417969-70.699218v264.695312l-49.578125 52.054688zm276.984375 68.265624h-142.226563l142.226563-149.332031zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m401.714844 472.582031c1.320312 3.1875 4.433594 5.265625 7.886718 5.265625h59.730469c4.714844 0 8.535157-3.820312 8.535157-8.53125v-59.734375c0-4.714843-3.824219-8.53125-8.535157-8.53125-2.261719 0-4.433593.898438-6.03125 2.5l-59.734375 59.730469c-2.441406 2.441406-3.171875 6.113281-1.851562 9.300781zm59.085937-42.402343v30.601562h-30.601562zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m375.464844 324.25h-59.730469v-93.867188c-.011719-2.265624-.914063-4.4375-2.511719-6.042968l-51.199218-51.199219c-3.332032-3.332031-8.734376-3.332031-12.066407 0l-51.199219 51.199219c-1.589843 1.609375-2.484374 3.78125-2.492187 6.042968v93.867188h-59.730469c-4.714844 0-8.535156 3.820312-8.535156 8.53125 0 4.714844 3.820312 8.535156 8.535156 8.535156h238.933594c4.710938 0 8.53125-3.820312 8.53125-8.535156 0-4.710938-3.820312-8.53125-8.535156-8.53125zm-119.464844-133.003906 30.601562 30.601562h-61.203124zm-42.667969 47.667968h85.335938v85.335938h-85.335938zm0 0"
+                                            ></path>
+                                            <path d="m247.464844 136.515625h17.070312v17.066406h-17.070312zm0 0"></path>
+                                            <path d="m247.464844 358.382812h17.070312v17.066407h-17.070312zm0 0"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="flip-title">مشاهده نمونه کارها</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 responsive-column-half">
+                    <div class="flip-box">
+                        <div class="flip-box-front">
+                            <img src="site/images/img-loading.png" data-src="site/images/img8.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <h3 class="flip-title mb-1">تدوین استراتژی برند</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flip-box-back">
+                            <img src="site/images/img-loading.png" data-src="site/images/img8.jpg" alt="" class="flip-img lazy" />
+                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
+                                <div>
+                                    <div class="icon-element icon-element-md mx-auto mb-3">
+                                        <svg class="svg-icon-color-7" width="32" viewBox="-19 -19 625.33477 625.33477" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m24.046875 129.921875c-1.242187-14.089844-.421875-28.277344 2.4375-42.128906 3.824219-17.25 11.335937-31.570313 22.320313-42.550781 15.390624-15.402344 37.035156-23.84375 64.25-25.09375 13.183593-.496094 26.382812.40625 39.371093 2.683593l3.460938-19.675781c-14.410157-2.527344-29.050781-3.523438-43.667969-2.964844-32.429688 1.496094-58.519531 11.898438-77.535156 30.929688-13.734375 13.730468-23.0625 31.363281-27.714844 52.429687-.007812.039063-.019531.082031-.027344.121094-3.273437 15.78125-4.207031 31.953125-2.789062 48.003906zm0 0"
+                                            ></path>
+                                            <path d="m67.851562 260.433594c-6.015624-10.976563-11.53125-22.007813-16.398437-32.796875l-18.207031 8.214843c5.078125 11.253907 10.828125 22.757813 17.09375 34.183594zm0 0"></path>
+                                            <path d="m9.960938 168.515625c2.503906 10.699219 5.546874 21.269531 9.117187 31.664063l18.902344-6.457032c-3.351563-9.757812-6.214844-19.675781-8.5625-29.714844zm0 0"></path>
+                                            <path
+                                                d="m145.847656 370.429688c-.871094-.996094-1.738281-1.984376-2.601562-2.980469l-15.074219 13.097656c.882813 1.019531 1.769531 2.039063 2.667969 3.058594 5.070312 5.773437 10.347656 11.59375 15.6875 17.304687 2.394531 2.554688 4.8125 5.105469 7.257812 7.644532l14.394532-13.847657c-2.382813-2.472656-4.738282-4.953125-7.0625-7.441406-5.203126-5.558594-10.335938-11.226563-15.269532-16.835937zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m104.039062 351.199219 15.765626-12.257813c-1.449219-1.867187-2.882813-3.734375-4.304688-5.609375-6.082031-8-11.96875-16.121093-17.492188-24.132812l-16.445312 11.335937c5.703125 8.269532 11.769531 16.640625 18.035156 24.878906 1.460938 1.933594 2.945313 3.859376 4.441406 5.785157zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m170.773438 425.65625c18.871093 18.414062 38.726562 35.789062 59.480468 52.042969 28.148438 22.152343 58.191406 41.785156 89.785156 58.660156 18.453126 9.824219 37.578126 18.332031 57.226563 25.464844l-18.242187 5.222656 5.492187 19.203125 51.070313-14.613281c5.300781-1.515625 8.367187-7.046875 6.851562-12.351563l-13.308594-46.515625-19.207031 5.492188 8.460937 29.550781c-23.847656-7.546875-46.9375-17.285156-68.976562-29.09375-30.550781-16.320312-59.601562-35.304688-86.816406-56.726562-20.191406-15.8125-39.511719-32.714844-57.871094-50.625zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m579.949219 428.921875c-4.078125-25.476563-12.503907-52.882813-25.046875-81.457031l-18.289063 8.027344c11.859375 27.019531 19.800781 52.792968 23.609375 76.582031 7.148438 44.664062-.703125 79.894531-22.699218 101.898437-10.894532 10.894532-25.0625 18.363282-42.113282 22.207032-13.785156 3.101562-29.414062 3.839843-46.464844 2.207031-4.203124-.402344-8.539062-.960938-12.890624-1.648438l-3.117188 19.726563c4.742188.75 9.488281 1.355468 14.101562 1.800781 6.496094.621094 12.824219.933594 18.984376.933594 11.355468.070312 22.683593-1.121094 33.777343-3.539063 20.796875-4.691406 38.238281-13.964844 51.84375-27.570312 26.714844-26.714844 36.5-67.917969 28.304688-119.167969zm0 0"
+                                            ></path>
+                                            <path d="m531.53125 301.214844-17.351562 9.890625c4.808593 8.4375 9.34375 16.9375 13.480468 25.261719l17.890625-8.878907c-4.300781-8.671875-9.015625-17.507812-14.019531-26.273437zm0 0"></path>
+                                            <path
+                                                d="m485.171875 231.789062-15.867187 12.132813c7.445312 9.738281 14.710937 19.796875 21.605468 29.910156l16.507813-11.246093c-7.101563-10.414063-14.585938-20.777344-22.246094-30.796876zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m435.796875 174.066406-14.441406 13.789063c8.453125 8.855469 16.777343 18.070312 24.738281 27.378906l15.179688-12.980469c-8.199219-9.582031-16.769532-19.066406-25.476563-28.1875zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m188.304688 70.273438 19.53125-4.175782-6.449219-30.167968c18.328125 6.5 36.164062 14.332031 53.355469 23.421874 30.152343 15.921876 58.855468 34.445313 85.773437 55.375 12.691406 9.792969 25.476563 20.421876 37.996094 31.582032 6.941406 6.199218 13.933593 12.691406 20.777343 19.300781 2.964844 2.863281 5.992188 5.84375 9.007813 8.851563l14.121094-14.121094c-3.09375-3.089844-6.203125-6.152344-9.257813-9.097656-7.023437-6.789063-14.207031-13.460938-21.34375-19.839844-12.875-11.472656-26.027344-22.40625-39.0625-32.464844-12.695312-9.871094-25.839844-19.222656-39.324218-28.074219 7.660156-4.320312 15.355468-8.410156 22.890624-12.15625l-8.886718-17.886719c-8.960938 4.445313-18.109375 9.34375-27.1875 14.546876l6.34375 11.070312c-13.851563-8.824219-28.019532-17.070312-42.511719-24.746094-12.910156-6.816406-26.15625-12.953125-39.699219-18.398437l17.597656-3.757813-4.164062-19.535156-51.941406 11.101562c-5.394532 1.152344-8.832032 6.457032-7.679688 11.851563zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m3.105469 430.484375c-2.527344 14.410156-3.523438 29.050781-2.960938 43.667969 1.488281 32.425781 11.890625 58.511718 30.925781 77.539062 13.730469 13.734375 31.375 23.054688 52.429688 27.703125.039062.003907.082031.015625.128906.023438 11.007813 2.285156 22.230469 3.4375 33.480469 3.4375 4.839844 0 9.679687-.210938 14.515625-.636719l-1.753906-19.902344c-14.089844 1.25-28.28125.425782-42.128906-2.441406-17.253907-3.8125-31.570313-11.316406-42.550782-22.304688-15.398437-15.398437-23.84375-37.046874-25.09375-64.253906-.496094-13.1875.398438-26.382812 2.683594-39.378906zm0 0"
+                                            ></path>
+                                            <path d="m235.800781 553.121094c11.261719-5.074219 22.761719-10.832032 34.179688-17.089844l-9.59375-17.511719c-10.972657 6.011719-22.007813 11.53125-32.800781 16.394531zm0 0"></path>
+                                            <path d="m168.464844 576.410156c10.703125-2.503906 21.273437-5.546875 31.664062-9.117187l-6.457031-18.90625c-9.753906 3.355469-19.671875 6.210937-29.714844 8.566406zm0 0"></path>
+                                            <path
+                                                d="m367.402344 443.117188 13.089844 15.085937c1.023437-.882813 2.042968-1.773437 3.066406-2.671875 5.777344-5.078125 11.601562-10.363281 17.304687-15.6875 2.554688-2.394531 5.105469-4.8125 7.648438-7.261719l-13.851563-14.390625c-2.472656 2.386719-4.953125 4.734375-7.445312 7.0625-5.550782 5.191406-11.214844 10.328125-16.839844 15.265625-.988281.871094-1.976562 1.738281-2.972656 2.597657zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m309.152344 488.351562 11.335937 16.449219c8.269531-5.695312 16.640625-11.765625 24.882813-18.03125 1.929687-1.464843 3.855468-2.945312 5.78125-4.441406l-12.257813-15.773437c-1.863281 1.449218-3.734375 2.886718-5.605469 4.3125-8.003906 6.082031-16.117187 11.964843-24.136718 17.484374zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m432.027344 26.140625c44.660156-7.140625 79.894531.707031 101.898437 22.707031 10.886719 10.886719 18.359375 25.058594 22.207031 42.109375 3.097657 13.789063 3.84375 29.421875 2.203126 46.46875-.398438 4.195313-.949219 8.527344-1.644532 12.886719l19.726563 3.121094c.75-4.757813 1.355469-9.503906 1.800781-14.101563 1.835938-19.152343.960938-36.902343-2.605469-52.761719-4.6875-20.796874-13.960937-38.246093-27.566406-51.851562-26.71875-26.714844-67.933594-36.503906-119.171875-28.300781-25.464844 4.074219-52.878906 12.503906-81.457031 25.042969l8.027343 18.292968c27.019532-11.859375 52.785157-19.804687 76.582032-23.613281zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m215.179688 140.273438-12.984376-15.175782c-9.582031 8.199219-19.0625 16.769532-28.183593 25.464844l13.792969 14.449219c8.859374-8.457031 18.074218-16.78125 27.375-24.738281zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m273.789062 95.460938-11.253906-16.507813c-10.414062 7.105469-20.777344 14.589844-30.792968 22.246094l12.132812 15.867187c9.726562-7.441406 19.792969-14.710937 29.914062-21.605468zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m571.589844 170.789062c-1.515625-5.304687-7.046875-8.371093-12.347656-6.855468l-46.519532 13.3125 5.492188 19.203125 29.554687-8.457031c-7.550781 23.84375-17.292969 46.9375-29.101562 68.976562-16.320313 30.550781-35.304688 59.601562-56.726563 86.816406-15.816406 20.191406-32.714844 39.507813-50.628906 57.867188l14.292969 13.949218c18.414062-18.871093 35.785156-38.726562 52.042969-59.480468 22.152343-28.144532 41.785156-58.191406 58.660156-89.785156 9.820312-18.457032 18.332031-37.574219 25.464844-57.226563l5.222656 18.242187 19.203125-5.492187zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m20.816406 408.402344c.699219 0 1.402344-.074219 2.09375-.226563l47.3125-10.109375-4.175781-19.535156-30.164063 6.453125c6.5-18.332031 14.328126-36.164063 23.421876-53.355469 15.914062-30.15625 34.445312-58.859375 55.371093-85.777344 9.789063-12.6875 20.417969-25.472656 31.582031-37.996093 6.199219-6.945313 12.691407-13.933594 19.300782-20.773438 2.894531-2.996093 5.871094-6.027343 8.855468-9.011719l-14.121093-14.121093c-3.0625 3.0625-6.125 6.171875-9.097657 9.253906-6.792968 7.03125-13.464843 14.210937-19.84375 21.355469-11.484374 12.871094-22.410156 26.027344-32.464843 39.058594-21.632813 27.835937-40.789063 57.5-57.242188 88.675781-6.820312 12.902343-12.960937 26.152343-18.398437 39.699219l-3.761719-17.609376-19.5351562 4.171876 11.1015622 51.941406c.984375 4.609375 5.054688 7.898437 9.765625 7.90625zm0 0"
+                                            ></path>
+                                            <path
+                                                d="m206.941406 213.996094v158.429687c0 8.453125 4.742188 20.355469 28.789063 29.054688 15.570312 5.632812 35.925781 8.738281 57.542969 8.738281h.773437c12.488281 0 24.949219-1.140625 37.230469-3.402344 31.132812-5.972656 49.183594-18.507812 49.183594-34.390625v-158.429687c0-8.457032-5.285157-20.351563-29.335938-29.058594-15.574219-5.632812-36.203125-8.738281-57.847656-8.738281-21.652344 0-41.914063 3.105469-57.488282 8.738281-24.046874 8.703125-28.847656 20.601562-28.847656 29.058594zm120.597656 173.191406c-11.300781 2.09375-22.769531 3.117188-34.257812 3.058594-19.402344 0-37.25-2.683594-50.695312-7.542969-13.152344-4.761719-15.671876-9.535156-15.671876-10.277344v-27.875c2.839844 1.503907 5.789063 2.800781 8.816407 3.875 15.570312 5.636719 35.925781 8.738281 57.582031 8.738281 21.660156 0 42.324219-3.101562 57.894531-8.738281 3.414063-1.234375 5.535157-2.535156 9.28125-3.882812v27.878906c0 1.875-8.085937 9.996094-32.949219 14.765625zm32.949219-67.820312c0 .75-3.003906 5.519531-16.152343 10.28125-13.449219 4.867187-31.65625 7.542968-51.058594 7.542968-19.398438 0-37.246094-2.675781-50.691406-7.542968-13.152344-4.761719-15.671876-9.535157-15.671876-10.28125v-27.507813c2.839844 1.507813 5.789063 2.804687 8.816407 3.878906 15.570312 5.636719 35.925781 8.738281 57.582031 8.738281 21.660156 0 42.324219-3.101562 57.894531-8.738281 3.414063-1.234375 5.535157-2.535156 9.28125-3.878906zm-16.152343-42.410157c-13.449219 4.867188-31.65625 7.542969-51.058594 7.542969-19.398438 0-37.246094-2.675781-50.691406-7.542969-13.152344-4.757812-15.671876-9.53125-15.671876-10.273437v-27.515625c2.84375 1.503906 5.789063 2.800781 8.816407 3.878906 15.574219 5.636719 35.929687 8.738281 57.582031 8.738281s42.320312-3.105468 57.894531-8.738281c3.414063-1.238281 5.535157-2.539063 9.28125-3.878906v27.515625c0 .742187-3.003906 5.515625-16.152343 10.273437zm-102.113282-73.238281c13.449219-4.871094 31.539063-7.546875 50.933594-7.546875 19.390625 0 37.484375 2.675781 50.933594 7.546875 13.144531 4.761719 15.914062 9.53125 15.914062 10.277344 0 .738281-2.769531 5.507812-15.914062 10.269531-13.449219 4.871094-31.542969 7.546875-50.933594 7.546875-19.394531 0-37.484375-2.683594-50.933594-7.546875-13.152344-4.761719-15.917968-9.53125-15.917968-10.269531 0-.746094 2.769531-5.515625 15.921874-10.277344zm0 0"
+                                            ></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="flip-title">مشاهده نمونه کارها</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more-box pt-4 text-center">
+                <a href="categories.html" class="btn theme-btn">مشاهده همه دسته ها <i class="la la-arrow-left icon ml-1"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="package-area section-padding">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4 responsive-column-half">
+                    <div class="card card-item">
+                        <div class="card-body">
+                            <div class="package-price-box border-bottom border-bottom-gray pb-4 mb-4">
+                                <h3 class="fs-25 font-weight-semi-bold pb-2 text-center">سفارش طراحی وبسایت</h3>
+{{--                                <h4 class="fs-20 font-weight-semi-bold">طرح شروع</h4>--}}
+                            </div>
+                            <ul class="generic-list-item">
+                                <li><i class="la la-check text-success mr-2"></i>طراحی قالب اختصاصی</li>
+                                <li><i class="la la-check text-success mr-2"></i>داشبورد مدیریتی اختصاصی</li>
+                                <li><i class="la la-check text-success mr-2"></i>هاست رایگان</li>
+                                <li><i class="la la-check text-success mr-2"></i>1 دامنه رایگان</li>
+                                <li><i class="la la-check text-success mr-2"></i>1 سال ضمانت</li>
+                                <li><i class="la la-check text-success mr-2"></i>1 سال پشتیبانی رایگان</li>
+                                <li><i class="la la-check text-success mr-2"></i>1 بار آموزش رایگان</li>
+                                <li><i class="la la-check text-success mr-2"></i>1 سال بک آپ گیری رایگان</li>
+                            </ul>
+                            <div class="price-btn-box pt-30px">
+                                <a href="#" class="btn theme-btn w-100">برای ثبت سفارش کلیک کنید</a>
+                                <p class="text-uppercase fs-13 pt-2">بدون هزینه های پنهان!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 responsive-column-half">
+                    <div class="card card-item {{--package-item-active--}}">
+                        <div class="card-body">
+{{--                            <span class="package-tooltip">سفارش طراحی گرافیک</span>--}}
+                            <div class="package-price-box border-bottom border-bottom-gray pb-4 mb-4">
+                                <h3 class="fs-25 font-weight-semi-bold pb-2 text-center">سفارش طراحی گرافیک</h3>
+{{--                                <h4 class="fs-20 font-weight-semi-bold">طرح کسب و کار</h4>--}}
+                            </div>
+                            <!-- end package-price-box -->
+                            <ul class="generic-list-item">
+                                <li><i class="la la-check text-success mr-2"></i> 3 دوره کامل</li>
+                                <li><i class="la la-check text-success mr-2"></i> ویژگی های محدود</li>
+                                <li><i class="la la-check text-success mr-2"></i> پشتیبانی کاربر محدود</li>
+                                <li><i class="la la-check text-success mr-2"></i> تخفیف موجود است</li>
+                                <li><i class="la la-check text-success mr-2"></i> دسترسی رایگان مادام العمر</li>
+                                <li><i class="la la-close text-success mr-2"></i> پیشنهاد دوره محدود</li>
+                                <li><i class="la la-close text-danger mr-2"></i> گزینه های ارتقا</li>
+                                <li><i class="la la-close text-danger mr-2"></i> زمان 9 روز</li>
+                            </ul>
+                            <div class="price-btn-box pt-30px">
+                                <a href="#" class="btn theme-btn w-100">برای ثبت سفارش کلیک کنید</a>
+                                <p class="text-uppercase fs-13 pt-2">بدون هزینه های پنهان!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 responsive-column-half">
+                    <div class="card card-item">
+                        <div class="card-body">
+                            <div class="package-price-box border-bottom border-bottom-gray pb-4 mb-4">
+                                <h3 class="fs-25 font-weight-semi-bold pb-2 text-center">سفارش انواع کار چاپی</h3>
+{{--                                <h4 class="fs-20 font-weight-semi-bold">طرح حق بیمه</h4>--}}
+                            </div>
+                            <ul class="generic-list-item">
+                                <li><i class="la la-check text-success mr-2"></i> 3 دوره کامل</li>
+                                <li><i class="la la-check text-success mr-2"></i> ویژگی های محدود</li>
+                                <li><i class="la la-check text-success mr-2"></i> پشتیبانی کاربر محدود</li>
+                                <li><i class="la la-check text-success mr-2"></i> تخفیف موجود است</li>
+                                <li><i class="la la-check text-success mr-2"></i> دسترسی رایگان مادام العمر</li>
+                                <li><i class="la la-close text-success mr-2"></i> پیشنهاد دوره محدود</li>
+                                <li><i class="la la-close text-success mr-2"></i> گزینه های ارتقا</li>
+                                <li><i class="la la-close text-success mr-2"></i> زمان 9 روز</li>
+                            </ul>
+                            <div class="price-btn-box pt-30px">
+                                <a href="#" class="btn theme-btn w-100">برای ثبت سفارش کلیک کنید</a>
+                                <p class="text-uppercase fs-13 pt-2">بدون هزینه های پنهان!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <div class="section-block"></div>
 
-    <section class="get-started-area section--padding position-relative">
+    <section class="get-started-area bg-gray section--padding position-relative">
         <div class="container">
             <div class="section-heading text-center">
-                <h2 class="section__title">چرا با آدوکا مطالعه کنید؟</h2>
+                <h2 class="section__title">چرا آژانس تبلیغاتی بستا؟</h2>
             </div>
             <!-- end section-heading -->
             <div class="row pt-60px">
@@ -324,14 +479,11 @@
                                         </g>
                                     </g>
                                 </svg>
-                            <h5 class="card-title pt-4 pb-2">هر چیزی یاد بگیر</h5>
-                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+                            <h5 class="card-title pt-4 pb-2">سرعت و زمان</h5>
+                            <p class="card-text" style="text-align: justify;">زمان مهم ترین و با ارزش ترین دارایی هر انسان است... آژانس تبلیغاتی بستا متخصصین حوزه های مختلف را گرد هم آورده تا مشتریان هر آن چیزی که در دنیای بی انتهای تبلیغات نیاز دارند، بدون سردرگمی و اتلاف وقت در کمترین زمان و با بالاترین کیفیت بدست آورند.</p>
                         </div>
-                        <!-- end card-body -->
                     </div>
-                    <!-- end card -->
                 </div>
-                <!-- end col-lg-4 -->
                 <div class="col-lg-4 responsive-column-half">
                     <div class="card card-item text-center shadow-none rounded-0 bg-transparent">
                         <div class="card-body p-0">
@@ -436,14 +588,11 @@
                                     </g>
                                 </g>
                             </svg>
-                            <h5 class="card-title pt-4 pb-2">یادگیری انعطاف پذیر</h5>
-                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+                            <h5 class="card-title pt-4 pb-2">تعهد و دقت</h5>
+                            <p class="card-text" style="text-align: justify;">تعهد یعنی هر آن چیزی را که شما بدنبالش هستید به آن برسید، آژانس تبلیغاتی بستا با تیمی جوان و با انگیزه برای کسب رتبه بالا در این رقابت شرکت نموده و تمامی مسئولیت کار خود را در قبال پروژه هایی که انجام می شود را بر عهده می گیرد.</p>
                         </div>
-                        <!-- end card-body -->
                     </div>
-                    <!-- end card -->
                 </div>
-                <!-- end col-lg-4 -->
                 <div class="col-lg-4 responsive-column-half">
                     <div class="card card-item text-center shadow-none rounded-0 bg-transparent">
                         <div class="card-body p-0">
@@ -463,575 +612,118 @@
                                 <path d="m57 17h2v2h-2z"></path>
                                 <path d="m21 7h8v-2h-8c-1.103 0-2 .897-2 2v4h2z"></path>
                             </svg>
-                            <h5 class="card-title pt-4 pb-2">با کارشناسان بیاموزید</h5>
-                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+                            <h5 class="card-title pt-4 pb-2">کیفیت و رضایتمندی</h5>
+                            <p class="card-text" style="text-align: justify;">کیفیت مولفه ای است که امروزه برای بدست اوردن آن ساعت ها تلاش می کنیم تا کسب و کار خود را به جایی بسپاریم که نه تنها هزینه سرباری برایمان ایجاد نکنند و همچنین زمان طلایی خود را نیز از دست ندهیم، کیفیت جزئی از ماست و ما یعنی آژانس تبلیغاتی بستا برای کیفیت مطلوب در این عرصه قدم نهاده ایم.</p>
                         </div>
-                        <!-- end card-body -->
                     </div>
-                    <!-- end card -->
                 </div>
-                <!-- end col-lg-4 -->
             </div>
-            <!-- end row -->
             <div class="btn-box d-flex flex-wrap align-items-center justify-content-center pt-3">
                 <div class="mr-4">
-                    <p class="pb-2">شما مربی هستید؟</p>
-                    <a href="become-a-teacher.html" class="btn theme-btn theme-btn-sm lh-24"><i class="la la-user mr-1"></i>شروع به تدریس کنید</a>
+                    <a href="become-a-teacher.html" class="btn theme-btn theme-btn-sm lh-24"><i class="la la-user mr-1"></i>سفارش طراحی سایت</a>
                 </div>
                 <div>
-                    <p class="pb-2">شما دانشجو هستید؟</p>
-                    <a href="admission.html" class="btn theme-btn theme-btn-sm lh-24"><i class="la la-file-text-o mr-1"></i>شروع به یادگیری</a>
+                    <a href="admission.html" class="btn theme-btn theme-btn-sm lh-24"><i class="la la-file-text-o mr-1"></i>سفارش طراحی گرافیک</a>
                 </div>
             </div>
         </div>
-        <!-- end container -->
     </section>
 
-    <section class="category-area bg-gray section-padding text-center">
-        <div class="container">
-            <div class="section-heading">
-                <h2 class="section__title">دسته بندی های محبوب را مرور کنید</h2>
-            </div>
-            <!-- end section-heading -->
-            <div class="row pt-50px">
-                <div class="col-lg-4 responsive-column-half">
-                    <div class="flip-box">
-                        <div class="flip-box-front">
-                            <img src="images/img-loading.png" data-src="images/img1.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <h3 class="flip-title mb-1">توسعه وب</h3>
-                                    <p class="flip-subtitle">200 دوره</p>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-front -->
-                        <div class="flip-box-back">
-                            <img src="images/img-loading.png" data-src="images/img1.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <div class="icon-element icon-element-md mx-auto mb-3">
-                                        <svg class="svg-icon-color-1" width="35" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="m456 48h-400a46 46 0 0 0 -46 46v324a46 46 0 0 0 46 46h400a46 46 0 0 0 46-46v-324a46 46 0 0 0 -46-46zm34 66h-382a6 6 0 0 0 0 12h382v291.818a34.194 34.194 0 0 1 -34 34.182h-400a34.194 34.194 0 0 1 -34-34.182v-291.818h44a6 6 0 0 0 0-12h-44v-19.818a34.194 34.194 0 0 1 34-34.182h400a34.194 34.194 0 0 1 34 34.182z"
-                                            ></path>
-                                            <path d="m57.435 81.651a8.511 8.511 0 1 0 8.509 8.51 8.52 8.52 0 0 0 -8.509-8.51z"></path>
-                                            <path d="m89.091 98.672a8.511 8.511 0 1 0 -8.511-8.511 8.521 8.521 0 0 0 8.511 8.511z"></path>
-                                            <path d="m121.748 81.651a8.511 8.511 0 1 0 8.51 8.51 8.521 8.521 0 0 0 -8.51-8.51z"></path>
-                                            <path d="m41 163.317a6 6 0 0 0 -6 6v84.572a6 6 0 0 0 12 0v-84.572a6 6 0 0 0 -6-6z"></path>
-                                            <path d="m41 140.053a6 6 0 0 0 -6 6v4.614a6 6 0 0 0 12 0v-4.614a6 6 0 0 0 -6-6z"></path>
-                                            <path d="m55.037 272.757a6 6 0 0 0 0 8.486l44.721 44.721a6 6 0 0 0 8.484-8.485l-40.477-40.479 40.477-40.479a6 6 0 0 0 -8.484-8.485z"></path>
-                                            <path d="m171.271 325.964a6 6 0 0 0 8.484 0l44.721-44.721a6 6 0 0 0 0-8.486l-44.721-44.721a6 6 0 0 0 -8.484 8.485l40.477 40.479-40.477 40.479a6 6 0 0 0 0 8.485z"></path>
-                                            <path d="m120.85 355.264a5.989 5.989 0 0 0 7.241-4.423l35-144.864a6 6 0 0 0 -11.664-2.818l-35 144.864a6 6 0 0 0 4.423 7.241z"></path>
-                                            <path d="m255.808 223h3a6 6 0 0 0 0-12h-3a6 6 0 0 0 0 12z"></path>
-                                            <path d="m288.717 223h10.318a6 6 0 1 0 0-12h-10.318a6 6 0 0 0 0 12z"></path>
-                                            <path d="m329.432 223h123.289a6 6 0 0 0 0-12h-123.289a6 6 0 0 0 0 12z"></path>
-                                            <path d="m255.808 263h3a6 6 0 1 0 0-12h-3a6 6 0 0 0 0 12z"></path>
-                                            <path d="m288.717 263h10.318a6 6 0 1 0 0-12h-10.318a6 6 0 0 0 0 12z"></path>
-                                            <path d="m329.432 263h123.289a6 6 0 0 0 0-12h-123.289a6 6 0 0 0 0 12z"></path>
-                                            <path d="m255.808 303h3a6 6 0 1 0 0-12h-3a6 6 0 0 0 0 12z"></path>
-                                            <path d="m288.717 303h10.318a6 6 0 1 0 0-12h-10.318a6 6 0 0 0 0 12z"></path>
-                                            <path d="m329.432 303h123.289a6 6 0 0 0 0-12h-123.289a6 6 0 0 0 0 12z"></path>
-                                            <path d="m255.808 343h3a6 6 0 1 0 0-12h-3a6 6 0 0 0 0 12z"></path>
-                                            <path d="m288.717 343h10.318a6 6 0 1 0 0-12h-10.318a6 6 0 0 0 0 12z"></path>
-                                            <path d="m329.432 343h123.289a6 6 0 0 0 0-12h-123.289a6 6 0 0 0 0 12z"></path>
-                                        </svg>
-                                    </div>
-                                    <h3 class="flip-title">مشاهده دوره ها</h3>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-back -->
-                    </div>
-                    <!-- end flip-box -->
-                </div>
-                <!-- end col-lg-4 -->
-                <div class="col-lg-4 responsive-column-half">
-                    <div class="flip-box">
-                        <div class="flip-box-front">
-                            <img src="images/img-loading.png" data-src="images/img2.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <h3 class="flip-title mb-1">کسب و کار</h3>
-                                    <p class="flip-subtitle">689 دوره</p>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-front -->
-                        <div class="flip-box-back">
-                            <img src="images/img-loading.png" data-src="images/img2.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <div class="icon-element icon-element-md mx-auto mb-3">
-                                        <svg class="svg-icon-color-2" width="35" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                            <g>
-                                                <g>
-                                                    <path
-                                                        d="m309.502 248.521h-107.004c-12.035 0-21.827 9.792-21.827 21.827v30.547c0 12.036 9.792 21.827 21.827 21.827h107.004c12.035 0 21.827-9.792 21.827-21.827v-30.547c0-12.035-9.792-21.827-21.827-21.827zm6.827 52.374c0 3.765-3.062 6.827-6.827 6.827h-107.004c-3.764 0-6.827-3.062-6.827-6.827v-30.547c0-3.764 3.062-6.827 6.827-6.827h107.004c3.765 0 6.827 3.062 6.827 6.827z"
-                                                    ></path>
-                                                    <path
-                                                        d="m512 161.467c0-35.637-28.993-64.629-64.63-64.629h-94.006v-39.111c0-24.846-20.214-45.06-45.06-45.06h-104.609c-24.846 0-45.06 20.214-45.06 45.06v39.111h-94.005c-35.637-.001-64.63 28.992-64.63 64.629v273.236c0 35.637 28.993 64.63 64.63 64.63h382.74c35.637 0 64.63-28.993 64.63-64.63 0-15.012 0-263.147 0-273.236zm-338.364-103.74c0-16.575 13.485-30.06 30.06-30.06h104.609c16.575 0 30.06 13.485 30.06 30.06v39.111h-164.729zm323.364 376.976c0 27.366-22.264 49.63-49.63 49.63h-382.74c-27.366 0-49.63-22.264-49.63-49.63v-178.995c4.415 5.251 9.695 9.818 15.698 13.436 17.78 9.131 33.188 25.412 63.318 25.412h59.092c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-59.091c-24.831 0-37.424-13.764-55.576-23.259-14.459-8.714-23.441-24.613-23.441-41.495v-53.335c0-27.366 22.264-49.63 49.63-49.63h382.74c27.366 0 49.63 22.264 49.63 49.629v53.335c0 16.881-8.981 32.781-23.44 41.494-18.492 9.672-30.653 23.259-55.576 23.259h-59.092c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h59.092c30.085 0 45.847-16.439 63.318-25.412 6.004-3.618 11.283-8.185 15.698-13.436z"
-                                                    ></path>
-                                                </g>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="flip-title">مشاهده دوره ها</h3>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-back -->
-                    </div>
-                    <!-- end flip-box -->
-                </div>
-                <!-- end col-lg-4 -->
-                <div class="col-lg-4 responsive-column-half">
-                    <div class="flip-box">
-                        <div class="flip-box-front">
-                            <img src="images/img-loading.png" data-src="images/img3.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <h3 class="flip-title mb-1">فن آوری</h3>
-                                    <p class="flip-subtitle">567 دوره</p>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-front -->
-                        <div class="flip-box-back">
-                            <img src="images/img-loading.png" data-src="images/img3.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <div class="icon-element icon-element-md mx-auto mb-3">
-                                        <svg class="svg-icon-color-3" width="35" viewBox="-39 0 492 492.00126" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="m392.125 310.632812 21.464844-55.617187c.910156-2.363281.238281-5.042969-1.679688-6.699219l-22.453125-19.378906c1.953125-17.320312 1.5-34.824219-1.347656-52.019531l21.601563-20.714844c1.816406-1.742187 2.351562-4.429687 1.34375-6.734375l-23.90625-54.640625c-1.015626-2.332031-3.394532-3.769531-5.933594-3.578125l-29.914063 2.199219c-10.648437-13.839844-23.367187-25.953125-37.707031-35.917969l.878906-29.886719c.078125-2.542969-1.460937-4.859375-3.835937-5.773437l-55.617188-21.46875c-2.363281-.910156-5.046875-.238282-6.703125 1.679687l-19.378906 22.460938c-17.320312-1.957031-34.828125-1.503907-52.023438 1.34375l-20.71875-21.597657c-1.742187-1.816406-4.429687-2.355468-6.734374-1.347656l-54.640626 23.90625c-2.332031 1.023438-3.765624 3.402344-3.578124 5.9375l2.199218 29.914063c-13.835937 10.644531-25.949218 23.363281-35.910156 37.703125l-29.890625-.878906c-2.546875-.089844-4.867187 1.453124-5.773437 3.835937l-21.464844 55.621094c-.910156 2.363281-.238282 5.042969 1.679687 6.699219l22.457031 19.382812c-1.953124 17.316406-1.5 34.824219 1.347657 52.015625l-21.601563 20.714844c-1.816406 1.742187-2.351562 4.429687-1.34375 6.734375l23.90625 54.640625c1.015625 2.339843 3.398438 3.777343 5.9375 3.578125l29.914063-2.199219c10.648437 13.839844 23.367187 25.953125 37.707031 35.914063l-.878906 29.890624c-.074219 2.542969 1.460937 4.855469 3.835937 5.773438l42.699219 16.480469v34.238281c.019531 13.679688 11.101562 24.761719 24.78125 24.777344h30.152344v18.378906c0 3.316406 2.683594 6 6 6 3.3125 0 6-2.683594 6-6v-18.375h30.148437c13.679688-.015625 24.765625-11.101562 24.78125-24.78125v-33.28125l51.242188-22.417969c2.328125-1.019531 3.765625-3.398437 3.578125-5.933593l-2.199219-29.917969c13.835937-10.644531 25.949219-23.363281 35.910156-37.703125l29.890625.878906c2.550782.09375 4.875-1.449219 5.777344-3.835938zm-136.199219 51.269532v14h-19.597656v-79.0625c.007813-6.722656 5.453125-12.167969 12.175781-12.175782 13.347656-.011718 24.167969-10.832031 24.179688-24.179687v-3.222656c10.4375-2.734375 17.730468-12.148438 17.773437-22.941407.042969-10.789062-7.175781-20.261718-17.589843-23.078124-10.417969-2.820313-21.425782 1.71875-26.832032 11.058593-5.402344 9.34375-3.851562 21.148438 3.785156 28.773438 3 3 6.753907 5.136719 10.863282 6.1875v3.226562c-.007813 6.722657-5.457032 12.167969-12.179688 12.175781-13.347656.015626-24.160156 10.832032-24.175781 24.179688v79.058594h-10.921875v-175.714844c11.660156-3.019531 19.257812-14.234375 17.734375-26.183594-1.523437-11.949218-11.6875-20.902344-23.734375-20.902344-12.042969 0-22.210938 8.953126-23.734375 20.902344-1.519531 11.949219 6.074219 23.164063 17.734375 26.183594v175.714844h-10.917969v-79.0625c-.015625-13.34375-10.832031-24.160156-24.179687-24.175782-6.722656-.007812-12.167969-5.457031-12.175782-12.179687v-3.222656c4.109376-1.050781 7.859376-3.1875 10.863282-6.183594 7.703125-7.652344 9.292968-19.53125 3.867187-28.9375-5.421875-9.40625-16.5-13.980469-26.980469-11.144531-10.480468 2.835937-17.738281 12.371094-17.679687 23.230468.058594 10.855469 7.417969 20.3125 17.929687 23.035157v3.226562c.011719 13.347657 10.832032 24.167969 24.179688 24.179688 6.722656.007812 12.167969 5.453125 12.175781 12.175781v79.058594h-20.425781v-14c.0625-25.777344-10.65625-50.410156-29.5625-67.933594-35.242188-32.359375-47.019531-83.027344-29.660156-127.613281 17.363281-44.585938 60.300781-73.949219 108.148437-73.953125.363281 0 .730469 0 1.089844.003906 44.867187.421875 85.472656 26.660156 104.289063 67.394531 18.816406 40.734375 12.46875 88.664063-16.300782 123.09375-3.101562 3.707031-6.429687 7.21875-9.964844 10.511719-19.097656 17.675781-30.023437 42.472656-30.175781 68.496094zm2.378907-119.316406c-4.625-4.625-4.625-12.128907 0-16.753907 4.628906-4.628906 12.128906-4.628906 16.757812 0 4.625 4.625 4.625 12.128907-.003906 16.753907-2.210938 2.242187-5.226563 3.503906-8.375 3.503906-3.148438.003906-6.164063-1.257813-8.378906-3.5zm-59.273438-57.070313c-4.628906-4.625-4.628906-12.128906 0-16.753906 4.625-4.628907 12.128906-4.628907 16.753906 0 4.628906 4.625 4.628906 12.128906 0 16.753906-4.628906 4.621094-12.125 4.621094-16.753906.003906zm-59.277344 57.074219c-4.625-4.625-4.625-12.125 0-16.753906 4.628906-4.625 12.128906-4.625 16.753906 0 4.628907 4.628906 4.628907 12.128906 0 16.753906-2.210937 2.242187-5.226562 3.503906-8.375 3.503906-3.148437 0-6.167968-1.261719-8.378906-3.503906zm103.390625 213.035156h-72.296875c-7.054687-.011719-12.773437-5.726562-12.78125-12.78125v-2.074219h52.578125c3.3125 0 6-2.6875 6-6 0-3.316406-2.6875-6-6-6h-52.578125v-14.855469h15.585938c3.3125 0 6-2.6875 6-6 0-3.316406-2.6875-6-6-6h-15.589844v-14.011718h97.863281v14.007812h-48.046875c-3.3125 0-6 2.683594-6 6 0 3.3125 2.6875 6 6 6h48.046875v14.855469h-14.011719c-3.3125 0-6 2.6875-6 6s2.6875 6 6 6h14.011719v2.074219c-.007812 7.054687-5.722656 12.773437-12.78125 12.785156zm110.382813-154.125c-2.066406-.058594-4.019532.949219-5.167969 2.671875-10.152344 15.238281-22.875 28.601563-37.601563 39.480469-1.65625 1.226562-2.566406 3.210937-2.414062 5.265625l2.125 28.941406-42.539062 18.609375v-34.65625c.164062-22.664062 9.703124-44.25 26.355468-59.628906 26.875-25.023438 41.710938-60.378906 40.738282-97.089844-1.535157-58.203125-42.136719-108.046875-98.828126-121.320312-56.691406-13.273438-115.203124 13.363281-142.417968 64.835937s-16.28125 114.828125 26.609375 154.203125c16.433593 15.246094 25.742187 36.671875 25.675781 59.089844v33.835937l-34.414062-13.28125.851562-28.929687c.058594-2.070313-.949219-4.023438-2.671875-5.171875-15.242187-10.148438-28.601563-22.871094-39.480469-37.597657-1.222656-1.660156-3.210937-2.574218-5.265625-2.417968l-28.941406 2.128906-20.527344-46.914062 20.882813-20.027344c1.453125-1.394532 2.109375-3.425782 1.75-5.410156-3.3125-18.0625-3.789063-36.527344-1.417969-54.734376.261719-2.003906-.5-4-2.027344-5.320312l-21.679687-18.707031 18.410156-47.710938 28.933594.851563c2.070312.074218 4.027344-.9375 5.167968-2.667969 10.148438-15.242187 22.871094-28.601563 37.597657-39.484375 1.65625-1.222656 2.570312-3.210938 2.417969-5.261719l-2.125-28.941406 46.914062-20.523437 20.027344 20.882812c1.394531 1.457031 3.425781 2.113281 5.410156 1.75 18.0625-3.308594 36.53125-3.785156 54.746094-1.414062 2 .253906 3.996094-.507813 5.3125-2.035157l18.707031-21.679687 47.710937 18.414062-.851562 28.929688c-.058594 2.066406.949219 4.019531 2.671875 5.167968 15.238281 10.148438 28.597656 22.875 39.480469 37.601563 1.222656 1.660156 3.210937 2.570313 5.265625 2.414063l28.9375-2.125 20.527343 46.914062-20.886718 20.027344c-1.457032 1.394531-2.113282 3.429687-1.75 5.410156 3.308594 18.0625 3.785156 36.527344 1.414062 54.738281-.257812 2 .503906 3.996094 2.03125 5.316407l21.675782 18.707031-18.414063 47.710937zm0 0"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                    <h3 class="flip-title">مشاهده دوره ها</h3>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-back -->
-                    </div>
-                    <!-- end flip-box -->
-                </div>
-                <!-- end col-lg-4 -->
-                <div class="col-lg-3 responsive-column-half">
-                    <div class="flip-box">
-                        <div class="flip-box-front">
-                            <img src="images/img-loading.png" data-src="images/img4.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <h3 class="flip-title mb-1">بازار یابی</h3>
-                                    <p class="flip-subtitle">200 دوره</p>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-front -->
-                        <div class="flip-box-back">
-                            <img src="images/img-loading.png" data-src="images/img4.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <div class="icon-element icon-element-md mx-auto mb-3">
-                                        <svg class="svg-icon-color-4" width="35" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                                            <g id="media-monitor-screen-Digital_Marketing" data-name="media-monitor-screen-Digital Marketing">
-                                                <path
-                                                    d="m59 15h-2v-1h1a3 3 0 0 0 0-6h-1v-5a.968.968 0 0 0 -.41-.8.991.991 0 0 0 -.88-.16l-12.86 3.96h-6.85a1 1 0 0 0 -1 1v1h-2a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h2v1h-6v-9a1 1 0 0 0 -1-1h-20a1 1 0 0 0 -1 1v9h-2a3.009 3.009 0 0 0 -3 3v32a3.009 3.009 0 0 0 3 3h23v3h-6a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-6v-3h23a3.009 3.009 0 0 0 3-3v-32a3.009 3.009 0 0 0 -3-3zm-2-5h1a1 1 0 0 1 0 2h-1zm-13-2.26 11-3.39v13.3l-11-3.39zm-7 .26h5v6h-5zm2.85 8-.72 5h-1.13v-5zm-5.85-4v-2h1v2zm-25-5h18v14h-18zm32 51v2h-18v-2zm-11-2v-3h4v3zm30-6a1 1 0 0 1 -1 1h-54a1 1 0 0 1 -1-1v-1h56zm0-3h-56v-29a1 1 0 0 1 1-1h2v5a1 1 0 0 0 1 1h20a1 1 0 0 0 1-1v-5h7v5a1 1 0 0 0 1 1h3a1 1 0 0 0 .99-.86l.88-6.14h.98l12.86 3.96a.925.925 0 0 0 .29.04 1.015 1.015 0 0 0 1-1v-2h2a1 1 0 0 1 1 1z"
-                                                ></path>
-                                                <path
-                                                    d="m7 45h26a1 1 0 0 0 1-1v-16a1 1 0 0 0 -1-1h-26a1 1 0 0 0 -1 1v16a1 1 0 0 0 1 1zm1-2v-13.211l11.476 7.063a1 1 0 0 0 1.048 0l11.476-7.063v13.211zm2.533-14h18.934l-9.467 5.826z"
-                                                ></path>
-                                                <path
-                                                    d="m37 39h2v3a1 1 0 0 0 1 1h17a1 1 0 0 0 1-1v-12a1 1 0 0 0 -1-1h-1v-3a1 1 0 0 0 -1-1h-18a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1zm19 2h-15v-10h15zm-18-14h16v2h-14a1 1 0 0 0 -1 1v7h-1z"
-                                                ></path>
-                                                <path d="m43 33h2v2h-2z"></path>
-                                                <path d="m47 33h7v2h-7z"></path>
-                                                <path d="m43 37h4v2h-4z"></path>
-                                                <path d="m49 37h5v2h-5z"></path>
-                                                <path d="m15.474 17.851a1 1 0 0 0 .973.044l6-3a1 1 0 0 0 0-1.79l-6-3a1 1 0 0 0 -1.447.895v6a1 1 0 0 0 .474.851zm1.526-5.233 2.764 1.382-2.764 1.382z"></path>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <h3 class="flip-title">مشاهده دوره ها</h3>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-back -->
-                    </div>
-                    <!-- end flip-box -->
-                </div>
-                <!-- end col-lg-3 -->
-                <div class="col-lg-3 responsive-column-half">
-                    <div class="flip-box">
-                        <div class="flip-box-front">
-                            <img src="images/img-loading.png" data-src="images/img5.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <h3 class="flip-title mb-1">سلامتی</h3>
-                                    <p class="flip-subtitle">689 دوره</p>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-front -->
-                        <div class="flip-box-back">
-                            <img src="images/img-loading.png" data-src="images/img5.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <div class="icon-element icon-element-md mx-auto mb-3">
-                                        <svg class="svg-icon-color-5" width="35" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 420.8 420.8" xml:space="preserve">
-                                                <g>
-                                                    <g>
-                                                        <path
-                                                            d="M413.6,204H378c14.8-33.6,13.2-60.8,7.6-79.2c-9.6-32.8-42-68.4-90-68.4c-12.8,0-25.6,2.4-38.8,7.2
-                                                C234,72,218.8,81.2,212,86c-6.8-4.8-21.6-14-44.8-22.4c-13.2-4.8-26.4-7.2-38.8-7.2c-48,0-80.4,35.6-90,68.4
-                                                c-5.6,19.6-7.6,49.2,11.2,86.4H6.4c-3.6,0-6.4,2.8-6.4,6.4c0,3.6,2.8,6.4,6.4,6.4h50.8c2,3.6,4.4,7.2,7.2,10.8
-                                                c41.6,60,132,125.2,148.4,129.2v0.4c0,0,0.4,0,0.8-0.4c0.4,0,0.8,0,1.2,0v-0.4c14-6.8,100.8-62.8,146.4-129.2c4.4-6,8-12,11.2-18
-                                                h42c3.6,0,6.4-2.8,6.4-6.4C420.8,206.4,417.2,204,413.6,204z M349.6,227.6c-42.4,62-120.4,112-137.2,122.8
-                                                c-17.2-10.8-94.8-61.2-137.6-122.8c-0.8-1.2-1.6-2.4-2.4-3.6h58.8c2.4,0,4.8-1.2,6-3.6l26.8-52.8l42,107.6c0.8,2.4,3.6,4,6,4
-                                                c0,0,0,0,0.4,0c2.8,0,5.2-2,6-4.8l36.8-126l19.6,63.6c0.8,2.4,2.8,4,5.2,4.4c2.4,0.4,4.8-0.8,6.4-2.8l15.6-22.8l13.2,22.4
-                                                c1.2,2,3.2,3.2,5.6,3.2h36C354.4,220.4,352,224,349.6,227.6z M364,204h-39.2l-16.4-28c-1.2-2-3.2-3.2-5.6-3.2
-                                                c-2.4,0-4.4,0.8-5.6,2.8l-13.6,20l-22-71.6c-0.8-2.8-3.6-4.4-6.4-4.8c-2.8,0-5.6,2-6.4,4.8l-37.2,128.4l-40.4-103.2
-                                                c-0.8-2.4-3.2-4-5.6-4c-2.8,0-4.8,1.2-6,3.6l-31.6,62H64.4c-16-29.2-20.4-57.2-13.2-82.4c8.4-28.4,36-58.8,77.6-58.8
-                                                c11.2,0,22.8,2.4,34.4,6.4c29.2,10.8,44.8,23.2,45.2,23.2c2.4,2,5.6,2,8,0c0,0,15.6-12.4,45.2-23.2c11.6-4.4,23.2-6.4,34.4-6.4
-                                                c41.2,0,69.2,30.4,77.6,58.8C380.4,151.6,376.8,177.2,364,204z"
-                                                        ></path>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                    </div>
-                                    <h3 class="flip-title">مشاهده دوره ها</h3>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-back -->
-                    </div>
-                    <!-- end flip-box -->
-                </div>
-                <!-- end col-lg-3 -->
-                <div class="col-lg-3 responsive-column-half">
-                    <div class="flip-box">
-                        <div class="flip-box-front">
-                            <img src="images/img-loading.png" data-src="images/img6.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <h3 class="flip-title mb-1">معماری</h3>
-                                    <p class="flip-subtitle">567 دوره</p>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-front -->
-                        <div class="flip-box-back">
-                            <img src="images/img-loading.png" data-src="images/img6.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <div class="icon-element icon-element-md mx-auto mb-3">
-                                        <svg class="svg-icon-color-6" width="32" viewBox="0 0 512.00003 512" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="m506.632812 316.320312c-3.253906-1.292968-6.96875-.484374-9.386718 2.046876l-36.445313 38.308593v-227.542969h.042969l34.773438-37.546874c3.199218-3.457032 2.988281-8.859376-.472657-12.058594 0 0-.003906-.003906-.007812-.007813l-12.515625-11.648437 17.390625-18.773438c3.195312-3.460937 2.980469-8.859375-.480469-12.054687l-37.546875-34.773438c-3.457031-3.199219-8.855469-2.992187-12.054687.46875l-60.671876 65.511719h-295.390624c-.027344-23.554688-19.113282-42.640625-42.667969-42.667969h-8.53125c-23.554688.027344-42.6406252 19.113281-42.667969 42.667969v366.933594c0 4.710937 3.820312 8.53125 8.535156 8.53125h129.175782l-17.921876 21.519531c-3.011718 3.625-2.519531 9.003906 1.101563 12.015625l39.347656 32.761719c3.621094 3.015625 9.003907 2.523437 12.019531-1.097657 0 0 .003907-.003906.003907-.003906l43.675781-52.472656c3.015625-3.632812 4.957031-8.042969 5.597656-12.722656h156.363282l-51.285157 53.855468c-3.246093 3.414063-3.109375 8.816407.304688 12.0625 1.585937 1.507813 3.691406 2.351563 5.882812 2.347657h170.664063c4.714844 0 8.535156-3.820313 8.535156-8.53125v-179.199219c0-3.492188-2.125-6.632812-5.367188-7.929688zm-29.335937-230.152343-16.496094 17.84375v-12.550781l10.238281-11.09375zm-33.5625-1.519531v.121093l-72.167969 77.996094-25.0625-23.1875 86.9375-93.953125 25.0625 23.1875-14.667968 15.835938zm-88.558594 86.1875-19.628906 5.726562 4.191406-20.019531zm101.453125-150.261719 25.050782 23.175781-11.59375 12.550781-25.054688-23.199219zm-413.960937 22.074219h8.53125c14.140625 0 25.601562 11.460937 25.601562 25.601562v324.488281c-7.34375-5.648437-16.339843-8.726562-25.601562-8.757812h-8.53125c-9.265625.03125-18.257813 3.109375-25.601563 8.757812v-324.488281c0-14.140625 11.460938-25.601562 25.601563-25.601562zm0 358.398437h8.53125c14.140625 0 25.601562 11.464844 25.601562 25.601563h-59.734375c0-14.136719 11.460938-25.601563 25.601563-25.601563zm160.160156 44.476563-5.460937 6.554687-26.230469-21.835937 5.453125-6.5625c3.015625-3.621094 8.394531-4.113282 12.015625-1.097657.003906 0 .003906.003907.007812.003907l13.113281 10.890624c3.625 3.011719 4.121094 8.390626 1.109376 12.015626-.003907.003906-.003907.003906-.007813.007812zm-38.21875 45.910156-26.234375-21.835938 21.839844-26.242187 26.230468 21.839843zm53.339844-64.785156c-1.417969-2.363282-3.210938-4.476563-5.308594-6.261719l-13.113281-10.914063c-10.867188-9.046875-27.007813-7.574218-36.054688 3.292969l-11.578125 13.882813h-58.027343v-341.332032h279.601562l-45.285156 48.9375c-.648438.730469-1.164063 1.574219-1.519532 2.484375-.101562.246094-.179687.476563-.265624.734375-.082032.253906-.210938.511719-.273438.785156l-10.1875 48.707032c-.960938 4.613281 2 9.132812 6.613281 10.09375 1.371094.285156 2.789063.230468 4.128907-.160156l47.789062-13.925782c.222656-.070312.410156-.199218.621094-.273437.214844-.078125.4375-.1875.667968-.300781.957032-.433594 1.824219-1.046876 2.558594-1.800782l65.417969-70.699218v264.695312l-49.578125 52.054688zm276.984375 68.265624h-142.226563l142.226563-149.332031zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m401.714844 472.582031c1.320312 3.1875 4.433594 5.265625 7.886718 5.265625h59.730469c4.714844 0 8.535157-3.820312 8.535157-8.53125v-59.734375c0-4.714843-3.824219-8.53125-8.535157-8.53125-2.261719 0-4.433593.898438-6.03125 2.5l-59.734375 59.730469c-2.441406 2.441406-3.171875 6.113281-1.851562 9.300781zm59.085937-42.402343v30.601562h-30.601562zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m375.464844 324.25h-59.730469v-93.867188c-.011719-2.265624-.914063-4.4375-2.511719-6.042968l-51.199218-51.199219c-3.332032-3.332031-8.734376-3.332031-12.066407 0l-51.199219 51.199219c-1.589843 1.609375-2.484374 3.78125-2.492187 6.042968v93.867188h-59.730469c-4.714844 0-8.535156 3.820312-8.535156 8.53125 0 4.714844 3.820312 8.535156 8.535156 8.535156h238.933594c4.710938 0 8.53125-3.820312 8.53125-8.535156 0-4.710938-3.820312-8.53125-8.535156-8.53125zm-119.464844-133.003906 30.601562 30.601562h-61.203124zm-42.667969 47.667968h85.335938v85.335938h-85.335938zm0 0"
-                                            ></path>
-                                            <path d="m247.464844 136.515625h17.070312v17.066406h-17.070312zm0 0"></path>
-                                            <path d="m247.464844 358.382812h17.070312v17.066407h-17.070312zm0 0"></path>
-                                        </svg>
-                                    </div>
-                                    <h3 class="flip-title">مشاهده دوره ها</h3>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-back -->
-                    </div>
-                    <!-- end flip-box -->
-                </div>
-                <!-- end col-lg-3 -->
-                <div class="col-lg-3 responsive-column-half">
-                    <div class="flip-box">
-                        <div class="flip-box-front">
-                            <img src="images/img-loading.png" data-src="images/img8.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <h3 class="flip-title mb-1">علم داده</h3>
-                                    <p class="flip-subtitle">567 دوره</p>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-front -->
-                        <div class="flip-box-back">
-                            <img src="images/img-loading.png" data-src="images/img8.jpg" alt="" class="flip-img lazy" />
-                            <a href="#" class="flip-content d-flex align-items-center justify-content-center">
-                                <div>
-                                    <div class="icon-element icon-element-md mx-auto mb-3">
-                                        <svg class="svg-icon-color-7" width="32" viewBox="-19 -19 625.33477 625.33477" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="m24.046875 129.921875c-1.242187-14.089844-.421875-28.277344 2.4375-42.128906 3.824219-17.25 11.335937-31.570313 22.320313-42.550781 15.390624-15.402344 37.035156-23.84375 64.25-25.09375 13.183593-.496094 26.382812.40625 39.371093 2.683593l3.460938-19.675781c-14.410157-2.527344-29.050781-3.523438-43.667969-2.964844-32.429688 1.496094-58.519531 11.898438-77.535156 30.929688-13.734375 13.730468-23.0625 31.363281-27.714844 52.429687-.007812.039063-.019531.082031-.027344.121094-3.273437 15.78125-4.207031 31.953125-2.789062 48.003906zm0 0"
-                                            ></path>
-                                            <path d="m67.851562 260.433594c-6.015624-10.976563-11.53125-22.007813-16.398437-32.796875l-18.207031 8.214843c5.078125 11.253907 10.828125 22.757813 17.09375 34.183594zm0 0"></path>
-                                            <path d="m9.960938 168.515625c2.503906 10.699219 5.546874 21.269531 9.117187 31.664063l18.902344-6.457032c-3.351563-9.757812-6.214844-19.675781-8.5625-29.714844zm0 0"></path>
-                                            <path
-                                                d="m145.847656 370.429688c-.871094-.996094-1.738281-1.984376-2.601562-2.980469l-15.074219 13.097656c.882813 1.019531 1.769531 2.039063 2.667969 3.058594 5.070312 5.773437 10.347656 11.59375 15.6875 17.304687 2.394531 2.554688 4.8125 5.105469 7.257812 7.644532l14.394532-13.847657c-2.382813-2.472656-4.738282-4.953125-7.0625-7.441406-5.203126-5.558594-10.335938-11.226563-15.269532-16.835937zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m104.039062 351.199219 15.765626-12.257813c-1.449219-1.867187-2.882813-3.734375-4.304688-5.609375-6.082031-8-11.96875-16.121093-17.492188-24.132812l-16.445312 11.335937c5.703125 8.269532 11.769531 16.640625 18.035156 24.878906 1.460938 1.933594 2.945313 3.859376 4.441406 5.785157zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m170.773438 425.65625c18.871093 18.414062 38.726562 35.789062 59.480468 52.042969 28.148438 22.152343 58.191406 41.785156 89.785156 58.660156 18.453126 9.824219 37.578126 18.332031 57.226563 25.464844l-18.242187 5.222656 5.492187 19.203125 51.070313-14.613281c5.300781-1.515625 8.367187-7.046875 6.851562-12.351563l-13.308594-46.515625-19.207031 5.492188 8.460937 29.550781c-23.847656-7.546875-46.9375-17.285156-68.976562-29.09375-30.550781-16.320312-59.601562-35.304688-86.816406-56.726562-20.191406-15.8125-39.511719-32.714844-57.871094-50.625zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m579.949219 428.921875c-4.078125-25.476563-12.503907-52.882813-25.046875-81.457031l-18.289063 8.027344c11.859375 27.019531 19.800781 52.792968 23.609375 76.582031 7.148438 44.664062-.703125 79.894531-22.699218 101.898437-10.894532 10.894532-25.0625 18.363282-42.113282 22.207032-13.785156 3.101562-29.414062 3.839843-46.464844 2.207031-4.203124-.402344-8.539062-.960938-12.890624-1.648438l-3.117188 19.726563c4.742188.75 9.488281 1.355468 14.101562 1.800781 6.496094.621094 12.824219.933594 18.984376.933594 11.355468.070312 22.683593-1.121094 33.777343-3.539063 20.796875-4.691406 38.238281-13.964844 51.84375-27.570312 26.714844-26.714844 36.5-67.917969 28.304688-119.167969zm0 0"
-                                            ></path>
-                                            <path d="m531.53125 301.214844-17.351562 9.890625c4.808593 8.4375 9.34375 16.9375 13.480468 25.261719l17.890625-8.878907c-4.300781-8.671875-9.015625-17.507812-14.019531-26.273437zm0 0"></path>
-                                            <path
-                                                d="m485.171875 231.789062-15.867187 12.132813c7.445312 9.738281 14.710937 19.796875 21.605468 29.910156l16.507813-11.246093c-7.101563-10.414063-14.585938-20.777344-22.246094-30.796876zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m435.796875 174.066406-14.441406 13.789063c8.453125 8.855469 16.777343 18.070312 24.738281 27.378906l15.179688-12.980469c-8.199219-9.582031-16.769532-19.066406-25.476563-28.1875zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m188.304688 70.273438 19.53125-4.175782-6.449219-30.167968c18.328125 6.5 36.164062 14.332031 53.355469 23.421874 30.152343 15.921876 58.855468 34.445313 85.773437 55.375 12.691406 9.792969 25.476563 20.421876 37.996094 31.582032 6.941406 6.199218 13.933593 12.691406 20.777343 19.300781 2.964844 2.863281 5.992188 5.84375 9.007813 8.851563l14.121094-14.121094c-3.09375-3.089844-6.203125-6.152344-9.257813-9.097656-7.023437-6.789063-14.207031-13.460938-21.34375-19.839844-12.875-11.472656-26.027344-22.40625-39.0625-32.464844-12.695312-9.871094-25.839844-19.222656-39.324218-28.074219 7.660156-4.320312 15.355468-8.410156 22.890624-12.15625l-8.886718-17.886719c-8.960938 4.445313-18.109375 9.34375-27.1875 14.546876l6.34375 11.070312c-13.851563-8.824219-28.019532-17.070312-42.511719-24.746094-12.910156-6.816406-26.15625-12.953125-39.699219-18.398437l17.597656-3.757813-4.164062-19.535156-51.941406 11.101562c-5.394532 1.152344-8.832032 6.457032-7.679688 11.851563zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m3.105469 430.484375c-2.527344 14.410156-3.523438 29.050781-2.960938 43.667969 1.488281 32.425781 11.890625 58.511718 30.925781 77.539062 13.730469 13.734375 31.375 23.054688 52.429688 27.703125.039062.003907.082031.015625.128906.023438 11.007813 2.285156 22.230469 3.4375 33.480469 3.4375 4.839844 0 9.679687-.210938 14.515625-.636719l-1.753906-19.902344c-14.089844 1.25-28.28125.425782-42.128906-2.441406-17.253907-3.8125-31.570313-11.316406-42.550782-22.304688-15.398437-15.398437-23.84375-37.046874-25.09375-64.253906-.496094-13.1875.398438-26.382812 2.683594-39.378906zm0 0"
-                                            ></path>
-                                            <path d="m235.800781 553.121094c11.261719-5.074219 22.761719-10.832032 34.179688-17.089844l-9.59375-17.511719c-10.972657 6.011719-22.007813 11.53125-32.800781 16.394531zm0 0"></path>
-                                            <path d="m168.464844 576.410156c10.703125-2.503906 21.273437-5.546875 31.664062-9.117187l-6.457031-18.90625c-9.753906 3.355469-19.671875 6.210937-29.714844 8.566406zm0 0"></path>
-                                            <path
-                                                d="m367.402344 443.117188 13.089844 15.085937c1.023437-.882813 2.042968-1.773437 3.066406-2.671875 5.777344-5.078125 11.601562-10.363281 17.304687-15.6875 2.554688-2.394531 5.105469-4.8125 7.648438-7.261719l-13.851563-14.390625c-2.472656 2.386719-4.953125 4.734375-7.445312 7.0625-5.550782 5.191406-11.214844 10.328125-16.839844 15.265625-.988281.871094-1.976562 1.738281-2.972656 2.597657zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m309.152344 488.351562 11.335937 16.449219c8.269531-5.695312 16.640625-11.765625 24.882813-18.03125 1.929687-1.464843 3.855468-2.945312 5.78125-4.441406l-12.257813-15.773437c-1.863281 1.449218-3.734375 2.886718-5.605469 4.3125-8.003906 6.082031-16.117187 11.964843-24.136718 17.484374zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m432.027344 26.140625c44.660156-7.140625 79.894531.707031 101.898437 22.707031 10.886719 10.886719 18.359375 25.058594 22.207031 42.109375 3.097657 13.789063 3.84375 29.421875 2.203126 46.46875-.398438 4.195313-.949219 8.527344-1.644532 12.886719l19.726563 3.121094c.75-4.757813 1.355469-9.503906 1.800781-14.101563 1.835938-19.152343.960938-36.902343-2.605469-52.761719-4.6875-20.796874-13.960937-38.246093-27.566406-51.851562-26.71875-26.714844-67.933594-36.503906-119.171875-28.300781-25.464844 4.074219-52.878906 12.503906-81.457031 25.042969l8.027343 18.292968c27.019532-11.859375 52.785157-19.804687 76.582032-23.613281zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m215.179688 140.273438-12.984376-15.175782c-9.582031 8.199219-19.0625 16.769532-28.183593 25.464844l13.792969 14.449219c8.859374-8.457031 18.074218-16.78125 27.375-24.738281zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m273.789062 95.460938-11.253906-16.507813c-10.414062 7.105469-20.777344 14.589844-30.792968 22.246094l12.132812 15.867187c9.726562-7.441406 19.792969-14.710937 29.914062-21.605468zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m571.589844 170.789062c-1.515625-5.304687-7.046875-8.371093-12.347656-6.855468l-46.519532 13.3125 5.492188 19.203125 29.554687-8.457031c-7.550781 23.84375-17.292969 46.9375-29.101562 68.976562-16.320313 30.550781-35.304688 59.601562-56.726563 86.816406-15.816406 20.191406-32.714844 39.507813-50.628906 57.867188l14.292969 13.949218c18.414062-18.871093 35.785156-38.726562 52.042969-59.480468 22.152343-28.144532 41.785156-58.191406 58.660156-89.785156 9.820312-18.457032 18.332031-37.574219 25.464844-57.226563l5.222656 18.242187 19.203125-5.492187zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m20.816406 408.402344c.699219 0 1.402344-.074219 2.09375-.226563l47.3125-10.109375-4.175781-19.535156-30.164063 6.453125c6.5-18.332031 14.328126-36.164063 23.421876-53.355469 15.914062-30.15625 34.445312-58.859375 55.371093-85.777344 9.789063-12.6875 20.417969-25.472656 31.582031-37.996093 6.199219-6.945313 12.691407-13.933594 19.300782-20.773438 2.894531-2.996093 5.871094-6.027343 8.855468-9.011719l-14.121093-14.121093c-3.0625 3.0625-6.125 6.171875-9.097657 9.253906-6.792968 7.03125-13.464843 14.210937-19.84375 21.355469-11.484374 12.871094-22.410156 26.027344-32.464843 39.058594-21.632813 27.835937-40.789063 57.5-57.242188 88.675781-6.820312 12.902343-12.960937 26.152343-18.398437 39.699219l-3.761719-17.609376-19.5351562 4.171876 11.1015622 51.941406c.984375 4.609375 5.054688 7.898437 9.765625 7.90625zm0 0"
-                                            ></path>
-                                            <path
-                                                d="m206.941406 213.996094v158.429687c0 8.453125 4.742188 20.355469 28.789063 29.054688 15.570312 5.632812 35.925781 8.738281 57.542969 8.738281h.773437c12.488281 0 24.949219-1.140625 37.230469-3.402344 31.132812-5.972656 49.183594-18.507812 49.183594-34.390625v-158.429687c0-8.457032-5.285157-20.351563-29.335938-29.058594-15.574219-5.632812-36.203125-8.738281-57.847656-8.738281-21.652344 0-41.914063 3.105469-57.488282 8.738281-24.046874 8.703125-28.847656 20.601562-28.847656 29.058594zm120.597656 173.191406c-11.300781 2.09375-22.769531 3.117188-34.257812 3.058594-19.402344 0-37.25-2.683594-50.695312-7.542969-13.152344-4.761719-15.671876-9.535156-15.671876-10.277344v-27.875c2.839844 1.503907 5.789063 2.800781 8.816407 3.875 15.570312 5.636719 35.925781 8.738281 57.582031 8.738281 21.660156 0 42.324219-3.101562 57.894531-8.738281 3.414063-1.234375 5.535157-2.535156 9.28125-3.882812v27.878906c0 1.875-8.085937 9.996094-32.949219 14.765625zm32.949219-67.820312c0 .75-3.003906 5.519531-16.152343 10.28125-13.449219 4.867187-31.65625 7.542968-51.058594 7.542968-19.398438 0-37.246094-2.675781-50.691406-7.542968-13.152344-4.761719-15.671876-9.535157-15.671876-10.28125v-27.507813c2.839844 1.507813 5.789063 2.804687 8.816407 3.878906 15.570312 5.636719 35.925781 8.738281 57.582031 8.738281 21.660156 0 42.324219-3.101562 57.894531-8.738281 3.414063-1.234375 5.535157-2.535156 9.28125-3.878906zm-16.152343-42.410157c-13.449219 4.867188-31.65625 7.542969-51.058594 7.542969-19.398438 0-37.246094-2.675781-50.691406-7.542969-13.152344-4.757812-15.671876-9.53125-15.671876-10.273437v-27.515625c2.84375 1.503906 5.789063 2.800781 8.816407 3.878906 15.574219 5.636719 35.929687 8.738281 57.582031 8.738281s42.320312-3.105468 57.894531-8.738281c3.414063-1.238281 5.535157-2.539063 9.28125-3.878906v27.515625c0 .742187-3.003906 5.515625-16.152343 10.273437zm-102.113282-73.238281c13.449219-4.871094 31.539063-7.546875 50.933594-7.546875 19.390625 0 37.484375 2.675781 50.933594 7.546875 13.144531 4.761719 15.914062 9.53125 15.914062 10.277344 0 .738281-2.769531 5.507812-15.914062 10.269531-13.449219 4.871094-31.542969 7.546875-50.933594 7.546875-19.394531 0-37.484375-2.683594-50.933594-7.546875-13.152344-4.761719-15.917968-9.53125-15.917968-10.269531 0-.746094 2.769531-5.515625 15.921874-10.277344zm0 0"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                    <h3 class="flip-title">مشاهده دوره ها</h3>
-                                </div>
-                            </a>
-                            <!-- end flip-content -->
-                        </div>
-                        <!-- end flip-box-back -->
-                    </div>
-                    <!-- end flip-box -->
-                </div>
-                <!-- end col-lg-3 -->
-            </div>
-            <!-- end row -->
-            <div class="view-more-box pt-4 text-center">
-                <a href="categories.html" class="btn theme-btn">مشاهده همه دسته ها <i class="la la-arrow-left icon ml-1"></i></a>
-            </div>
-            <!-- end view-more-box -->
-        </div>
-        <!-- end container -->
-    </section>
-
-    <section class="funfact-area text-center overflow-hidden section--padding dot-bg">
+    <section class="about-area section--padding overflow-hidden">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 responsive-column-half">
-                    <div class="counter-item">
-                        <div class="counter__icon icon-element mb-3 shadow-sm">
-                            <svg class="svg-icon-color-1" width="40" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                <g>
-                                    <path
-                                        d="m499.5 422h-10v-304.92c0-20.678-16.822-37.5-37.5-37.5h-108.332v-27.962c0-28.462-23.156-51.618-51.618-51.618h-72.1c-28.462 0-51.618 23.156-51.618 51.618v27.962h-108.332c-20.678 0-37.5 16.822-37.5 37.5v304.92h-10c-6.893 0-12.5 5.607-12.5 12.5v34.549c0 23.683 19.268 42.951 42.951 42.951h426.098c23.683 0 42.951-19.268 42.951-42.951v-34.549c0-6.893-5.607-12.5-12.5-12.5zm-155.832-307.112h2.347c6.299 0 11.423 5.124 11.423 11.423 0 6.298-5.124 11.422-11.423 11.422h-2.347zm0 37.844h2.347c15.203.011 27.366-12.987 26.36-28.152h72.125v249.151h-18.64v-41.301c0-14.129-4.877-27.975-13.732-38.988-8.856-11.014-21.335-18.751-35.139-21.786l-67.199-14.761c-4.975-1.086-8.438-5.551-8.44-10.494v-12.896c25.347-15.384 42.318-43.248 42.318-75.002zm-144.678 120.228 6.441-1.415c6.113-1.344 11.335-4.877 14.948-9.642l24.143 17.74-15.434 15.434zm29.701 38.208-3.889 62.563h-123.662v-41.301c0-22 15.599-41.398 37.09-46.124l41.257-9.062 43.142 31.702c1.838 1.349 3.941 2.081 6.062 2.222zm57.691-64.029-30.382 22.325-30.382-22.325c.031-.624.058-5.717.033-6.388 9.461 3.502 19.686 5.419 30.35 5.419s20.888-1.917 30.35-5.419c-.013.671-.005 5.765.031 6.388zm-42.032 53.89 11.65-11.65 11.599 11.599 4.258 72.753h-32.027zm23.129-21.385 24.143-17.74c3.613 4.765 8.835 8.298 14.948 9.642l6.44 1.415-30.098 22.118zm21.894 29.3 43.14-31.701 41.256 9.062c21.492 4.726 37.091 24.124 37.091 46.124v41.302h-123.976l-3.662-62.561c2.151-.126 4.287-.857 6.151-2.226zm-106.041-194.309c10.817-.592 21.509-2.153 31.874-4.66 4.026-.974 6.501-5.027 5.527-9.054-.975-4.026-5.026-6.503-9.054-5.526-9.216 2.229-18.722 3.628-28.348 4.202v-47.979c.001-20.191 16.428-36.618 36.619-36.618h72.1c20.191 0 36.618 16.427 36.618 36.618v45.1c-6.201-2.706-12.011-6.201-17.336-10.485-7.358-5.922-13.503-13.088-18.26-21.298-1.673-2.89-4.521-4.86-7.814-5.407-3.288-.544-6.619.398-9.132 2.589-10.05 8.761-21.15 16.144-33.04 21.971-3.719 1.822-5.257 6.315-3.434 10.035 1.821 3.718 6.313 5.258 10.035 3.434 11.728-5.747 22.683-12.825 32.811-21.178 5.302 8.187 11.822 15.419 19.43 21.54 8.063 6.488 17.038 11.5 26.74 14.939v45.645c0 40.069-32.599 72.668-72.668 72.668s-72.668-32.599-72.668-72.668zm27.318 118.869v12.896c-.006 4.93-3.494 9.415-8.439 10.494l-67.201 14.761c-13.803 3.035-26.281 10.772-35.138 21.786-8.855 11.014-13.732 24.859-13.732 38.988v41.302h-18.64v-249.151h72.125c-1.022 15.115 11.132 28.186 26.36 28.152h2.347v5.77c0 31.754 16.971 59.619 42.318 75.002zm-56.087-107.193c0-6.299 5.124-11.423 11.423-11.423h2.347v22.845h-2.347c-6.299-.001-11.423-5.125-11.423-11.422zm342.437 342.738c0 15.412-12.539 27.951-27.951 27.951h-426.098c-15.412 0-27.951-12.539-27.951-27.951v-32.049h190.545v12.5c0 9.649 7.851 17.5 17.5 17.5h65.91c9.649 0 17.5-7.851 17.5-17.5v-12.5h72.043c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-340.998v-304.92c0-12.406 10.094-22.5 22.5-22.5h108.332v5.308h-2.347c-8.226 0-15.584 3.78-20.434 9.692h-81.551c-6.341 0-11.5 5.159-11.5 11.5v260.151c0 4.143 3.357 7.5 7.5 7.5h392c4.143 0 7.5-3.357 7.5-7.5v-260.151c0-6.341-5.159-11.5-11.5-11.5h-81.551c-4.85-5.913-12.208-9.692-20.434-9.692h-2.347v-5.308h108.332c12.406 0 22.5 10.094 22.5 22.5v304.92h-61.002c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h83.502zm-276.455-19.549v-12.5h70.91v12.5c0 1.379-1.121 2.5-2.5 2.5h-65.91c-1.379 0-2.5-1.121-2.5-2.5zm16.377-243.596c5.712 3.132 12.166 4.823 18.662 4.892 8.306.087 15.383-2.637 19.495-4.893 3.632-1.992 4.96-6.551 2.968-10.183s-6.549-4.961-10.183-2.968c-2.545 1.396-6.654 3.045-11.863 3.045-5.146 0-9.343-1.661-11.866-3.046-3.633-1.994-8.191-.661-10.183 2.97-1.991 3.633-.662 8.191 2.97 10.183zm-19.602-52.241c4.143 0 7.5-3.357 7.5-7.5v-15.472c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v15.472c0 4.143 3.358 7.5 7.5 7.5zm77.36 0c4.143 0 7.5-3.357 7.5-7.5v-15.472c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v15.472c0 4.143 3.357 7.5 7.5 7.5z"
-                                    ></path>
-                                </g>
-                            </svg>
+                <div class="col-lg-6">
+                    <div class="about-content pb-5">
+                        <div class="section-heading">
+                            <h5 class="ribbon ribbon-lg mb-2">درباره ما</h5>
+                            <h2 class="section__title">آژانس تخصصی تبلیغات بستا</h2>
+                            <span class="section-divider"></span>
+                            <p class="section__desc">
+                                آژانس تخصصی تبلیغات بستا یک آژانس تبلیغاتی است با تیمی جوان و خلاق در زمینه تبلیغات محیطی، دیجیتال مارکتینگ، طراحی گرافیک و چاپ، طراحی وبسایت، عکاسی و تولید تیزر تبلیغاتی فعال می باشد، ما خالق ایده های شما هستیم شما می توانید برای آشنایی بیشتر با آژانس تبلیغاتی بستا کاتالوگ ما را از لینک رو به رو دریافت نمایید
+                            </p>
                         </div>
-                        <h4 class="counter__title counter text-color-2">7520</h4>
-                        <p class="counter__meta">مربیان متخصص</p>
-                    </div>
-                    <!-- end counter-item -->
-                </div>
-                <!-- end col-lg-3 -->
-                <div class="col-lg-3 responsive-column-half">
-                    <div class="counter-item">
-                        <div class="counter__icon icon-element mb-3 shadow-sm">
-                            <svg class="svg-icon-color-2" width="42" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 480.1 480.1" xml:space="preserve">
+                        <div class="row pt-4 pb-3">
+                            <div class="col-lg-4 responsive-column-half">
+                                <div class="info-icon-box mb-3">
+                                    <div class="icon-element icon-element-md shadow-sm">
+                                        <svg class="svg-icon-color-1" width="32" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><g><path d="m181.022 142.59-8.659 3.138c-13.364 4.846-23.334 16.536-26.021 30.517l-2.938 15.396c-1.466 7.626.53 15.436 5.479 21.425 4.951 5.995 12.251 9.433 20.025 9.433h75.057c7.714 0 14.977-3.393 19.927-9.309 4.946-5.911 7.004-13.65 5.646-21.233l-2.74-15.315c-2.539-14.201-12.542-26.081-26.108-31.004l-9.18-3.327v-13.53c0-.38-.037-.75-.092-1.115 6.697-6.818 10.533-16.115 10.533-25.627v-20.159c0-19.678-16.01-35.687-35.689-35.687s-35.692 16.009-35.692 35.687v20.787c0 9.778 4.032 18.705 10.515 25.188-.038.304-.063.611-.063.925zm71.008 36.692 2.74 15.317c.574 3.201-.295 6.468-2.384 8.964-2.092 2.5-5.162 3.935-8.423 3.935h-75.057c-3.285 0-6.369-1.452-8.461-3.985-2.088-2.528-2.931-5.823-2.311-9.05l2.938-15.396c1.693-8.812 7.979-16.183 16.4-19.236l5.672-2.055c.142.146.285.293.439.428 6.463 5.651 14.57 8.477 22.682 8.476 8.102 0 16.207-2.82 22.671-8.46.233-.203.447-.422.651-.65l5.983 2.169c8.554 3.102 14.86 10.59 16.46 19.543zm-66.46-97.402c0-11.406 9.281-20.687 20.689-20.687 9.628 0 17.718 6.62 20.015 15.54-.964.471-1.953.916-2.966 1.321-9.222 3.692-16.671 3.202-18.8 1.71-3.392-2.378-8.068-1.558-10.447 1.834-2.378 3.392-1.557 8.068 1.834 10.447 3.663 2.569 8.635 3.853 14.309 3.853 5.155 0 10.89-1.071 16.745-3.19v9.329c0 5.733-2.371 11.347-6.506 15.402-1.914 1.878-4.107 3.333-6.462 4.337-.165.063-.327.131-.486.205-2.419.957-5.003 1.438-7.644 1.369-11.184-.215-20.281-9.494-20.281-20.684zm19.993 56.469c.229.004.456.006.685.006 3.519 0 6.967-.529 10.261-1.544v11.999c-6.251 3.854-14.242 3.852-20.485-.006v-11.971c3.034.919 6.231 1.452 9.539 1.516z"></path><path d="m88.264 350.904h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z"></path><path d="m88.264 391.345h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z"></path><path d="m88.264 431.784h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z"></path><path d="m88.264 472.225h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z"></path><path d="m80.764 262.524c0 4.143 3.357 7.5 7.5 7.5h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.358-7.5 7.5z"></path><path d="m88.264 310.464h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z"></path><path d="m60.569 350.932c4.158 0 7.529-3.37 7.529-7.528 0-4.157-3.371-7.528-7.529-7.528s-7.528 3.37-7.528 7.528 3.371 7.528 7.528 7.528z"></path><path d="m60.569 270.052c4.158 0 7.529-3.37 7.529-7.528s-3.371-7.528-7.529-7.528-7.528 3.37-7.528 7.528 3.371 7.528 7.528 7.528z"></path><path d="m60.569 310.492c4.158 0 7.529-3.37 7.529-7.528s-3.371-7.528-7.529-7.528-7.528 3.37-7.528 7.528 3.371 7.528 7.528 7.528z"></path><path d="m60.569 391.372c4.158 0 7.529-3.37 7.529-7.528s-3.371-7.528-7.529-7.528-7.528 3.37-7.528 7.528 3.371 7.528 7.528 7.528z"></path><path d="m60.569 431.813c4.158 0 7.529-3.37 7.529-7.528s-3.371-7.528-7.529-7.528-7.528 3.37-7.528 7.528c0 4.157 3.371 7.528 7.528 7.528z"></path><path d="m60.569 472.253c4.158 0 7.529-3.37 7.529-7.528 0-4.157-3.371-7.528-7.529-7.528s-7.528 3.37-7.528 7.528c0 4.157 3.371 7.528 7.528 7.528z"></path><path d="m485.63 118.121c-3.026-3.83-5.886-7.449-7.269-10.783-1.492-3.599-2.08-8.354-2.702-13.39-1.091-8.822-2.327-18.821-9.305-25.798s-16.978-8.213-25.8-9.304c-5.037-.622-9.794-1.21-13.393-2.702-3.335-1.383-6.953-4.241-10.784-7.268-5.271-4.165-11.068-8.738-17.922-10.813v-2.269c.001-19.736-16.058-35.794-35.797-35.794h-312.444c-19.739 0-35.798 16.058-35.798 35.795v28.949c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-28.949c0-11.467 9.33-20.795 20.798-20.795h312.444c11.468 0 20.798 9.328 20.798 20.795v2.27c-6.852 2.076-12.647 6.647-17.918 10.812-3.831 3.026-7.449 5.885-10.783 7.268-3.599 1.491-8.356 2.079-13.393 2.702-8.822 1.09-18.821 2.326-25.8 9.303-6.979 6.978-8.215 16.977-9.306 25.799-.622 5.035-1.21 9.791-2.702 13.39-1.383 3.334-4.242 6.953-7.269 10.783-5.604 7.091-11.954 15.128-11.954 25.417s6.351 18.326 11.954 25.417c3.026 3.83 5.886 7.449 7.269 10.783 1.492 3.599 2.08 8.354 2.702 13.391 1.091 8.821 2.327 18.82 9.305 25.797 6.978 6.978 16.978 8.213 25.8 9.304 2.63.325 5.179.644 7.532 1.084v113.367c0 4.443 2.48 8.411 6.473 10.355 3.992 1.947 8.645 1.453 12.146-1.288l15.943-12.483v136.94c0 11.467-9.33 20.795-20.798 20.795h-312.443c-11.468 0-20.798-9.328-20.798-20.795v-378.435c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v378.434c0 19.737 16.059 35.795 35.798 35.795h312.444c19.739 0 35.798-16.058 35.798-35.795v-136.94l15.943 12.482c2.081 1.63 4.571 2.466 7.089 2.466 1.716 0 3.444-.389 5.064-1.178 3.994-1.944 6.476-5.912 6.476-10.354v-83.697c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v76.555l-19.937-15.609c-2.015-1.595-4.549-2.474-7.136-2.474s-5.121.879-7.104 2.448l-19.959 15.627v-98.625c.544.426 1.091.857 1.645 1.294 7.092 5.604 15.13 11.953 25.42 11.953 10.289 0 18.327-6.35 25.419-11.952 3.831-3.026 7.45-5.886 10.784-7.269 3.599-1.491 8.356-2.079 13.393-2.702 8.822-1.09 18.821-2.326 25.801-9.303 6.977-6.978 8.213-16.977 9.304-25.798.623-5.036 1.211-9.792 2.703-13.391 1.383-3.334 4.242-6.953 7.269-10.783 5.604-7.091 11.954-15.128 11.954-25.417s-6.351-18.326-11.954-25.417zm-11.769 41.534c-3.528 4.465-7.176 9.081-9.355 14.337-2.273 5.48-3.016 11.487-3.734 17.296-.871 7.046-1.693 13.701-5.023 17.031-3.331 3.33-9.987 4.152-17.034 5.023-5.81.718-11.816 1.46-17.298 3.733-5.256 2.179-9.872 5.826-14.337 9.354-5.679 4.485-11.042 8.723-16.121 8.723s-10.442-4.237-16.121-8.723c-4.465-3.527-9.081-7.175-14.337-9.354-.362-.15-1.618-.628-1.889-.712-4.957-1.724-10.26-2.385-15.41-3.021-7.047-.871-13.703-1.694-17.034-5.024-3.329-3.329-4.152-9.984-5.023-17.029-.718-5.81-1.46-11.815-3.733-17.297-2.18-5.256-5.827-9.872-9.355-14.337-4.485-5.678-8.723-11.04-8.723-16.117s4.237-10.439 8.723-16.117c3.528-4.465 7.176-9.081 9.355-14.337 2.273-5.48 3.016-11.487 3.733-17.296.871-7.046 1.694-13.701 5.024-17.031 3.331-3.33 9.987-4.152 17.034-5.023 5.81-.718 11.816-1.46 17.298-3.733 5.256-2.179 9.872-5.826 14.337-9.354 5.667-4.477 11.021-8.705 16.091-8.721.009 0 .019.001.028.001.01 0 .02-.001.03-.001 5.071.015 10.425 4.244 16.093 8.721 4.465 3.527 9.081 7.175 14.337 9.354 5.481 2.273 11.489 3.016 17.299 3.733 7.047.871 13.703 1.694 17.033 5.024s4.153 9.984 5.024 17.03c.718 5.809 1.46 11.815 3.733 17.296 2.18 5.256 5.827 9.872 9.355 14.337 4.485 5.678 8.723 11.04 8.723 16.117s-4.237 10.44-8.723 16.117z"></path><path d="m439.109 119.704-25.522-7.221-14.757-22.04c-1.763-2.632-4.705-4.202-7.872-4.202s-6.11 1.571-7.872 4.202l-14.757 22.04-25.524 7.222c-3.048.863-5.452 3.178-6.43 6.19s-.392 6.297 1.566 8.783l16.403 20.843-1.018 26.497c-.123 3.166 1.333 6.168 3.896 8.031 1.645 1.195 3.594 1.813 5.565 1.813 1.102 0 2.21-.193 3.274-.585l24.895-9.158 24.893 9.157c2.973 1.096 6.276.636 8.839-1.225s4.021-4.862 3.899-8.029l-1.018-26.502 16.404-20.843c1.958-2.489 2.543-5.772 1.564-8.784-.975-3.012-3.379-5.326-6.428-6.189zm-24.587 28.143c-1.386 1.764-2.103 3.97-2.018 6.219l.778 20.284-19.053-7.009c-2.111-.777-4.436-.776-6.543-.001l-19.055 7.01.779-20.291c.084-2.241-.634-4.447-2.023-6.217l-12.554-15.952 19.539-5.527c2.161-.613 4.04-1.979 5.289-3.845l11.295-16.87 11.294 16.868c1.25 1.867 3.129 3.233 5.294 3.848l19.535 5.526z"></path></g></svg>
+                                    </div>
+                                    <h4 class="fs-20 font-weight-semi-bold pt-3">500+ پروژه موفق</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 responsive-column-half">
+                                <div class="info-icon-box mb-3">
+                                    <div class="icon-element icon-element-md shadow-sm">
+                                        <svg class="svg-icon-color-2" width="32" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><g><path d="m499.5 422h-10v-304.92c0-20.678-16.822-37.5-37.5-37.5h-108.332v-27.962c0-28.462-23.156-51.618-51.618-51.618h-72.1c-28.462 0-51.618 23.156-51.618 51.618v27.962h-108.332c-20.678 0-37.5 16.822-37.5 37.5v304.92h-10c-6.893 0-12.5 5.607-12.5 12.5v34.549c0 23.683 19.268 42.951 42.951 42.951h426.098c23.683 0 42.951-19.268 42.951-42.951v-34.549c0-6.893-5.607-12.5-12.5-12.5zm-155.832-307.112h2.347c6.299 0 11.423 5.124 11.423 11.423 0 6.298-5.124 11.422-11.423 11.422h-2.347zm0 37.844h2.347c15.203.011 27.366-12.987 26.36-28.152h72.125v249.151h-18.64v-41.301c0-14.129-4.877-27.975-13.732-38.988-8.856-11.014-21.335-18.751-35.139-21.786l-67.199-14.761c-4.975-1.086-8.438-5.551-8.44-10.494v-12.896c25.347-15.384 42.318-43.248 42.318-75.002zm-144.678 120.228 6.441-1.415c6.113-1.344 11.335-4.877 14.948-9.642l24.143 17.74-15.434 15.434zm29.701 38.208-3.889 62.563h-123.662v-41.301c0-22 15.599-41.398 37.09-46.124l41.257-9.062 43.142 31.702c1.838 1.349 3.941 2.081 6.062 2.222zm57.691-64.029-30.382 22.325-30.382-22.325c.031-.624.058-5.717.033-6.388 9.461 3.502 19.686 5.419 30.35 5.419s20.888-1.917 30.35-5.419c-.013.671-.005 5.765.031 6.388zm-42.032 53.89 11.65-11.65 11.599 11.599 4.258 72.753h-32.027zm23.129-21.385 24.143-17.74c3.613 4.765 8.835 8.298 14.948 9.642l6.44 1.415-30.098 22.118zm21.894 29.3 43.14-31.701 41.256 9.062c21.492 4.726 37.091 24.124 37.091 46.124v41.302h-123.976l-3.662-62.561c2.151-.126 4.287-.857 6.151-2.226zm-106.041-194.309c10.817-.592 21.509-2.153 31.874-4.66 4.026-.974 6.501-5.027 5.527-9.054-.975-4.026-5.026-6.503-9.054-5.526-9.216 2.229-18.722 3.628-28.348 4.202v-47.979c.001-20.191 16.428-36.618 36.619-36.618h72.1c20.191 0 36.618 16.427 36.618 36.618v45.1c-6.201-2.706-12.011-6.201-17.336-10.485-7.358-5.922-13.503-13.088-18.26-21.298-1.673-2.89-4.521-4.86-7.814-5.407-3.288-.544-6.619.398-9.132 2.589-10.05 8.761-21.15 16.144-33.04 21.971-3.719 1.822-5.257 6.315-3.434 10.035 1.821 3.718 6.313 5.258 10.035 3.434 11.728-5.747 22.683-12.825 32.811-21.178 5.302 8.187 11.822 15.419 19.43 21.54 8.063 6.488 17.038 11.5 26.74 14.939v45.645c0 40.069-32.599 72.668-72.668 72.668s-72.668-32.599-72.668-72.668zm27.318 118.869v12.896c-.006 4.93-3.494 9.415-8.439 10.494l-67.201 14.761c-13.803 3.035-26.281 10.772-35.138 21.786-8.855 11.014-13.732 24.859-13.732 38.988v41.302h-18.64v-249.151h72.125c-1.022 15.115 11.132 28.186 26.36 28.152h2.347v5.77c0 31.754 16.971 59.619 42.318 75.002zm-56.087-107.193c0-6.299 5.124-11.423 11.423-11.423h2.347v22.845h-2.347c-6.299-.001-11.423-5.125-11.423-11.422zm342.437 342.738c0 15.412-12.539 27.951-27.951 27.951h-426.098c-15.412 0-27.951-12.539-27.951-27.951v-32.049h190.545v12.5c0 9.649 7.851 17.5 17.5 17.5h65.91c9.649 0 17.5-7.851 17.5-17.5v-12.5h72.043c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-340.998v-304.92c0-12.406 10.094-22.5 22.5-22.5h108.332v5.308h-2.347c-8.226 0-15.584 3.78-20.434 9.692h-81.551c-6.341 0-11.5 5.159-11.5 11.5v260.151c0 4.143 3.357 7.5 7.5 7.5h392c4.143 0 7.5-3.357 7.5-7.5v-260.151c0-6.341-5.159-11.5-11.5-11.5h-81.551c-4.85-5.913-12.208-9.692-20.434-9.692h-2.347v-5.308h108.332c12.406 0 22.5 10.094 22.5 22.5v304.92h-61.002c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h83.502zm-276.455-19.549v-12.5h70.91v12.5c0 1.379-1.121 2.5-2.5 2.5h-65.91c-1.379 0-2.5-1.121-2.5-2.5zm16.377-243.596c5.712 3.132 12.166 4.823 18.662 4.892 8.306.087 15.383-2.637 19.495-4.893 3.632-1.992 4.96-6.551 2.968-10.183s-6.549-4.961-10.183-2.968c-2.545 1.396-6.654 3.045-11.863 3.045-5.146 0-9.343-1.661-11.866-3.046-3.633-1.994-8.191-.661-10.183 2.97-1.991 3.633-.662 8.191 2.97 10.183zm-19.602-52.241c4.143 0 7.5-3.357 7.5-7.5v-15.472c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v15.472c0 4.143 3.358 7.5 7.5 7.5zm77.36 0c4.143 0 7.5-3.357 7.5-7.5v-15.472c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v15.472c0 4.143 3.357 7.5 7.5 7.5z"></path></g></svg>
+                                    </div>
+                                    <h4 class="fs-20 font-weight-semi-bold pt-3">55+ عنوان فعالیت</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 responsive-column-half">
+                                <div class="info-icon-box mb-3">
+                                    <div class="icon-element icon-element-md shadow-sm">
+                                        <svg class="svg-icon-color-3" width="32" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 490.667 490.667" xml:space="preserve">
                                     <g>
                                         <g>
-                                            <path
-                                                d="M240.135,0.05C144.085,0.036,57.277,57.289,19.472,145.586l-2.992,0.992l1.16,3.48
-                                    c-49.776,122.766,9.393,262.639,132.159,312.415c28.673,11.626,59.324,17.594,90.265,17.577
-                                    c132.548,0.02,240.016-107.416,240.036-239.964S372.684,0.069,240.135,0.05z M428.388,361.054l-12.324-12.316V320.05
-                                    c0.014-1.238-0.26-2.462-0.8-3.576l-31.2-62.312V224.05c0-2.674-1.335-5.172-3.56-6.656l-24-16
-                                    c-1.881-1.256-4.206-1.657-6.4-1.104l-29.392,7.344l-49.368-21.184l-6.792-47.584l18.824-18.816h40.408l13.6,20.44
-                                    c1.228,1.838,3.163,3.087,5.344,3.448l48,8c1.286,0.216,2.604,0.111,3.84-0.304l44.208-14.736
-                                    C475.855,208.053,471.889,293.634,428.388,361.054z M395.392,78.882l-13.008,8.672l-36.264-7.256l-23.528-7.832
-                                    c-1.44-0.489-2.99-0.551-4.464-0.176l-29.744,7.432l-13.04-4.344l9.664-19.328h27.056c1.241,0.001,2.465-0.286,3.576-0.84
-                                    l27.68-13.84C362.382,51.32,379.918,63.952,395.392,78.882z M152.44,33.914l19.2,12.8c0.944,0.628,2.01,1.048,3.128,1.232
-                                    l38.768,6.464l-3.784,11.32l-20.2,6.744c-1.809,0.602-3.344,1.83-4.328,3.464l-22.976,38.288l-36.904,22.144l-54.4,7.768
-                                    c-3.943,0.557-6.875,3.93-6.88,7.912v24c0,2.122,0.844,4.156,2.344,5.656l13.656,13.656v13.744l-33.28-22.192l-12.072-36.216
-                                    C57.68,98.218,99.777,56.458,152.44,33.914z M129.664,296.21l-36.16-7.24l-13.44-26.808v-18.8l29.808-29.808l11.032,22.072
-                                    c1.355,2.712,4.128,4.425,7.16,4.424h51.472l21.672,36.12c1.446,2.407,4.048,3.879,6.856,3.88h22.24l-5.6,28.056l-30.288,30.288
-                                    c-1.503,1.499-2.349,3.533-2.352,5.656v20l-28.8,21.6c-2.014,1.511-3.2,3.882-3.2,6.4v28.896l-9.952-3.296l-14.048-35.136V304.05
-                                    C136.065,300.248,133.389,296.97,129.664,296.21z M105.616,419.191C30.187,362.602-1.712,264.826,25.832,174.642l6.648,19.936
-                                    c0.56,1.687,1.666,3.14,3.144,4.128l39.88,26.584l-9.096,9.104c-1.5,1.5-2.344,3.534-2.344,5.656v24
-                                    c-0.001,1.241,0.286,2.465,0.84,3.576l16,32c1.108,2.21,3.175,3.784,5.6,4.264l33.6,6.712v73.448
-                                    c-0.001,1.016,0.192,2.024,0.568,2.968l16,40c0.876,2.185,2.67,3.874,4.904,4.616l24,8c0.802,0.272,1.642,0.412,2.488,0.416
-                                    c4.418,0,8-3.582,8-8v-36l28.8-21.6c2.014-1.511,3.2-3.882,3.2-6.4v-20.688l29.656-29.656c1.115-1.117,1.875-2.54,2.184-4.088
-                                    l8-40c0.866-4.333-1.944-8.547-6.277-9.413c-0.515-0.103-1.038-0.155-1.563-0.155h-27.472l-21.672-36.12
-                                    c-1.446-2.407-4.048-3.879-6.856-3.88h-51.056l-13.744-27.576c-1.151-2.302-3.339-3.91-5.88-4.32
-                                    c-2.54-0.439-5.133,0.399-6.936,2.24l-10.384,10.344V192.05c0-2.122-0.844-4.156-2.344-5.656l-13.656-13.656v-13.752l49.136-7.016
-                                    c1.055-0.153,2.07-0.515,2.984-1.064l40-24c1.122-0.674,2.062-1.614,2.736-2.736l22.48-37.464l21.192-7.072
-                                    c2.393-0.785,4.271-2.662,5.056-5.056l8-24c1.386-4.195-0.891-8.72-5.086-10.106c-0.387-0.128-0.784-0.226-1.186-0.294
-                                    l-46.304-7.72l-8.136-5.424c50.343-16.386,104.869-14.358,153.856,5.72l-14.616,7.296h-30.112c-3.047-0.017-5.838,1.699-7.2,4.424
-                                    l-16,32c-1.971,3.954-0.364,8.758,3.59,10.729c0.337,0.168,0.685,0.312,1.042,0.431l24,8c1.44,0.489,2.99,0.551,4.464,0.176
-                                    l29.744-7.432l21.792,7.256c0.312,0.112,0.633,0.198,0.96,0.256l40,8c2.08,0.424,4.244-0.002,6.008-1.184l18.208-12.144
-                                    c8.961,9.981,17.014,20.741,24.064,32.152l-39.36,13.12l-42.616-7.104l-14.08-21.12c-1.476-2.213-3.956-3.547-6.616-3.56h-48
-                                    c-2.122,0-4.156,0.844-5.656,2.344l-24,24c-1.782,1.781-2.621,4.298-2.264,6.792l8,56c0.403,2.769,2.223,5.126,4.8,6.216l56,24
-                                    c1.604,0.695,3.394,0.838,5.088,0.408l28.568-7.144l17.464,11.664v27.72c-0.014,1.238,0.26,2.462,0.8,3.576l31.2,62.312v30.112
-                                    c0,2.122,0.844,4.156,2.344,5.656l16.736,16.744C344.921,473.383,204.549,493.415,105.616,419.191z"
-                                            ></path>
-                                        </g>
-                                    </g>
-                                </svg>
-                        </div>
-                        <h4 class="counter__title counter text-color-3">54,252</h4>
-                        <p class="counter__meta">دنبال کنندگان خارجی</p>
-                    </div>
-                    <!-- end counter-item -->
-                </div>
-                <!-- end col-lg-3 -->
-                <div class="col-lg-3 responsive-column-half">
-                    <div class="counter-item">
-                        <div class="counter__icon icon-element mb-3 shadow-sm">
-                            <svg class="svg-icon-color-3" width="42" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 490.667 490.667" xml:space="preserve">
-                                    <g>
-                                        <g>
-                                            <path
-                                                d="M245.333,85.333c-41.173,0-74.667,33.493-74.667,74.667s33.493,74.667,74.667,74.667S320,201.173,320,160
+                                            <path d="M245.333,85.333c-41.173,0-74.667,33.493-74.667,74.667s33.493,74.667,74.667,74.667S320,201.173,320,160
                                                 C320,118.827,286.507,85.333,245.333,85.333z M245.333,213.333C215.936,213.333,192,189.397,192,160
-                                                c0-29.397,23.936-53.333,53.333-53.333s53.333,23.936,53.333,53.333S274.731,213.333,245.333,213.333z"
-                                            ></path>
+                                                c0-29.397,23.936-53.333,53.333-53.333s53.333,23.936,53.333,53.333S274.731,213.333,245.333,213.333z"></path>
                                         </g>
                                     </g>
-                                <g>
-                                    <g>
-                                        <path
-                                            d="M394.667,170.667c-29.397,0-53.333,23.936-53.333,53.333s23.936,53.333,53.333,53.333S448,253.397,448,224
+                                            <g>
+                                                <g>
+                                                    <path d="M394.667,170.667c-29.397,0-53.333,23.936-53.333,53.333s23.936,53.333,53.333,53.333S448,253.397,448,224
                                                 S424.064,170.667,394.667,170.667z M394.667,256c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32s32,14.357,32,32
-                                                C426.667,241.643,412.309,256,394.667,256z"
-                                        ></path>
-                                    </g>
-                                </g>
-                                <g>
-                                    <g>
-                                        <path
-                                            d="M97.515,170.667c-29.419,0-53.333,23.936-53.333,53.333s23.936,53.333,53.333,53.333s53.333-23.936,53.333-53.333
+                                                C426.667,241.643,412.309,256,394.667,256z"></path>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M97.515,170.667c-29.419,0-53.333,23.936-53.333,53.333s23.936,53.333,53.333,53.333s53.333-23.936,53.333-53.333
                                                 S126.933,170.667,97.515,170.667z M97.515,256c-17.643,0-32-14.357-32-32c0-17.643,14.357-32,32-32c17.643,0,32,14.357,32,32
-                                                C129.515,241.643,115.157,256,97.515,256z"
-                                        ></path>
-                                    </g>
-                                </g>
-                                <g>
-                                    <g>
-                                        <path
-                                            d="M245.333,256c-76.459,0-138.667,62.208-138.667,138.667c0,5.888,4.779,10.667,10.667,10.667S128,400.555,128,394.667
+                                                C129.515,241.643,115.157,256,97.515,256z"></path>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M245.333,256c-76.459,0-138.667,62.208-138.667,138.667c0,5.888,4.779,10.667,10.667,10.667S128,400.555,128,394.667
                                                 c0-64.704,52.629-117.333,117.333-117.333s117.333,52.629,117.333,117.333c0,5.888,4.779,10.667,10.667,10.667
-                                                c5.888,0,10.667-4.779,10.667-10.667C384,318.208,321.792,256,245.333,256z"
-                                        ></path>
-                                    </g>
-                                </g>
-                                <g>
-                                    <g>
-                                        <path
-                                            d="M394.667,298.667c-17.557,0-34.752,4.8-49.728,13.867c-5.013,3.072-6.635,9.621-3.584,14.656
+                                                c5.888,0,10.667-4.779,10.667-10.667C384,318.208,321.792,256,245.333,256z"></path>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M394.667,298.667c-17.557,0-34.752,4.8-49.728,13.867c-5.013,3.072-6.635,9.621-3.584,14.656
                                                 c3.093,5.035,9.621,6.635,14.656,3.584C367.637,323.712,380.992,320,394.667,320c41.173,0,74.667,33.493,74.667,74.667
-                                                c0,5.888,4.779,10.667,10.667,10.667c5.888,0,10.667-4.779,10.667-10.667C490.667,341.739,447.595,298.667,394.667,298.667z"
-                                        ></path>
-                                    </g>
-                                </g>
-                                <g>
-                                    <g>
-                                        <path
-                                            d="M145.707,312.512c-14.955-9.045-32.149-13.845-49.707-13.845c-52.928,0-96,43.072-96,96
+                                                c0,5.888,4.779,10.667,10.667,10.667c5.888,0,10.667-4.779,10.667-10.667C490.667,341.739,447.595,298.667,394.667,298.667z"></path>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M145.707,312.512c-14.955-9.045-32.149-13.845-49.707-13.845c-52.928,0-96,43.072-96,96
                                                 c0,5.888,4.779,10.667,10.667,10.667s10.667-4.779,10.667-10.667C21.333,353.493,54.827,320,96,320
-                                                c13.675,0,27.029,3.712,38.635,10.752c5.013,3.051,11.584,1.451,14.656-3.584C152.363,322.133,150.741,315.584,145.707,312.512z"
-                                        ></path>
-                                    </g>
-                                </g>
-                                </svg>
+                                                c13.675,0,27.029,3.712,38.635,10.752c5.013,3.051,11.584,1.451,14.656-3.584C152.363,322.133,150.741,315.584,145.707,312.512z"></path>
+                                                </g>
+                                            </g>
+                                    </svg>
+                                    </div>
+                                    <h4 class="fs-20 font-weight-semi-bold pt-3">7+ سال تجربه</h4>
+                                </div>
+                            </div>
                         </div>
-                        <h4 class="counter__title counter text-color-4">97,220</h4>
-                        <p class="counter__meta">دانش آموزان ثبت نام کردند</p>
-                    </div>
-                    <!-- end counter-item -->
-                </div>
-                <!-- end col-lg-3 -->
-                <div class="col-lg-3 responsive-column-half">
-                    <div class="counter-item">
-                        <div class="counter__icon icon-element mb-3 shadow-sm">
-                            <svg class="svg-icon-color-4" width="40" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                <g>
-                                    <path
-                                        d="m181.022 142.59-8.659 3.138c-13.364 4.846-23.334 16.536-26.021 30.517l-2.938 15.396c-1.466 7.626.53 15.436 5.479 21.425 4.951 5.995 12.251 9.433 20.025 9.433h75.057c7.714 0 14.977-3.393 19.927-9.309 4.946-5.911 7.004-13.65 5.646-21.233l-2.74-15.315c-2.539-14.201-12.542-26.081-26.108-31.004l-9.18-3.327v-13.53c0-.38-.037-.75-.092-1.115 6.697-6.818 10.533-16.115 10.533-25.627v-20.159c0-19.678-16.01-35.687-35.689-35.687s-35.692 16.009-35.692 35.687v20.787c0 9.778 4.032 18.705 10.515 25.188-.038.304-.063.611-.063.925zm71.008 36.692 2.74 15.317c.574 3.201-.295 6.468-2.384 8.964-2.092 2.5-5.162 3.935-8.423 3.935h-75.057c-3.285 0-6.369-1.452-8.461-3.985-2.088-2.528-2.931-5.823-2.311-9.05l2.938-15.396c1.693-8.812 7.979-16.183 16.4-19.236l5.672-2.055c.142.146.285.293.439.428 6.463 5.651 14.57 8.477 22.682 8.476 8.102 0 16.207-2.82 22.671-8.46.233-.203.447-.422.651-.65l5.983 2.169c8.554 3.102 14.86 10.59 16.46 19.543zm-66.46-97.402c0-11.406 9.281-20.687 20.689-20.687 9.628 0 17.718 6.62 20.015 15.54-.964.471-1.953.916-2.966 1.321-9.222 3.692-16.671 3.202-18.8 1.71-3.392-2.378-8.068-1.558-10.447 1.834-2.378 3.392-1.557 8.068 1.834 10.447 3.663 2.569 8.635 3.853 14.309 3.853 5.155 0 10.89-1.071 16.745-3.19v9.329c0 5.733-2.371 11.347-6.506 15.402-1.914 1.878-4.107 3.333-6.462 4.337-.165.063-.327.131-.486.205-2.419.957-5.003 1.438-7.644 1.369-11.184-.215-20.281-9.494-20.281-20.684zm19.993 56.469c.229.004.456.006.685.006 3.519 0 6.967-.529 10.261-1.544v11.999c-6.251 3.854-14.242 3.852-20.485-.006v-11.971c3.034.919 6.231 1.452 9.539 1.516z"
-                                    ></path>
-                                    <path d="m88.264 350.904h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z"></path>
-                                    <path d="m88.264 391.345h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z"></path>
-                                    <path d="m88.264 431.784h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z"></path>
-                                    <path d="m88.264 472.225h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z"></path>
-                                    <path d="m80.764 262.524c0 4.143 3.357 7.5 7.5 7.5h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.358-7.5 7.5z"></path>
-                                    <path d="m88.264 310.464h233.57c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-233.57c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5z"></path>
-                                    <path d="m60.569 350.932c4.158 0 7.529-3.37 7.529-7.528 0-4.157-3.371-7.528-7.529-7.528s-7.528 3.37-7.528 7.528 3.371 7.528 7.528 7.528z"></path>
-                                    <path d="m60.569 270.052c4.158 0 7.529-3.37 7.529-7.528s-3.371-7.528-7.529-7.528-7.528 3.37-7.528 7.528 3.371 7.528 7.528 7.528z"></path>
-                                    <path d="m60.569 310.492c4.158 0 7.529-3.37 7.529-7.528s-3.371-7.528-7.529-7.528-7.528 3.37-7.528 7.528 3.371 7.528 7.528 7.528z"></path>
-                                    <path d="m60.569 391.372c4.158 0 7.529-3.37 7.529-7.528s-3.371-7.528-7.529-7.528-7.528 3.37-7.528 7.528 3.371 7.528 7.528 7.528z"></path>
-                                    <path d="m60.569 431.813c4.158 0 7.529-3.37 7.529-7.528s-3.371-7.528-7.529-7.528-7.528 3.37-7.528 7.528c0 4.157 3.371 7.528 7.528 7.528z"></path>
-                                    <path d="m60.569 472.253c4.158 0 7.529-3.37 7.529-7.528 0-4.157-3.371-7.528-7.529-7.528s-7.528 3.37-7.528 7.528c0 4.157 3.371 7.528 7.528 7.528z"></path>
-                                    <path
-                                        d="m485.63 118.121c-3.026-3.83-5.886-7.449-7.269-10.783-1.492-3.599-2.08-8.354-2.702-13.39-1.091-8.822-2.327-18.821-9.305-25.798s-16.978-8.213-25.8-9.304c-5.037-.622-9.794-1.21-13.393-2.702-3.335-1.383-6.953-4.241-10.784-7.268-5.271-4.165-11.068-8.738-17.922-10.813v-2.269c.001-19.736-16.058-35.794-35.797-35.794h-312.444c-19.739 0-35.798 16.058-35.798 35.795v28.949c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-28.949c0-11.467 9.33-20.795 20.798-20.795h312.444c11.468 0 20.798 9.328 20.798 20.795v2.27c-6.852 2.076-12.647 6.647-17.918 10.812-3.831 3.026-7.449 5.885-10.783 7.268-3.599 1.491-8.356 2.079-13.393 2.702-8.822 1.09-18.821 2.326-25.8 9.303-6.979 6.978-8.215 16.977-9.306 25.799-.622 5.035-1.21 9.791-2.702 13.39-1.383 3.334-4.242 6.953-7.269 10.783-5.604 7.091-11.954 15.128-11.954 25.417s6.351 18.326 11.954 25.417c3.026 3.83 5.886 7.449 7.269 10.783 1.492 3.599 2.08 8.354 2.702 13.391 1.091 8.821 2.327 18.82 9.305 25.797 6.978 6.978 16.978 8.213 25.8 9.304 2.63.325 5.179.644 7.532 1.084v113.367c0 4.443 2.48 8.411 6.473 10.355 3.992 1.947 8.645 1.453 12.146-1.288l15.943-12.483v136.94c0 11.467-9.33 20.795-20.798 20.795h-312.443c-11.468 0-20.798-9.328-20.798-20.795v-378.435c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v378.434c0 19.737 16.059 35.795 35.798 35.795h312.444c19.739 0 35.798-16.058 35.798-35.795v-136.94l15.943 12.482c2.081 1.63 4.571 2.466 7.089 2.466 1.716 0 3.444-.389 5.064-1.178 3.994-1.944 6.476-5.912 6.476-10.354v-83.697c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v76.555l-19.937-15.609c-2.015-1.595-4.549-2.474-7.136-2.474s-5.121.879-7.104 2.448l-19.959 15.627v-98.625c.544.426 1.091.857 1.645 1.294 7.092 5.604 15.13 11.953 25.42 11.953 10.289 0 18.327-6.35 25.419-11.952 3.831-3.026 7.45-5.886 10.784-7.269 3.599-1.491 8.356-2.079 13.393-2.702 8.822-1.09 18.821-2.326 25.801-9.303 6.977-6.978 8.213-16.977 9.304-25.798.623-5.036 1.211-9.792 2.703-13.391 1.383-3.334 4.242-6.953 7.269-10.783 5.604-7.091 11.954-15.128 11.954-25.417s-6.351-18.326-11.954-25.417zm-11.769 41.534c-3.528 4.465-7.176 9.081-9.355 14.337-2.273 5.48-3.016 11.487-3.734 17.296-.871 7.046-1.693 13.701-5.023 17.031-3.331 3.33-9.987 4.152-17.034 5.023-5.81.718-11.816 1.46-17.298 3.733-5.256 2.179-9.872 5.826-14.337 9.354-5.679 4.485-11.042 8.723-16.121 8.723s-10.442-4.237-16.121-8.723c-4.465-3.527-9.081-7.175-14.337-9.354-.362-.15-1.618-.628-1.889-.712-4.957-1.724-10.26-2.385-15.41-3.021-7.047-.871-13.703-1.694-17.034-5.024-3.329-3.329-4.152-9.984-5.023-17.029-.718-5.81-1.46-11.815-3.733-17.297-2.18-5.256-5.827-9.872-9.355-14.337-4.485-5.678-8.723-11.04-8.723-16.117s4.237-10.439 8.723-16.117c3.528-4.465 7.176-9.081 9.355-14.337 2.273-5.48 3.016-11.487 3.733-17.296.871-7.046 1.694-13.701 5.024-17.031 3.331-3.33 9.987-4.152 17.034-5.023 5.81-.718 11.816-1.46 17.298-3.733 5.256-2.179 9.872-5.826 14.337-9.354 5.667-4.477 11.021-8.705 16.091-8.721.009 0 .019.001.028.001.01 0 .02-.001.03-.001 5.071.015 10.425 4.244 16.093 8.721 4.465 3.527 9.081 7.175 14.337 9.354 5.481 2.273 11.489 3.016 17.299 3.733 7.047.871 13.703 1.694 17.033 5.024s4.153 9.984 5.024 17.03c.718 5.809 1.46 11.815 3.733 17.296 2.18 5.256 5.827 9.872 9.355 14.337 4.485 5.678 8.723 11.04 8.723 16.117s-4.237 10.44-8.723 16.117z"
-                                    ></path>
-                                    <path
-                                        d="m439.109 119.704-25.522-7.221-14.757-22.04c-1.763-2.632-4.705-4.202-7.872-4.202s-6.11 1.571-7.872 4.202l-14.757 22.04-25.524 7.222c-3.048.863-5.452 3.178-6.43 6.19s-.392 6.297 1.566 8.783l16.403 20.843-1.018 26.497c-.123 3.166 1.333 6.168 3.896 8.031 1.645 1.195 3.594 1.813 5.565 1.813 1.102 0 2.21-.193 3.274-.585l24.895-9.158 24.893 9.157c2.973 1.096 6.276.636 8.839-1.225s4.021-4.862 3.899-8.029l-1.018-26.502 16.404-20.843c1.958-2.489 2.543-5.772 1.564-8.784-.975-3.012-3.379-5.326-6.428-6.189zm-24.587 28.143c-1.386 1.764-2.103 3.97-2.018 6.219l.778 20.284-19.053-7.009c-2.111-.777-4.436-.776-6.543-.001l-19.055 7.01.779-20.291c.084-2.241-.634-4.447-2.023-6.217l-12.554-15.952 19.539-5.527c2.161-.613 4.04-1.979 5.289-3.845l11.295-16.87 11.294 16.868c1.25 1.867 3.129 3.233 5.294 3.848l19.535 5.526z"
-                                    ></path>
-                                </g>
-                            </svg>
+                        <div class="btn-box">
+                            <a href="about.html" class="btn theme-btn">بیشتر بدانید <i class="la la-arrow-left icon ml-1"></i></a>
                         </div>
-                        <h4 class="counter__title counter text-color-5">20</h4>
-                        <p class="counter__meta">سال ها تجربه</p>
                     </div>
-                    <!-- end counter-item -->
                 </div>
-                <!-- end col-lg-3 -->
+                <div class="col-lg-5 ml-auto">
+                    <div class="generic-img-box">
+                        <img src="site/images/img-loading.png" data-src="site/images/img13.jpg" alt="درباره تصویر" class="img__item img__item-1 lazy">
+                        <img src="site/images/img-loading.png" data-src="site/images/img14.jpg" alt="درباره تصویر" class="img__item img__item-2 lazy">
+                    </div>
+                </div>
             </div>
-            <!-- end row -->
         </div>
-        <!-- end container -->
     </section>
 
     <section class="cat-area section-padding img-bg">
@@ -1046,11 +738,11 @@
         <div class="container">
             <div class="cta-content-wrap text-center position-relative">
                 <div class="section-heading">
-                    <h2 class="section__title fs-40 lh-60 text-white">چرا اینقدر دیر؟ یکی از 2000 دوره آموزشی با کیفیت بالا را از کارشناسان برجسته جهان امروز شروع کنید!</h2>
+                    <h2 class="section__title fs-20 lh-60 text-white">برای هرگونه سوال و یا درخواست با مشاورین <strong>آژانس تخصصی تبلیغات بستا</strong> تماس حاصل نمایید.<br> کارشناسان بستا در ساعات اداری پاسخگوی شما می باشند.</h2>
                 </div>
                 <!-- end section-heading -->
                 <div class="cat-btn-box mt-35px">
-                    <a href="sign-up.html" class="btn theme-btn theme-btn-white">شروع کنید <i class="la la-arrow-left icon ml-1"></i></a>
+                    <a href="tel:+989128119938" class="btn theme-btn theme-btn-white">تماس باما <i class="la la-arrow-left icon ml-1"></i></a>
                 </div>
                 <!-- end cat-btn-box -->
             </div>
@@ -1059,144 +751,6 @@
         <!-- end container -->
     </section>
 
-    <section class="testimonial-area bg-gray section--padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="testimonial-content-wrap pb-4">
-                        <div class="section-heading">
-                            <h2 class="section__title mb-3">از جامعه ادوکا</h2>
-                            <p class="section__desc">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
-                            </p>
-                        </div>
-                        <!-- end section-heading -->
-                        <div class="btn-box mt-28px">
-                            <a href="about.html" class="btn theme-btn">همه را کاوش کنید <i class="la la-arrow-left icon ml-1"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end col-lg-4 -->
-                <div class="col-lg-8">
-                    <h3 class="fs-22 font-weight-medium pb-3">بیش از 30 میلیون نفر در حال یادگیری در ادوکا هستند</h3>
-                    <div class="testimonial-carousel-2 owl-action-styled owl-action-styled-2">
-                        <div class="card card-item">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    من واقعاً این سایت را به همه دوستانم و هر کسی که مایل به یادگیری مهارت های واقعی است توصیه می کنم. این پلتفرم به شما این امکان را می دهد که در زمان مناسب از متخصصان بیاموزید.
-                                </p>
-                                <div class="media media-card align-items-center pt-4">
-                                    <div class="media-img avatar-md">
-                                        <img src="images/small-avatar-1.jpg" alt="آواتار گواهی" class="rounded-full" />
-                                    </div>
-                                    <div class="media-body">
-                                        <h5>کوین مارتین</h5>
-                                        <div class="d-flex align-items-center pt-1">
-                                            <span class="lh-18 pr-2">دانشجو</span>
-                                            <div class="review-stars">
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end media -->
-                            </div>
-                            <!-- end card-body -->
-                        </div>
-                        <!-- end card -->
-                        <div class="card card-item">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    من واقعاً این سایت را به همه دوستانم و هر کسی که مایل به یادگیری مهارت های واقعی است توصیه می کنم. این پلتفرم به شما این امکان را می دهد که در زمان مناسب از متخصصان بیاموزید.
-                                </p>
-                                <div class="media media-card align-items-center pt-4">
-                                    <div class="media-img avatar-md">
-                                        <img src="images/small-avatar-2.jpg" alt="آواتار گواهی" class="rounded-full" />
-                                    </div>
-                                    <div class="media-body">
-                                        <h5>الیور بدوز</h5>
-                                        <div class="d-flex align-items-center pt-1">
-                                            <span class="lh-18 pr-2">دانشجو</span>
-                                            <div class="review-stars">
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end media -->
-                            </div>
-                            <!-- end card-body -->
-                        </div>
-                        <!-- end card -->
-                        <div class="card card-item">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    من واقعاً این سایت را به همه دوستانم و هر کسی که مایل به یادگیری مهارت های واقعی است توصیه می کنم. این پلتفرم به شما این امکان را می دهد که در زمان مناسب از متخصصان بیاموزید.
-                                </p>
-                                <div class="media media-card align-items-center pt-4">
-                                    <div class="media-img avatar-md">
-                                        <img src="images/small-avatar-3.jpg" alt="آواتار گواهی" class="rounded-full" />
-                                    </div>
-                                    <div class="media-body">
-                                        <h5>جکوب هالاک</h5>
-                                        <div class="d-flex align-items-center pt-1">
-                                            <span class="lh-18 pr-2">دانشجو</span>
-                                            <div class="review-stars">
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                                <span class="la la-star"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end media -->
-                            </div>
-                            <!-- end card-body -->
-                        </div>
-                        <!-- end card -->
-                    </div>
-                    <!-- end testimonial-carousel-2 -->
-                </div>
-                <!-- end col-lg-8 -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </section>
 
-    <section class="client-logo-area section-padding position-relative overflow-hidden text-center">
-        <span class="stroke-shape stroke-shape-1"></span>
-        <span class="stroke-shape stroke-shape-2"></span>
-        <span class="stroke-shape stroke-shape-3"></span>
-        <span class="stroke-shape stroke-shape-4"></span>
-        <span class="stroke-shape stroke-shape-5"></span>
-        <span class="stroke-shape stroke-shape-6"></span>
-        <div class="container">
-            <div class="section-heading">
-                <h2 class="section__title mb-3">مورد اعتماد شرکت ها در هر اندازه</h2>
-                <p class="section__desc">
-                    با دوره&zwnj;های آنلاین، برنامه&zwnj;ها <br />
-                    و مدارک تحصیلی که توسط دانشگاه&zwnj;های پیشرو، مدارس بازرگانی ایجاد شده&zwnj;اند، در هر کجا که هستید به یادگیری با کیفیت بالا دسترسی پیدا کنید.
-                </p>
-            </div>
-            <!-- end section-heading -->
-            <div class="client-logo-carousel mt-40px">
-                @foreach($customers as $customer)
-                    <a href="#" class="client-logo-item" style="width:100px"><img src="{{asset('storage/'.$customer->file_link)}}" alt="{{$customer->name}}"/></a>
-                @endforeach
-            </div>
-            <!-- end client-logo-carousel -->
-        </div>
-        <!-- end container -->
-    </section>
+
 @endsection
