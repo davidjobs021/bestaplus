@@ -400,14 +400,12 @@
                             </div>
                             <!-- end package-price-box -->
                             <ul class="generic-list-item">
-                                <li><i class="la la-check text-success mr-2"></i> 3 دوره کامل</li>
-                                <li><i class="la la-check text-success mr-2"></i> ویژگی های محدود</li>
-                                <li><i class="la la-check text-success mr-2"></i> پشتیبانی کاربر محدود</li>
-                                <li><i class="la la-check text-success mr-2"></i> تخفیف موجود است</li>
-                                <li><i class="la la-check text-success mr-2"></i> دسترسی رایگان مادام العمر</li>
-                                <li><i class="la la-close text-success mr-2"></i> پیشنهاد دوره محدود</li>
-                                <li><i class="la la-close text-danger mr-2"></i> گزینه های ارتقا</li>
-                                <li><i class="la la-close text-danger mr-2"></i> زمان 9 روز</li>
+                                <li><i class="la la-check text-success mr-2"></i>طراحی لوگو و هویت بصری برند</li>
+                                <li><i class="la la-check text-success mr-2"></i>طراحی و تدوین برند بوک</li>
+                                <li><i class="la la-check text-success mr-2"></i>طراحی و بسته بندی محصول</li>
+                                <li><i class="la la-check text-success mr-2"></i>طراحی بروشور ؛ تراکت ؛ کاتالوگ</li>
+                                <li><i class="la la-check text-success mr-2"></i>طراحی تبلیغات محیطی ( استند، بنر، بیلبورد)</li>
+                                <li><i class="la la-close text-success mr-2"></i>طراحی و تولید محتوای شبکه های اجتماعی</li>
                             </ul>
                             <div class="price-btn-box pt-30px">
                                 <a href="#" class="btn theme-btn w-100">برای ثبت سفارش کلیک کنید</a>
@@ -424,7 +422,7 @@
 {{--                                <h4 class="fs-20 font-weight-semi-bold">طرح حق بیمه</h4>--}}
                             </div>
                             <ul class="generic-list-item">
-                                <li><i class="la la-check text-success mr-2"></i> 3 دوره کامل</li>
+                                <li><i class="la la-check text-success mr-2"></i>چاپ (کارت ویزیت، سربرگ، پاکت نامه و..)</li>
                                 <li><i class="la la-check text-success mr-2"></i> ویژگی های محدود</li>
                                 <li><i class="la la-check text-success mr-2"></i> پشتیبانی کاربر محدود</li>
                                 <li><i class="la la-check text-success mr-2"></i> تخفیف موجود است</li>
@@ -750,7 +748,5 @@
         </div>
         <!-- end container -->
     </section>
-
-
 
 @endsection

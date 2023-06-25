@@ -98,7 +98,7 @@
                     <div class="col-lg-2">
                         <div class="logo-box">
                             <a href="{{route('/')}}" class="logo">
-                                <img src="{{asset($logos['file_link'])}}" alt="{{$logos['title']}}" style="width: 55%">
+                                <img src="{{asset('storage/'.$logos['file_link'])}}" alt="{{$logos['title']}}" style="width: 55%">
                             </a>
                             <div class="user-btn-action d-flex">
                                 <div class="search-menu-toggle icon-element icon-element-sm shadow-sm mr-2" data-toggle="tooltip" data-placement="top" title="جستجو کردن">
@@ -199,7 +199,7 @@
             <div class="col-lg-3 responsive-column-half">
                 <div class="footer-item">
                     <a href="{{route('/')}}">
-                        <img src="{{asset($logos['file_link'])}}" alt="{{$logos['title']}}" class="footer__logo" style="width: 30%">
+                        <img src="{{asset('storage/'.$logos['file_link'])}}" alt="{{$logos['title']}}" class="footer__logo" style="width: 30%">
                     </a>
                     <ul class="generic-list-item pt-4 ">
                         <li> آژانس تخصصی تبلیغات بستا</li>

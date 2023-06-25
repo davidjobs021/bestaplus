@@ -65,8 +65,8 @@
                                                 <input type="file" name="file_link" id="file_link" class="dropify" data-height="200">
                                             </div>
                                         </div>
-                                        <div class="col-md-12">
-                                            <div class="form-group" style="margin-top: 65px;">
+                                        <div class="col-md-12" style="margin-top: 150px;">
+                                            <div class="form-group" >
                                                 <p class="mg-b-10">توضیحات</p>
                                                 <textarea name="text" id="editor" cols="30" rows="5" class="form-control" ></textarea>
                                             </div>

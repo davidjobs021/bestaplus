@@ -64,14 +64,14 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-3" >
                                                 <div class="form-group" style="position: absolute;">
                                                     <p class="mg-b-10">تصویر برند</p>
                                                     <input type="file" id="file_link" name="file_link" class="dropify" data-default-file="{{asset('storage/'.$customers->file_link)}}" data-height="200">
                                                 </div>
                                             </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group" style="margin-top: 65px;">
+                                            <div class="col-md-12"  style="margin-top: 150px;">
+                                                <div class="form-group">
                                                     <p class="mg-b-10"> توضیحات</p>
                                                     <textarea name="text" id="editor" cols="30" rows="5" class="form-control" >{{$customers->text}}</textarea>
                                                 </div>
