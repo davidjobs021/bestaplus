@@ -84,7 +84,7 @@ class IndexController extends Controller
         $logos              = Logo::select('title' , 'file_link')->first();
         $submenus           = Submenu::select('title' , 'slug' , 'menu_id')->whereStatus(4)->get();
         $slides             = Slide::select('title1' , 'file_link')->whereMenu_id(7)->whereStatus(4)->first();
-        $customers              = Customer::whereStatus(4)->get();
+        $customers          = Customer::whereStatus(4)->orderBy('priority')->get();
 
         return view('Site.customer')
             ->with(compact('menus'))

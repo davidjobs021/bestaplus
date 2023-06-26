@@ -17,7 +17,7 @@ class CustomerController extends Controller
 {
     public function index(Request $request)
     {
-        $customers         =   Customer::all();
+        $customers      =   Customer::all();
         $menupanels     =   Menu_panel::whereStatus(4)->get();
         $submenupanels  =   Submenu_panel::whereStatus(4)->get();
 
@@ -31,6 +31,9 @@ class CustomerController extends Controller
 
                 ->editColumn('id', function ($data) {
                     return ($data->id);
+                })
+                ->editColumn('priority', function ($data) {
+                    return ($data->priority);
                 })
                 ->editColumn('name', function ($data) {
                     return ($data->name);
@@ -76,12 +79,14 @@ class CustomerController extends Controller
 
     public function store(Request $request)
     {
-
+        $priority = Customer::OrderBy('priority' , 'DESC')->first('priority');
+        $priority = $priority+1;
         try{
             $customers = new Customer();
             $customers->name        = $request->input('name');
             $customers->description = $request->input('text');
             $customers->status      = $request->input('status');
+            $customers->priority    = $priority;
             $customers->user_id     = Auth::user()->id;
 
             if ($request->file('file_link')) {
@@ -134,41 +139,43 @@ class CustomerController extends Controller
 
     public function update(Request $request)
     {
-        $customer = Customer::whereId($request->input('customer_id'))->first();
-        $customer->name        = $request->input('name');
-        $customer->description = $request->input('text');
-        $customer->status      = $request->input('status');
-
-        if ($request->hasfile('file_link')) {
-            $file             = $request->file('file_link');
-            $imagePath        ="public/customers/images";
-            $imageName        = Str::random(30).".".$file->clientExtension();
-            $customer->file_link = 'customers/images/'.$imageName;
-            $file->storeAs($imagePath, $imageName);
-        }
-
-        $result = $customer->save();
-
-        try{
-
-
-            if ($result == true) {
-                $success = true;
-                $flag    = 'success';
-                $subject = 'عملیات موفق';
-                $message = 'اطلاعات با موفقیت ثبت شد';
-            }
-            else {
+        try {
+            $priority = Customer::wherePriority($request->input('priority'))->get();
+            if($priority){
                 $success = false;
                 $flag    = 'error';
-                $subject = 'عملیات نا موفق';
-                $message = 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید';
+                $subject = 'مقدار اولویت تکراری می باشد';
+                $message = 'اطلاعات ثبت نشد،لطفا بعدا مجدد تلاش نمایید ';
+            }else {
+                $customer = Customer::whereId($request->input('customer_id'))->first();
+                $customer->name = $request->input('name');
+                $customer->description = $request->input('text');
+                $customer->status = $request->input('status');
+                $customer->priority = $request->input('priority');
+                if ($request->hasfile('file_link')) {
+                    $file = $request->file('file_link');
+                    $imagePath = "public/customers/images";
+                    $imageName = Str::random(30) . "." . $file->clientExtension();
+                    $customer->file_link = 'customers/images/' . $imageName;
+                    $file->storeAs($imagePath, $imageName);
+                }
+                $result = $customer->save();
+
+                if ($result == true) {
+                    $success = true;
+                    $flag = 'success';
+                    $subject = 'عملیات موفق';
+                    $message = 'اطلاعات با موفقیت ثبت شد';
+                } else {
+                    $success = false;
+                    $flag = 'error';
+                    $subject = 'عملیات نا موفق';
+                    $message = 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید';
+                }
             }
-
         } catch (Exception $e) {
-
             $success = false;
-            $flag    = 'error';
+            $flag = 'error';
             $subject = 'خطا در ارتباط با سرور';
             //$message = strchr($e);
             $message = 'اطلاعات ثبت نشد،لطفا بعدا مجدد تلاش نمایید ';

@@ -52,6 +52,7 @@
                                         <thead>
                                         <tr>
                                             <th class="wd-10p"> سریال </th>
+                                            <th class="wd-10p"> اولویت </th>
                                             <th class="wd-10p"> تصویر </th>
                                             <th class="wd-10p"> نام </th>
                                             <th class="wd-10p"> معرفی </th>
@@ -105,12 +106,13 @@
                 serverSide: true,
                 ajax: "{{route(request()->segment(2).'.'.'index')}}",
                 columns: [
-                    {data: 'id'        , name: 'id'},
-                    {data: 'file_link' , name: 'file_link'},
-                    {data: 'name'      , name: 'name'},
+                    {data: 'id'         , name: 'id'},
+                    {data: 'priority'   , name: 'priority'},
+                    {data: 'file_link'  , name: 'file_link'},
+                    {data: 'name'       , name: 'name'},
                     {data: 'description', name: 'description'},
-                    {data: 'status'    , name: 'status'},
-                    {data: 'action'    , name: 'action', orderable: true, searchable: true},
+                    {data: 'status'     , name: 'status'},
+                    {data: 'action'     , name: 'action', orderable: true, searchable: true},
                 ]
             });
 
