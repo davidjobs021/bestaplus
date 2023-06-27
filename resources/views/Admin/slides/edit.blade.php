@@ -39,6 +39,44 @@
                                 </div>
                             </div>
                             <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group text-center">
+                                            <img src="{{asset('storage/'.$slides->file_link)}}" width="200px" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group text-center">
+                                            <button type="button" id="submit" data-toggle="modal" data-target="#myModal" class="btn ripple btn-outline-danger btn-icon"><i class="fe fe-trash-2"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
                                     <form action="{{route(request()->segment(2).'.'.'update', $slides->id)}}" method="post" enctype="multipart/form-data">
                                         <div class="row row-sm">
                                             {{csrf_field()}}
@@ -71,12 +109,7 @@
                                                     <input type="file" id="file_link" name="file_link" class="dropify" data-height="200">
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
-                                                <div class="form-group" style="position: absolute;">
-                                                    <p class="mg-b-10">تصویر اسلاید</p>
-                                                    <img src="{{asset('storage/'.$slides->file_link)}}" width="200px" alt="">
-                                                </div>
-                                            </div>
+
                                             <div class="col-md-3">
                                                 <div class="form-group">
                                                     <p class="mg-b-10">انتخاب وضعیت نمایش</p>
@@ -98,11 +131,12 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
-                                                <div class="form-group" style="margin-top: 65px;">
+                                                <div class="form-group" style="margin-top: 100px;">
                                                     <p class="mg-b-10"> توضیحات</p>
                                                     <textarea name="text" id="editor" cols="30" rows="5" class="form-control" >{{$slides->text}}</textarea>
                                                 </div>
                                             </div>
+
                                             <div  class="col-lg-12 mg-b-10 text-center">
                                                 <div class="form-group">
                                                     <button type="button" id="submit" class="btn btn-info  btn-lg m-r-20">ذخیره اطلاعات</button>
