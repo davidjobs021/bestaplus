@@ -12,23 +12,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 @endsection
 @section('main')
-    <div class="main-content side-content pt-0">
-        <div class="container-fluid">
-            <div class="inner-body">
-                <div class="page-header">
-                    <div>
-                        <h2 class="main-content-title tx-24 mg-b-5">مدیریت نمونه کارها</h2>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{url('admin/panel')}}">صفحه اصلی</a></li>
-                            <li class="breadcrumb-item"><a href="{{url(request()->segment(1).'/'.request()->segment(2))}}">مدیریت نمونه کارها</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">ویرایش نمونه کارها</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="main-content side-content pt-0">
+    @include('sweetalert::alert')
+    <div class="main-content side-content pt-20">
         <div class="container-fluid">
             <div class="inner-body">
                 <div class="row row-sm">
@@ -37,6 +22,7 @@
                             <div class="card-body" style="background-color: #0000000a;border-radius: 10px 10px 0px 0px;">
                                 <div class="row">
                                     <div class="col"><a href="{{url()->current()}}" class="btn btn-link btn-xs">ویرایش اطلاعات نمونه کارها</a></div>
+                                    <div class="col text-left"><a href="{{url(request()->segment(1).'/'.request()->segment(2))}}" class="btn btn-link btn-xs">بازگشت</a></div>
                                 </div>
                             </div>
                             <div class="card-body">
@@ -67,6 +53,28 @@
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="form-group">
+                                                    <p class="mg-b-10">انتخاب منو نمایش</p>
+                                                    <select name="menu_id" id="menu_id" class="form-control select-lg select2">
+                                                        <option value="">انتخاب منو نمایش</option>
+                                                        @foreach($menus as $menu)
+                                                            <option value="{{$menu->id}}" {{$menu->id == $portfolios->menu_id ? 'selected' : ''}}>{{$menu->title}}</option>
+                                                        @endforeach
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <p class="mg-b-10">انتخاب زیرمنو نمایش</p>
+                                                    <select name="submenu_id" id="submenu_id" class="form-control select-lg select2">
+                                                        <option value="">انتخاب زیرمنو نمایش</option>
+                                                        @foreach($submenus as $submenu)
+                                                            <option value="{{$submenu->id}}" {{$submenu->id == $portfolios->submenu_id ? 'selected' : ''}}>{{$submenu->title}}</option>
+                                                        @endforeach
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
                                                     <p class="mg-b-10">انتخاب وضعیت نمایش</p>
                                                     <select name="status" id="status" class="form-control select-lg select2">
                                                         <option value="0" {{$portfolios->status == 0 ? 'selected' : '' }}>عدم نمایش</option>
@@ -75,20 +83,36 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-3">
-                                                <div class="form-group" style="position: relative;">
+                                                <div class="form-group">
+                                                    <p class="mg-b-10">ویدئو</p>
+                                                    <input type="file" name="video" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
                                                     <p class="mg-b-10">تصویر نمونه کار</p>
                                                     <input type="file" id="file_link" name="file_link" class="dropify" data-default-file="{{asset('storage/'.$portfolios->file_link)}}" data-height="200">
                                                 </div>
                                             </div>
+                                            @if($portfolios->videos)
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <p class="mg-b-10">ویدئو نمونه کار</p>
+                                                    <video controls preload="metadata" poster="{{asset('storage/'.$portfolios->file_link)}}" style="width: 200px">
+                                                        <source src="{{asset('storage/'.$portfolios->videos)}}" type="video/mp4" />
+                                                    </video>
+                                                </div>
+                                            </div>
+                                            @endif
                                             <div class="col-md-12">
-                                                <div class="form-group" style="margin-top: 65px;">
+                                                <div class="form-group">
                                                     <p class="mg-b-10"> توضیحات</p>
                                                     <textarea name="text" id="editor" cols="30" rows="5" class="form-control" >{{$portfolios->description}}</textarea>
                                                 </div>
                                             </div>
                                             <div  class="col-lg-12 mg-b-10 text-center">
                                                 <div class="form-group">
-                                                    <button type="button" id="submit" class="btn btn-info  btn-lg m-r-20">ذخیره اطلاعات</button>
+                                                    <button type="submit" class="btn btn-info  btn-lg m-r-20">ذخیره اطلاعات</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -110,52 +134,42 @@
     <script src="{{asset('admin/assets/plugins/jquery-ui/ui/widgets/datepicker.js')}}"></script>
     <script src="{{asset('admin/assets/plugins/bootstrap-daterangepicker/moment.min.js')}}"></script>
     <script src="{{asset('admin/assets/js/advanced-form-elements.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/sumoselect/jquery.sumoselect.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
     <script src="{{asset('admin/assets/plugins/fileuploads/js/fileupload.js')}}"></script>
     <script src="{{asset('admin/assets/plugins/fileuploads/js/file-upload.js')}}"></script>
     <script src="{{asset('admin/assets/plugins/fancyuploder/jquery.ui.widget.js')}}"></script>
     <script src="{{asset('admin/assets/plugins/fancyuploder/jquery.fileupload.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/fancyuploder/jquery.iframe-transport.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/fancyuploder/jquery.fancy-fileupload.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/fancyuploder/fancy-uploader.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/telephoneinput/telephoneinput.js')}}"></script>
-    <script src="{{asset('admin/assets/plugins/telephoneinput/inttelephoneinput.js')}}"></script>
     <script src="{{asset('admin/assets/plugins/ckeditor/ckeditor.js')}}"></script>
     <script>
         CKEDITOR.replace( 'editor' );
     </script>
     <script>
-        jQuery(document).ready(function(){
-            jQuery('#submit').click(function(e){
-                e.preventDefault();
-                $.ajaxSetup({
-                    headers: {
-                        'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
-                    }
-                });
-                jQuery.ajax({
-                    url: "{{route(request()->segment(2).'.'.'update', $portfolios->id)}}",
-                    method: 'PATCH',
+        $(function(){
+            $('#menu_id').change(function(){
+                $("#submenu_id option").remove();
+                var id = $('#menu_id').val();
+
+                $.ajax({
+                    url : '{{ route( 'getsubmenu' ) }}',
                     data: {
-                        "_token"        : "{{ csrf_token() }}",
-                        text            : CKEDITOR.instances.editor.getData(),
-                        title            : jQuery('#title').val(),
-                        status          : jQuery('#status').val(),
-                        customer_id     : jQuery('#customer_id').val(),
-                        Portfolio_id     : jQuery('#Portfolio_id').val(),
-                        file_link       : jQuery('#file_link')[0].files[0],
+                        "_token": "{{ csrf_token() }}",
+                        "id": id
                     },
-                    success: function (data) {
-                        swal(data.subject, data.message, data.flag);
+                    type: 'post',
+                    dataType: 'json',
+                    success: function( result )
+                    {
+                        $.each( result, function(k, v) {
+                            $('#submenu_id').append($('<option>', {value:k, text:v}));
+                        });
                     },
-                    error: function (data) {
-                        swal(data.subject, data.message, data.flag);
+                    error: function()
+                    {
+                        //handle errors
+                        alert('ارور، ارتباط با سرور به طور موقت قطع می باشد');
                     }
                 });
             });
         });
     </script>
-
 @endsection
 

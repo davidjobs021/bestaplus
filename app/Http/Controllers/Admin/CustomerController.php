@@ -10,7 +10,9 @@ use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
+use RealRashid\SweetAlert\Facades\Alert;
 use Yajra\DataTables\Facades\DataTables;
 
 class CustomerController extends Controller
@@ -140,18 +142,22 @@ class CustomerController extends Controller
     public function update(Request $request)
     {
         try {
-            $priority = Customer::wherePriority($request->input('priority'))->get();
-            if($priority){
-                $success = false;
-                $flag    = 'error';
-                $subject = 'مقدار اولویت تکراری می باشد';
-                $message = 'اطلاعات ثبت نشد،لطفا بعدا مجدد تلاش نمایید ';
-            }else {
+            if ($request->input('priority') != $request->input('priority_id'))
+            {
+                $priority = Customer::wherePriority($request->input('priority'))->get();
+            }
+            else
+            {
+                $priority = null;
+            }
+            if ($priority) {
+                Alert::error('مقدار اولویت تکراری می باشد', 'اطلاعات ثبت نشد،لطفا بعدا مجدد تلاش نمایید')->autoclose(3000);
+            } else {
                 $customer = Customer::whereId($request->input('customer_id'))->first();
-                $customer->name = $request->input('name');
-                $customer->description = $request->input('text');
-                $customer->status = $request->input('status');
-                $customer->priority = $request->input('priority');
+                $customer->name                 = $request->input('name');
+                $customer->description          = $request->input('text');
+                $customer->status               = $request->input('status');
+                $customer->priority             = $request->input('priority');
                 if ($request->hasfile('file_link')) {
                     $file = $request->file('file_link');
                     $imagePath = "public/customers/images";
@@ -160,27 +166,17 @@ class CustomerController extends Controller
                     $file->storeAs($imagePath, $imageName);
                 }
                 $result = $customer->save();
-
-                if ($result == true) {
-                    $success = true;
-                    $flag = 'success';
-                    $subject = 'عملیات موفق';
-                    $message = 'اطلاعات با موفقیت ثبت شد';
-                } else {
-                    $success = false;
-                    $flag = 'error';
-                    $subject = 'عملیات نا موفق';
-                    $message = 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید';
-                }
+            }
+            if ($result == true) {
+                Alert::success('عملیات موفق', 'اطلاعات با موفقیت ثبت شد')->autoclose(3000);
+            }
+            else {
+                Alert::error('عملیات نا موفق', 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید')->autoclose(3000);
             }
         } catch (Exception $e) {
-            $success = false;
-            $flag = 'error';
-            $subject = 'خطا در ارتباط با سرور';
-            //$message = strchr($e);
-            $message = 'اطلاعات ثبت نشد،لطفا بعدا مجدد تلاش نمایید ';
+            Alert::error('خطا در ارتباط با سرور', 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید')->autoclose(3000);
         }
-        return response()->json(['success'=>$success , 'subject' => $subject, 'flag' => $flag, 'message' => $message]);
+        return Redirect::back();
     }
 
     public function deletecustomers(Request $request)

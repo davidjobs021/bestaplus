@@ -35,7 +35,7 @@ class IndexController extends Controller
         $submenus           = Submenu::select('title' , 'slug' , 'menu_id')->whereStatus(4)->get();
         $slides             = Slide::select('title1' , 'file_link')->whereMenu_id(9)->whereStatus(4)->first();
         $portfolios         = Portfolio::join('menus' , 'portfolios.menu_id' , '=' , 'menus.id')
-            ->select('menus.service_name' , 'portfolios.file_link' , 'portfolios.id' , 'portfolios.title' , 'portfolios.description')
+            ->select('menus.service_name' , 'portfolios.file_link' , 'portfolios.videos' , 'portfolios.id' , 'portfolios.title' , 'portfolios.description')
             ->where('portfolios.Status' , 4)->get();
 
         return view('Site.portfolio')

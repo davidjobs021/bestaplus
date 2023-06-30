@@ -6,18 +6,9 @@
     <link href="{{asset('admin/assets/plugins/gallery/gallery.css')}}" rel="stylesheet" />
 @endsection
 @section('main')
-    <div class="main-content side-content pt-0">
+    <div class="main-content side-content pt-20">
         <div class="container-fluid">
             <div class="inner-body">
-                <div class="page-header">
-                    <div>
-                        <h2 class="main-content-title tx-24 mg-b-5">مدیریت پروفایل کاربر</h2>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{url('admin/panel')}}">صفحه اصلی</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">مدیریت پروفایل کاربر</li>
-                        </ol>
-                    </div>
-                </div>
                 <div class="row square">
                     <div class="col-lg-12 col-md-12">
                         <div class="card custom-card">

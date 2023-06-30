@@ -11,7 +11,9 @@ use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
+use RealRashid\SweetAlert\Facades\Alert;
 use Yajra\DataTables\Facades\DataTables;
 
 class SlideController extends Controller
@@ -154,49 +156,37 @@ class SlideController extends Controller
 
     public function update(Request $request)
     {
-        $slide = Slide::whereId($request->input('slide_id'))->first();
-        $slide->title1      = $request->input('title1');
-        $slide->title2      = $request->input('title2');
-        $slide->title3      = $request->input('title3');
-        $slide->menu_id     = $request->input('menu_id');
-        $slide->text        = $request->input('text');
-        $slide->status      = $request->input('status');
-
-        if ($request->hasfile('file_link')) {
-            $file             = $request->file('file_link');
-            $imagePath        ="public/slides";
-            $imageName        = Str::random(30).".".$file->clientExtension();
-            $slide->file_link = 'slides/'.$imageName;
-            $file->storeAs($imagePath, $imageName);
-        }
-
-        $result = $slide->save();
-
         try{
+            $slide = Slide::whereId($request->input('slide_id'))->first();
+            $slide->title1      = $request->input('title1');
+            $slide->title2      = $request->input('title2');
+            $slide->title3      = $request->input('title3');
+            $slide->menu_id     = $request->input('menu_id');
+            $slide->text        = $request->input('text');
+            $slide->status      = $request->input('status');
 
+            if ($request->hasfile('file_link')) {
+                $file             = $request->file('file_link');
+                $imagePath        ="public/slides";
+                $imageName        = Str::random(30).".".$file->clientExtension();
+                $slide->file_link = 'slides/'.$imageName;
+                $file->storeAs($imagePath, $imageName);
+            }
+
+            $result = $slide->save();
 
             if ($result == true) {
-                $success = true;
-                $flag    = 'success';
-                $subject = 'عملیات موفق';
-                $message = 'اطلاعات با موفقیت ثبت شد';
+                Alert::success('عملیات موفق', 'اطلاعات با موفقیت ثبت شد')->autoclose(3000);
             }
             else {
-            $success = false;
-            $flag    = 'error';
-            $subject = 'عملیات نا موفق';
-            $message = 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید';
+                Alert::error('عملیات نا موفق', 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید')->autoclose(3000);
             }
 
         } catch (Exception $e) {
-
-        $success = false;
-        $flag    = 'error';
-        $subject = 'خطا در ارتباط با سرور';
-            //$message = strchr($e);
-        $message = 'اطلاعات ثبت نشد،لطفا بعدا مجدد تلاش نمایید ';
+            Alert::error('خطا در ارتباط با سرور', 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید')->autoclose(3000);
         }
-        return response()->json(['success'=>$success , 'subject' => $subject, 'flag' => $flag, 'message' => $message]);
+
+        return Redirect::back();
     }
 
     public function deleteslide(Request $request)

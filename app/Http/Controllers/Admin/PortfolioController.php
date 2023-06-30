@@ -7,11 +7,15 @@ use App\Models\Dashboard\Customer;
 use App\Models\Dashboard\Menu_panel;
 use App\Models\Dashboard\Portfolio;
 use App\Models\Dashboard\Submenu_panel;
+use App\Models\Menu;
+use App\Models\Submenu;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
+use RealRashid\SweetAlert\Facades\Alert;
 use Yajra\DataTables\Facades\DataTables;
 
 class PortfolioController extends Controller
@@ -51,7 +55,11 @@ class PortfolioController extends Controller
                     return '<img src="'.asset('storage/'.$data->file_link).'"  width="100" class="img-rounded" align="center" />';
                 })
                 ->addColumn('videos', function ($data) {
-                    return '<video controls width="100" <source src="'.asset('storage/'.$data->videos).'" type="video/mp4"></video>';
+                    if($data->videos) {
+                        return '<video controls width="100" <source src="' . asset('storage/' . $data->videos) . '" type="video/mp4"></video>';
+                    }else{
+                        return '';
+                    }
                 })
                 ->addColumn('action', function ($data) {
                     $actionBtn = '<a href="' . route('portfolio-manage.edit', $data->id) . '" class="btn ripple btn-outline-info btn-icon" style="float: right;margin: 0 5px;"><i class="fe fe-edit-2"></i></a>
@@ -60,7 +68,7 @@ class PortfolioController extends Controller
                     return $actionBtn;
                 })
 
-                ->rawColumns(['action' , 'file_link'])
+                ->rawColumns(['action' , 'file_link' , 'videos'])
                 ->make(true);
         }
 
@@ -72,18 +80,23 @@ class PortfolioController extends Controller
     {
         $customers      =   Customer::select('id' , 'name')->get();
         $menupanels     =   Menu_panel::whereStatus(4)->get();
+        $menus          =   Menu::whereStatus(4)->get();
+        $submenus       =   Submenu::whereStatus(4)->get();
         $submenupanels  =   Submenu_panel::whereStatus(4)->get();
 
         return view('Admin.portfolios.create')
-            ->with(compact(['menupanels' , 'submenupanels','customers']));
+            ->with(compact(['menupanels' , 'submenupanels','customers' , 'menus' , 'submenus']));
     }
 
     public function store(Request $request)
     {
         try{
             $portfolios = new Portfolio();
-            $portfolios->title        = $request->input('title');
+            $portfolios->title       = $request->input('title');
+            $portfolios->tags        = $request->input('title');
             $portfolios->customer_id = $request->input('customer_id');
+            $portfolios->menu_id     = $request->input('menu_id');
+            $portfolios->submenu_id  = $request->input('submenu_id');
             $portfolios->description = $request->input('text');
             $portfolios->status      = $request->input('status');
             $portfolios->user_id     = Auth::user()->id;
@@ -126,23 +139,26 @@ class PortfolioController extends Controller
 
     public function edit($id)
     {
-        $portfolios      =   Portfolio::whereId($id)->first();
+        $portfolios     =   Portfolio::whereId($id)->first();
         $customers      =   Customer::select('id' , 'name')->get();
         $menupanels     =   Menu_panel::whereStatus(4)->get();
         $submenupanels  =   Submenu_panel::whereStatus(4)->get();
+        $menus          =   Menu::whereStatus(4)->get();
+        $submenus       =   Submenu::whereStatus(4)->get();
 
         return view('Admin.portfolios.edit')
-            ->with(compact(['menupanels' , 'submenupanels'  , 'portfolios' , 'customers']));
+            ->with(compact(['menupanels' , 'submenupanels'  , 'portfolios' , 'customers', 'menus' , 'submenus']));
 
     }
 
     public function update(Request $request)
     {
-
         try{
             $portfolios = Portfolio::whereId($request->input('Portfolio_id'))->first();
-            $portfolios->title        = $request->input('title');
+            $portfolios->title       = $request->input('title');
             $portfolios->customer_id = $request->input('customer_id');
+            $portfolios->menu_id     = $request->input('menu_id');
+            $portfolios->submenu_id  = $request->input('submenu_id');
             $portfolios->description = $request->input('text');
             $portfolios->status      = $request->input('status');
 
@@ -154,30 +170,27 @@ class PortfolioController extends Controller
                 $file->storeAs($imagePath, $imageName);
             }
 
+            if ($request->hasfile('video')) {
+                $file             = $request->file('video');
+                $imagePath        ="public/portfolios/videos";
+                $imageName        = Str::random(30).".".$file->clientExtension();
+                $portfolios->videos = 'portfolios/videos/'.$imageName;
+                $file->storeAs($imagePath, $imageName);
+            }
+
             $result = $portfolios->save();
 
             if ($result == true) {
-                $success = true;
-                $flag    = 'success';
-                $subject = 'عملیات موفق';
-                $message = 'اطلاعات با موفقیت ثبت شد';
+                Alert::success('عملیات موفق', 'اطلاعات با موفقیت ثبت شد')->autoclose(3000);
             }
             else {
-                $success = false;
-                $flag    = 'error';
-                $subject = 'عملیات نا موفق';
-                $message = 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید';
+                Alert::error('عملیات نا موفق', 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید')->autoclose(3000);
             }
 
         } catch (Exception $e) {
-
-            $success = false;
-            $flag    = 'error';
-            $subject = 'خطا در ارتباط با سرور';
-            //$message = strchr($e);
-            $message = 'اطلاعات ثبت نشد،لطفا بعدا مجدد تلاش نمایید ';
+            Alert::error('خطا در ارتباط با سرور', 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید')->autoclose(3000);
         }
-        return response()->json(['success'=>$success , 'subject' => $subject, 'flag' => $flag, 'message' => $message]);
+        return Redirect::back();
     }
 
     public function deleteportfolios(Request $request)

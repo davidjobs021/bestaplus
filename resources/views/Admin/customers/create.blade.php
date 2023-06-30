@@ -10,23 +10,8 @@
     <link href="{{asset('admin/assets/css-rtl/colors/default.css')}}" rel="stylesheet">
 @endsection
 @section('main')
-    <div class="main-content side-content pt-0">
-        <div class="container-fluid">
-            <div class="inner-body">
-                <div class="page-header">
-                    <div>
-                        <h2 class="main-content-title tx-24 mg-b-5">مدیریت مشتریان</h2>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{url('admin/panel')}}">صفحه اصلی</a></li>
-                            <li class="breadcrumb-item"><a href="{{url(request()->segment(1).'/'.request()->segment(2))}}">مدیریت مشتریان</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">ایجاد مشتریان</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="main-content side-content pt-0">
+
+    <div class="main-content side-content pt-20">
         <div class="container-fluid">
             <div class="inner-body">
                 <div class="row row-sm">

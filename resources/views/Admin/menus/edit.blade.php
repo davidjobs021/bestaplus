@@ -9,23 +9,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 @endsection
 @section('main')
-    <div class="main-content side-content pt-0">
-        <div class="container-fluid">
-            <div class="inner-body">
-                <div class="page-header">
-                    <div>
-                        <h2 class="main-content-title tx-24 mg-b-5">مدیریت  منو سایت</h2>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{url('admin/panel')}}">صفحه اصلی</a></li>
-                            <li class="breadcrumb-item"><a href="{{url(request()->segment(1).'/'.request()->segment(2))}}"> مدیریت   منو سایت</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">ویرایش  منو سایت</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="main-content side-content pt-0">
+
+    <div class="main-content side-content pt-20">
         <div class="container-fluid">
             <div class="inner-body">
                 <div class="row row-sm">
@@ -34,6 +19,7 @@
                             <div class="card-body" style="background-color: #0000000a;border-radius: 10px 10px 0px 0px;">
                                 <div class="row">
                                     <div class="col"><a href="{{url()->current()}}" class="btn btn-link btn-xs">ویرایش اطلاعات منو سایت</a></div>
+                                    <div class="col text-left"><a href="{{url(request()->segment(1).'/'.request()->segment(2))}}" class="btn btn-link btn-xs">بازگشت</a></div>
                                 </div>
                             </div>
                             <div class="card-body">

@@ -5,7 +5,7 @@
         <div class="overlay" @if ($slides) style="background-image: url({{asset('storage/'.$slides['file_link'])}})" @endif ></div>
         <div class="container">
             <div class="breadcrumb-content d-flex flex-wrap align-items-center justify-content-between">
-                
+
                 <ul class="generic-list-item generic-list-item-white generic-list-item-arrow d-flex flex-wrap align-items-center">
                     <li><a href="{{url('/')}}">صفحه اصلی</a></li>
                     <li>{{request()->segment(1)}}</li>
@@ -41,12 +41,22 @@
                         @foreach($portfolios as $portfo)
                             <div class="generic-portfolio-item col-lg-4 {{$portfo->service_name}} all">
                                 <div class="generic-portfolio-content">
-                                    <a class="portfolio-link" href="{{asset('storage/'.$portfo->file_link)}}" data-fancybox="gallery" data-caption="{{$portfo->description}}">
+                                    @if($portfo->videos)
+                                        <a class="portfolio-link" href="{{asset('storage/'.$portfo->videos)}}" data-fancybox="gallery" data-caption="{{$portfo->description}}">
+                                            <img src="{{asset('storage/'.$portfo->file_link)}}" alt="{{$portfo->title}}" />
+                                            <div class="icon-element icon-element-md">
+                                                <i class="la la-play"></i>
+                                            </div>
+                                        </a>
+                                        @else
+                                        <a class="portfolio-link" href="{{asset('storage/'.$portfo->file_link)}}" data-fancybox="gallery" data-caption="{{$portfo->description}}">
                                         <img src="{{asset('storage/'.$portfo->file_link)}}" alt="{{$portfo->title}}" />
                                         <div class="icon-element icon-element-md">
                                             <i class="la la-plus"></i>
                                         </div>
-                                    </a>
+                                        </a>
+                                        @endif
+
                                 </div>
                             </div>
                         @endforeach

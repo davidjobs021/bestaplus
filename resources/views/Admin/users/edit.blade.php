@@ -8,23 +8,7 @@
     <link href="{{asset('admin/assets/css-rtl/colors/default.css')}}" rel="stylesheet">
 @endsection
 @section('main')
-    <div class="main-content side-content pt-0">
-        <div class="container-fluid">
-            <div class="inner-body">
-                <div class="page-header">
-                    <div>
-                        <h2 class="main-content-title tx-24 mg-b-5">مدیریت کاربران</h2>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{url('admin/panel')}}">صفحه اصلی</a></li>
-                            <li class="breadcrumb-item"><a href="{{url(request()->segment(1).'/'.request()->segment(2))}}"> مدیریت کاربران</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">ویرایش کاربران</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="main-content side-content pt-0">
+    <div class="main-content side-content pt-20">
         <div class="container-fluid">
             <div class="inner-body">
                 <div class="row row-sm">
@@ -33,11 +17,12 @@
                             <div class="card-body" style="background-color: #0000000a;border-radius: 10px 10px 0px 0px;">
                                 <div class="row">
                                     <div class="col"><a href="{{url()->current()}}" class="btn btn-link btn-xs">ویرایش اطلاعات کاربر </a></div>
+                                    <div class="col text-left"><a href="{{url(request()->segment(1).'/'.request()->segment(2))}}" class="btn btn-link btn-xs">بازگشت</a></div>
                                 </div>
                             </div>
                             @foreach($users as $user)
                                 <div class="card-body">
-                                    <form action="{{ route('users.update', $user->id)}}" method="POST">
+                                    <form action="{{route(request()->segment(2).'.'.'update', $user->id)}}" method="POST">
                                         {{csrf_field()}}
                                         {{ method_field('PATCH') }}
                                         <div class="row row-sm">
@@ -132,7 +117,7 @@
                     }
                 });
                 jQuery.ajax({
-                    url: "{{ route('users.update' , $user->id) }}",
+                    url: "{{route(request()->segment(2).'.'.'update', $user->id)}}",
                     method: 'PATCH',
                     data: {
                         "_token": "{{ csrf_token() }}",

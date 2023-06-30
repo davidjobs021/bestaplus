@@ -10,23 +10,7 @@
     <link href="{{asset('admin/assets/css-rtl/colors/default.css')}}" rel="stylesheet">
 @endsection
 @section('main')
-    <div class="main-content side-content pt-0">
-        <div class="container-fluid">
-            <div class="inner-body">
-                <div class="page-header">
-                    <div>
-                        <h2 class="main-content-title tx-24 mg-b-5">مدیریت نمونه کار</h2>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{url('admin/panel')}}">صفحه اصلی</a></li>
-                            <li class="breadcrumb-item"><a href="{{url(request()->segment(1).'/'.request()->segment(2))}}">مدیریت نمونه کار</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">ایجاد نمونه کار</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="main-content side-content pt-0">
+    <div class="main-content side-content pt-20">
         <div class="container-fluid">
             <div class="inner-body">
                 <div class="row row-sm">
@@ -35,6 +19,7 @@
                             <div class="card-body" style="background-color: #0000000a;border-radius: 10px 10px 0px 0px;">
                                 <div class="row">
                                     <div class="col"><a href="{{url()->current()}}" class="btn btn-link btn-xs">ورود اطلاعات نمونه کار</a></div>
+                                    <div class="col text-left"><a href="{{url(request()->segment(1).'/'.request()->segment(2))}}" class="btn btn-link btn-xs">بازگشت</a></div>
                                 </div>
                             </div>
                             <div class="card-body">
@@ -63,6 +48,28 @@
                                         </div>
                                         <div class="col-md-3">
                                             <div class="form-group">
+                                                <p class="mg-b-10">انتخاب منو نمایش</p>
+                                                <select name="menu_id" id="menu_id" class="form-control select-lg select2">
+                                                    <option value="">انتخاب منو نمایش</option>
+                                                    @foreach($menus as $menu)
+                                                        <option value="{{$menu->id}}">{{$menu->title}}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <p class="mg-b-10">انتخاب زیرمنو نمایش</p>
+                                                <select name="submenu_id" id="submenu_id" class="form-control select-lg select2">
+                                                    <option value="">انتخاب زیرمنو نمایش</option>
+                                                    @foreach($submenus as $submenu)
+                                                        <option value="{{$submenu->id}}">{{$submenu->title}}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
                                                 <p class="mg-b-10">نمایش/عدم نمایش</p>
                                                 <select name="status" id="status" class="form-control select-lg select2">
                                                     <option value="4" >نمایش</option>
@@ -71,8 +78,14 @@
                                             </div>
                                         </div>
                                         <div class="col-md-3">
+                                            <div class="form-group">
+                                                <p class="mg-b-10">ویدئو</p>
+                                                <input type="file" name="videos" id="videos" class="form-control" >
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
                                             <div class="form-group" style="position: relative;">
-                                                <p class="mg-b-10">تصویر نمونه کار</p>
+                                                <p class="mg-b-10">تصویر </p>
                                                 <input type="file" name="file_link" id="file_link" class="dropify" data-height="200">
                                             </div>
                                         </div>
@@ -118,6 +131,35 @@
 
     </script>
     <script>
+        $(function(){
+            $('#menu_id').change(function(){
+                $("#submenu_id option").remove();
+                var id = $('#menu_id').val();
+
+                $.ajax({
+                    url : '{{ route( 'getsubmenu' ) }}',
+                    data: {
+                        "_token": "{{ csrf_token() }}",
+                        "id": id
+                    },
+                    type: 'post',
+                    dataType: 'json',
+                    success: function( result )
+                    {
+                        $.each( result, function(k, v) {
+                            $('#submenu_id').append($('<option>', {value:k, text:v}));
+                        });
+                    },
+                    error: function()
+                    {
+                        //handle errors
+                        alert('ارور، ارتباط با سرور به طور موقت قطع می باشد');
+                    }
+                });
+            });
+        });
+    </script>
+    <script>
         jQuery(document).ready(function(){
             jQuery('#submit').click(function(e){
                 e.preventDefault();
@@ -133,18 +175,24 @@
 
 
                 let    _token       = jQuery('input[name="_token"]').val();
-                let    title         = jQuery('#title').val();
+                let    title        = jQuery('#title').val();
                 let    customer_id  = jQuery('#customer_id').val();
                 let    status       = jQuery('#status').val();
+                let    menu_id      = jQuery('#menu_id').val();
+                let    submenu_id   = jQuery('#submenu_id').val();
                 let    file_link    = jQuery('#file_link')[0].files[0];
+                let    videos       = jQuery('#videos')[0].files[0];
 
                 let formData = new FormData();
                 formData.append('title'       , title);
-                formData.append('status'     , status);
-                formData.append('text'       , text);
-                formData.append('customer_id', customer_id);
-                formData.append('file_link'  , file_link);
-                formData.append('_token'     , _token);
+                formData.append('status'      , status);
+                formData.append('text'        , text);
+                formData.append('menu_id'     , menu_id);
+                formData.append('submenu_id'  , submenu_id);
+                formData.append('customer_id' , customer_id);
+                formData.append('file_link'   , file_link);
+                formData.append('videos'      , videos);
+                formData.append('_token'      , _token);
 
                 swal({
                         title: "Are you sure to delete this  of ?",

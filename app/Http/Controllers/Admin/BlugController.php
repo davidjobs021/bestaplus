@@ -10,7 +10,9 @@ use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Str;
+use RealRashid\SweetAlert\Facades\Alert;
 use Yajra\DataTables\Facades\DataTables;
 
 class BlugController extends Controller
@@ -148,27 +150,16 @@ class BlugController extends Controller
             $result = $blugs->save();
 
             if ($result == true) {
-                $success = true;
-                $flag    = 'success';
-                $subject = 'عملیات موفق';
-                $message = 'اطلاعات با موفقیت ثبت شد';
+                Alert::success('عملیات موفق', 'اطلاعات با موفقیت ثبت شد')->autoclose(3000);
             }
             else {
-                $success = false;
-                $flag    = 'error';
-                $subject = 'عملیات نا موفق';
-                $message = 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید';
+                Alert::error('عملیات نا موفق', 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید')->autoclose(3000);
             }
 
         } catch (Exception $e) {
-
-            $success = false;
-            $flag    = 'error';
-            $subject = 'خطا در ارتباط با سرور';
-            //$message = strchr($e);
-            $message = 'اطلاعات ثبت نشد،لطفا بعدا مجدد تلاش نمایید ';
+            Alert::error('خطا در ارتباط با سرور', 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید')->autoclose(3000);
         }
-        return response()->json(['success'=>$success , 'subject' => $subject, 'flag' => $flag, 'message' => $message]);
+        return Redirect::back();
     }
 
     public function deleteblugs(Request $request)

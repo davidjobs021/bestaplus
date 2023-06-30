@@ -7,19 +7,9 @@
 @endsection
 @section('main')
 
-    <div class="main-content side-content pt-0">
+    <div class="main-content side-content pt-20">
         <div class="container-fluid">
             <div class="inner-body">
-                <div class="page-header">
-                    <div>
-                        <h2 class="main-content-title tx-24 mg-b-5">مدیریت منو سایت</h2>
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{url('admin/panel')}}">صفحه اصلی</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">مدیریت منو سایت</li>
-                        </ol>
-                    </div>
-                </div>
-
                 <div class="row row-sm">
                     <div class="col-lg-12">
                         <div class="card custom-card overflow-hidden">
