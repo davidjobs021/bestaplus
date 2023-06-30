@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Jobs\UploadFile;
 use App\Models\Dashboard\Customer;
 use App\Models\Dashboard\Menu_panel;
 use App\Models\Dashboard\Portfolio;
@@ -90,51 +91,105 @@ class PortfolioController extends Controller
 
     public function store(Request $request)
     {
-        try{
-            $portfolios = new Portfolio();
-            $portfolios->title       = $request->input('title');
-            $portfolios->tags        = $request->input('title');
-            $portfolios->customer_id = $request->input('customer_id');
-            $portfolios->menu_id     = $request->input('menu_id');
-            $portfolios->submenu_id  = $request->input('submenu_id');
-            $portfolios->description = $request->input('text');
-            $portfolios->status      = $request->input('status');
-            $portfolios->user_id     = Auth::user()->id;
+//        $validatedData = $request->validate([
+//            'title'         => 'required',
+//            'customer_id'   => 'required',
+//            'menu_id'       => 'required',
+//            'submenu_id'    => 'required',
+//            'status'        => 'required',
+//            'file_link'     => 'nullable|image',
+//            'videos'        => 'nullable|file|mimetypes:video/mp4,video/quicktime',
+//        ]);
 
-            if ($request->file('file_link')) {
 
-                $file       = $request->file('file_link');
-                $imagePath  ="public/portfolios/images";
-                $imageName  = Str::random(30).".".$file->clientExtension();
-                $portfolios->file_link = 'portfolios/images/'.$imageName;
-                $file->storeAs($imagePath, $imageName);
+                $imagefile      = $request->file('file_link');
+                $imagePath      ="public/portfolios/images";
+                $imageName      = Str::random(30).".".$imagefile->clientExtension();
 
-            }
-            $result = $portfolios->save();
+                $videofile      = $request->file('videos');
+                $videoPath      ="public/portfolios/videos";
+                $videoName      = Str::random(30).".".$videofile->clientExtension();
 
-            if ($result == true) {
-                $success = true;
-                $flag    = 'success';
-                $subject = 'عملیات موفق';
-                $message = 'اطلاعات با موفقیت ثبت شد';
-            }
-            else {
-                $success = false;
-                $flag    = 'error';
-                $subject = 'عملیات نا موفق';
-                $message = 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید';
-            }
 
-        } catch (Exception $e) {
+                if ($request->hasFile('file_link')) {
+                    $file_link = $imagefile->storeAs($imagePath, $imageName);
+                }
+                if ($request->hasFile('videos')) {
+                    $videos = $videofile->storeAs($videoPath, $videoName);
+                }
 
-            $success = false;
-            $flag    = 'error';
-            $subject = 'خطا در ارتباط با سرور';
-            //$message = strchr($e);
-            $message = 'اطلاعات ثبت نشد،لطفا بعدا مجدد تلاش نمایید ';
-        }
+        $data = [
+                'title'          => $request->input('title'),
+                'customer_id'    => $request->input('customer_id'),
+                'menu_id'        => $request->input('menu_id'),
+                'submenu_id'     => $request->input('submenu_id'),
+                'text'           => $request->input('text'),
+                'status'         => $request->input('status'),
+                'user'           => Auth::user()->id
+        ];
+        UploadFile::dispatch($data , $file_link , $videos);
+
+        $success = true;
+        $flag    = 'success';
+        $subject = 'عملیات موفق';
+        $message = 'اطلاعات با موفقیت ثبت شد';
 
         return response()->json(['success'=>$success , 'subject' => $subject, 'flag' => $flag, 'message' => $message]);
+
+//        try{
+//            $portfolios = new Portfolio();
+//            $portfolios->title       = $request->input('title');
+//            $portfolios->tags        = $request->input('title');
+//            $portfolios->customer_id = $request->input('customer_id');
+//            $portfolios->menu_id     = $request->input('menu_id');
+//            $portfolios->submenu_id  = $request->input('submenu_id');
+//            $portfolios->description = $request->input('text');
+//            $portfolios->status      = $request->input('status');
+//            $portfolios->user_id     = Auth::user()->id;
+//
+//            if ($request->file('file_link')) {
+//
+//                $file       = $request->file('file_link');
+//                $imagePath  ="public/portfolios/images";
+//                $imageName  = Str::random(30).".".$file->clientExtension();
+//                $portfolios->file_link = 'portfolios/images/'.$imageName;
+//                $file->storeAs($imagePath, $imageName);
+//
+//            }
+//
+//            if ($request->hasfile('video')) {
+//                $file             = $request->file('video');
+//                $imagePath        ="public/portfolios/videos";
+//                $imageName        = Str::random(30).".".$file->clientExtension();
+//                $portfolios->videos = 'portfolios/videos/'.$imageName;
+//                $file->storeAs($imagePath, $imageName);
+//            }
+//
+//            $result = $portfolios->save();
+//
+//            if ($result == true) {
+//                $success = true;
+//                $flag    = 'success';
+//                $subject = 'عملیات موفق';
+//                $message = 'اطلاعات با موفقیت ثبت شد';
+//            }
+//            else {
+//                $success = false;
+//                $flag    = 'error';
+//                $subject = 'عملیات نا موفق';
+//                $message = 'اطلاعات ثبت نشد، لطفا مجددا تلاش نمایید';
+//            }
+//
+//        } catch (Exception $e) {
+//
+//            $success = false;
+//            $flag    = 'error';
+//            $subject = 'خطا در ارتباط با سرور';
+//            //$message = strchr($e);
+//            $message = 'اطلاعات ثبت نشد،لطفا بعدا مجدد تلاش نمایید ';
+//        }
+//return  Redirect::back();
+        //return response()->json(['success'=>$success , 'subject' => $subject, 'flag' => $flag, 'message' => $message]);
     }
 
     public function edit($id)

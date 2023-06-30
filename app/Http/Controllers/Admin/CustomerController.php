@@ -82,7 +82,9 @@ class CustomerController extends Controller
     public function store(Request $request)
     {
         $priority = Customer::OrderBy('priority' , 'DESC')->first('priority');
-        $priority = $priority+1;
+
+        $priority = $priority->priority + 1;
+
         try{
             $customers = new Customer();
             $customers->name        = $request->input('name');

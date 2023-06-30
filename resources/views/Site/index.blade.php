@@ -2,22 +2,23 @@
 @section('main')
 
     <section class="hero-area position-relative hero-area-3">
-        <div class="hero-slider-item" style="background-image: url({{asset('storage/'.$slides['file_link'])}})">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7">
-                        <div class="hero-content">
-                            <div class="section-heading">
-                                <h1 class="section__title text-white fs-45 lh-55 pb-3">آژانس تخصصی تبلیغات بستا</h1>
-                                <p class="section__desc text-white pt-4 pb-2">اولین قدم برای موفقیت در کسب و کار، داشتن <strong>هویت بصری</strong> برای معرفیتونه!</p>
-                                <p class="section__desc text-white pb-2">دومین قدم برای موفقیت در کسب و کار، داشتن <strong>تبلیغ موثر</strong> برای مشتریتونه!</p>
-                                <p class="section__desc text-white pb-2">سومین قدم برای موفقیت در کسب و کار، داشتن <strong>بستری مناسب</strong> برای فروشتونه!</p>
-                                <h2 class="section__title text-white fs-30 lh-55 pt-3">ما برای دیده شدن کسب و کار شما تلاش می کنیم</h2>
-                            </div>
+        <div class="hero-slider-item" style="background-image: url({{asset('storage/'.$slides['file_link'])}});height:770px;position:relative;background-position-y: -90px;filter: blur(4px) brightness(0.5);"></div>
+        <div class="container" style="position: absolute;z-index: 9;top: 180px;margin: 0 auto;width: 100%;">
+            <div class="row">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-7">
+                    <div class="hero-content"style="background-color: #00000047;padding: 20px;border-radius: 15px;">
+                        <div class="section-heading">
+                            <h1 class="section__title text-white fs-36 lh-55 pb-3">آژانس تخصصی تبلیغات بستا</h1>
+                            <p class="section__desc text-white fs-15 pt-4 pb-2">اولین قدم برای موفقیت در کسب و کار، داشتن <strong>هویت بصری</strong> برای معرفیتونه!</p>
+                            <p class="section__desc text-white fs-15 pb-2">دومین قدم برای موفقیت در کسب و کار، داشتن <strong>تبلیغ موثر</strong> برای مشتریتونه!</p>
+                            <p class="section__desc text-white fs-15 pb-2">سومین قدم برای موفقیت در کسب و کار، داشتن <strong>بستری مناسب</strong> برای فروشتونه!</p>
+                            <h2 class="section__title text-white fs-26 lh-55 pt-3">ما برای دیده شدن کسب و کار شما تلاش می کنیم</h2>
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                    </div>
+                </div>
+                <div class="col-lg-3">
                 </div>
             </div>
         </div>
@@ -53,7 +54,7 @@
                 <div class="col-lg-4 responsive-column-half">
                     <div class="flip-box">
                         <div class="flip-box-front">
-                            <img src="site/images/img-loading.png" data-src="site/images/img1.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="{{asset('site/images/img1.jpg')}}" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <h3 class="flip-title mb-1">طراحی و توسعه وبسایت</h3>
@@ -61,7 +62,7 @@
                             </a>
                         </div>
                         <div class="flip-box-back">
-                            <img src="site/images/img-loading.png" data-src="site/images/img1.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="{{asset('site/images/img1.jpg')}}" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <div class="icon-element icon-element-md mx-auto mb-3">
@@ -100,7 +101,7 @@
                 <div class="col-lg-4 responsive-column-half">
                     <div class="flip-box">
                         <div class="flip-box-front">
-                            <img src="site/images/img-loading.png" data-src="site/images/img2.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="{{asset('site/images/img2.jpg')}}" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <h3 class="flip-title mb-1">طراحی گرافیک</h3>
@@ -108,7 +109,7 @@
                             </a>
                         </div>
                         <div class="flip-box-back">
-                            <img src="site/images/img-loading.png" data-src="site/images/img2.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="{{asset('site/images/img2.jpg')}}" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <div class="icon-element icon-element-md mx-auto mb-3">
@@ -134,7 +135,7 @@
                 <div class="col-lg-4 responsive-column-half">
                     <div class="flip-box">
                         <div class="flip-box-front">
-                            <img src="site/images/img-loading.png" data-src="site/images/img3.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="{{asset('site/images/img3.jpg')}}" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <h3 class="flip-title mb-1">چاپ و بسته بندی</h3>
@@ -142,7 +143,7 @@
                             </a>
                         </div>
                         <div class="flip-box-back">
-                            <img src="site/images/img-loading.png" data-src="site/images/img3.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="{{asset('site/images/img3.jpg')}}" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <div class="icon-element icon-element-md mx-auto mb-3">
@@ -161,7 +162,7 @@
                 <div class="col-lg-3 responsive-column-half">
                     <div class="flip-box">
                         <div class="flip-box-front">
-                            <img src="site/images/img-loading.png" data-src="site/images/img4.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="{{asset('site/images/img4.jpg')}}" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <h3 class="flip-title mb-1">عکاسی و فیلمبرداری</h3>
@@ -169,7 +170,7 @@
                             </a>
                         </div>
                         <div class="flip-box-back">
-                            <img src="site/images/img-loading.png" data-src="site/images/img4.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="{{asset('site/images/img4.jpg')}}" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <div class="icon-element icon-element-md mx-auto mb-3">
@@ -201,7 +202,7 @@
                 <div class="col-lg-3 responsive-column-half">
                     <div class="flip-box">
                         <div class="flip-box-front">
-                            <img src="site/images/img-loading.png" data-src="site/images/img5.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="site/images/img5.jpg" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <h3 class="flip-title mb-1">تدوین و ساخت تیزر</h3>
@@ -209,7 +210,7 @@
                             </a>
                         </div>
                         <div class="flip-box-back">
-                            <img src="site/images/img-loading.png" data-src="site/images/img5.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="site/images/img5.jpg" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <div class="icon-element icon-element-md mx-auto mb-3">
@@ -243,7 +244,7 @@
                 <div class="col-lg-3 responsive-column-half">
                     <div class="flip-box">
                         <div class="flip-box-front">
-                            <img src="site/images/img-loading.png" data-src="site/images/img6.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="site/images/img6.jpg" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <h3 class="flip-title mb-1">مدیریت سوشال مدیا</h3>
@@ -251,7 +252,7 @@
                             </a>
                         </div>
                         <div class="flip-box-back">
-                            <img src="site/images/img-loading.png" data-src="site/images/img6.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="site/images/img6.jpg" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <div class="icon-element icon-element-md mx-auto mb-3">
@@ -278,7 +279,7 @@
                 <div class="col-lg-3 responsive-column-half">
                     <div class="flip-box">
                         <div class="flip-box-front">
-                            <img src="site/images/img-loading.png" data-src="site/images/img8.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="site/images/img8.jpg" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <h3 class="flip-title mb-1">تدوین استراتژی برند</h3>
@@ -286,7 +287,7 @@
                             </a>
                         </div>
                         <div class="flip-box-back">
-                            <img src="site/images/img-loading.png" data-src="site/images/img8.jpg" alt="" class="flip-img lazy" />
+                            <img src="{{asset('site/images/img-loading.png')}}" data-src="site/images/img8.jpg" alt="" class="flip-img lazy" />
                             <a href="#" class="flip-content d-flex align-items-center justify-content-center">
                                 <div>
                                     <div class="icon-element icon-element-md mx-auto mb-3">
@@ -374,14 +375,22 @@
 {{--                                <h4 class="fs-20 font-weight-semi-bold">طرح شروع</h4>--}}
                             </div>
                             <ul class="generic-list-item">
-                                <li><i class="la la-check text-success mr-2"></i>طراحی قالب اختصاصی</li>
-                                <li><i class="la la-check text-success mr-2"></i>داشبورد مدیریتی اختصاصی</li>
-                                <li><i class="la la-check text-success mr-2"></i>هاست رایگان</li>
-                                <li><i class="la la-check text-success mr-2"></i>1 دامنه رایگان</li>
-                                <li><i class="la la-check text-success mr-2"></i>1 سال ضمانت</li>
-                                <li><i class="la la-check text-success mr-2"></i>1 سال پشتیبانی رایگان</li>
-                                <li><i class="la la-check text-success mr-2"></i>1 بار آموزش رایگان</li>
-                                <li><i class="la la-check text-success mr-2"></i>1 سال بک آپ گیری رایگان</li>
+                                <li><i class="la la-check text-success mr-2"></i> 1 گیگابایت فضای هاست </li>
+                                <li><i class="la la-check text-success mr-2"></i>پهنای باند نامحدود </li>
+                                <li><i class="la la-check text-success mr-2"></i> دامنه اختصاصی ir </li>
+                                <li><i class="la la-check text-success mr-2"></i> ssl برای رمزنگاری HTTPS </li>
+                                <li><i class="la la-check text-success mr-2"></i>ایجاد نامحدود محصول </li>
+                                <li><i class="la la-check text-success mr-2"></i>فیلتر محصولات </li>
+                                <li><i class="la la-check text-success mr-2"></i>امکان جستجو محصولات </li>
+                                <li><i class="la la-check text-success mr-2"></i>ایمیل اختصاصی نامحدود </li>
+                                <li><i class="la la-check text-success mr-2"></i>ایجاد اخبار و مقالات نامحدود </li>
+                                <li><i class="la la-check text-success mr-2"></i>سیستم گزارش گیری حرفه ای </li>
+                                <li><i class="la la-check text-success mr-2"></i>طراحی قالب اختصاصی </li>
+                                <li><i class="la la-check text-success mr-2"></i>داشبورد مدیریتی </li>
+                                <li><i class="la la-check text-success mr-2"></i>1 سال ضمانت فنی </li>
+                                <li><i class="la la-check text-success mr-2"></i>1 سال پشتیبانی فنی رایگان </li>
+                                <li><i class="la la-check text-success mr-2"></i> آموزش رایگان </li>
+                                <li><i class="la la-check text-success mr-2"></i>1 سال پشتیبانی گیری رایگان </li>
                             </ul>
                             <div class="price-btn-box pt-30px">
                                 <a href="#" class="btn theme-btn w-100">برای ثبت سفارش کلیک کنید</a>
@@ -616,14 +625,6 @@
                     </div>
                 </div>
             </div>
-            <div class="btn-box d-flex flex-wrap align-items-center justify-content-center pt-3">
-                <div class="mr-4">
-                    <a href="become-a-teacher.html" class="btn theme-btn theme-btn-sm lh-24"><i class="la la-user mr-1"></i>سفارش طراحی سایت</a>
-                </div>
-                <div>
-                    <a href="admission.html" class="btn theme-btn theme-btn-sm lh-24"><i class="la la-file-text-o mr-1"></i>سفارش طراحی گرافیک</a>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -636,7 +637,7 @@
                             <h5 class="ribbon ribbon-lg mb-2">درباره ما</h5>
                             <h2 class="section__title">آژانس تخصصی تبلیغات بستا</h2>
                             <span class="section-divider"></span>
-                            <p class="section__desc">
+                            <p class="section__desc text-justify">
                                 آژانس تخصصی تبلیغات بستا یک آژانس تبلیغاتی است با تیمی جوان و خلاق در زمینه تبلیغات محیطی، دیجیتال مارکتینگ، طراحی گرافیک و چاپ، طراحی وبسایت، عکاسی و تولید تیزر تبلیغاتی فعال می باشد، ما خالق ایده های شما هستیم شما می توانید برای آشنایی بیشتر با آژانس تبلیغاتی بستا کاتالوگ ما را از لینک رو به رو دریافت نمایید
                             </p>
                         </div>
@@ -716,8 +717,8 @@
                 </div>
                 <div class="col-lg-5 ml-auto">
                     <div class="generic-img-box">
-                        <img src="site/images/img-loading.png" data-src="site/images/img13.jpg" alt="درباره تصویر" class="img__item img__item-1 lazy">
-                        <img src="site/images/img-loading.png" data-src="site/images/img14.jpg" alt="درباره تصویر" class="img__item img__item-2 lazy">
+                        <img src="{{asset('site/images/img-loading.png')}}" data-src="site/images/img13.jpg" alt="درباره تصویر" class="img__item img__item-1 lazy">
+                        <img src="{{asset('site/images/img-loading.png')}}" data-src="site/images/img14.jpg" alt="درباره تصویر" class="img__item img__item-2 lazy">
                     </div>
                 </div>
             </div>

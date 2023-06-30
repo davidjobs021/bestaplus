@@ -98,15 +98,15 @@
                     <div class="col-lg-2">
                         <div class="logo-box">
                             <a href="{{route('/')}}" class="logo">
-                                <img src="{{asset('storage/'.$logos['file_link'])}}" alt="{{$logos['title']}}" style="width: 55%">
+                                <img src="{{asset('storage/'.$logos['file_link'])}}" alt="{{$logos['title']}}" style="width: 50%">
                             </a>
                             <div class="user-btn-action d-flex">
-                                <div class="search-menu-toggle icon-element icon-element-sm shadow-sm mr-2" data-toggle="tooltip" data-placement="top" title="جستجو کردن">
-                                    <i class="la la-search"></i>
-                                </div>
-                                <div class="off-canvas-menu-toggle cat-menu-toggle icon-element icon-element-sm shadow-sm mr-2" data-toggle="tooltip" data-placement="top" title="منوی دسته بندی">
-                                    <i class="la la-th-large"></i>
-                                </div>
+{{--                                <div class="search-menu-toggle icon-element icon-element-sm shadow-sm mr-2" data-toggle="tooltip" data-placement="top" title="جستجو کردن">--}}
+{{--                                    <i class="la la-search"></i>--}}
+{{--                                </div>--}}
+{{--                                <div class="off-canvas-menu-toggle cat-menu-toggle icon-element icon-element-sm shadow-sm mr-2" data-toggle="tooltip" data-placement="top" title="منوی دسته بندی">--}}
+{{--                                    <i class="la la-th-large"></i>--}}
+{{--                                </div>--}}
                                 <div class="off-canvas-menu-toggle main-menu-toggle icon-element icon-element-sm shadow-sm" data-toggle="tooltip" data-placement="top" title="منوی اصلی">
                                     <i class="la la-bars"></i>
                                 </div>
@@ -264,7 +264,7 @@
                     <div class="d-flex flex-wrap align-items-center justify-content-end">
                         <ul class="generic-list-item d-flex flex-wrap align-items-center fs-14">
                             <li class="mr-3"><a href="{{route('شرایط-ضوابط')}}">شرایط و ضوابط</a></li>
-                            <li class="mr-3"><a href="#">سیاست حفظ حریم خصوصی</a></li>
+                            <li class="mr-3"><a href="#">حریم خصوصی</a></li>
                         </ul>
                         <div class="select-container select-container-sm">
                             <select class="select-container-select">
