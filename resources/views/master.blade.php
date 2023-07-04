@@ -198,11 +198,15 @@
         <div class="row">
             <div class="col-lg-3 responsive-column-half">
                 <div class="footer-item">
-                    <a href="{{route('/')}}">
-                        <img src="{{asset('storage/'.$logos['file_link'])}}" alt="{{$logos['title']}}" class="footer__logo" style="width: 30%">
-                    </a>
-                    <ul class="generic-list-item pt-4 ">
-                        <li> آژانس تخصصی تبلیغات بستا</li>
+                    <h3 class="fs-20 font-weight-semi-bold">آژانس تبلیغاتی بستا</h3>
+                    <span class="section-divider section--divider"></span>
+{{--                    <a href="{{route('/')}}">--}}
+{{--                        <img src="{{asset('storage/'.$logos['file_link'])}}" alt="{{$logos['title']}}" class="footer__logo" style="width: 30%">--}}
+{{--                    </a>--}}
+                    <ul class="generic-list-item">
+                        <p>تلاش ما برای معرفی کسب و کار شماست</p>
+                        <p> ما خالق ایده های شما هستیم</p>
+                        <p>آنچه شما از تبلیغات نیاز دارید نزد ماست</p>
                     </ul>
                 </div>
             </div>
@@ -224,30 +228,28 @@
                     <h3 class="fs-20 font-weight-semi-bold">بخش های آموزشی</h3>
                     <span class="section-divider section--divider"></span>
                     <ul class="generic-list-item">
-                        @foreach($submenus as $submenu)
-                            @if($submenu->menu_id == 9)
-                                <li><a href="{{$submenu->slug}}">{{$submenu->title}}</a></li>
-                            @endif
-                        @endforeach
+                        <li><a href="#">آموزش طراحی وبسایت</a></li>
+                        <li><a href="#">آموزش سئو وبسایت</a></li>
+                        <li><a href="#">آموزش طراحی گرافیک</a></li>
+                        <li><a href="#">آموزش عکاسی</a></li>
+                        <li><a href="#">آموزش چاپ و بسته بندی</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3 responsive-column-half">
                 <div class="footer-item">
-                    <h3 class="fs-20 font-weight-semi-bold">شبکه های اجتماعی</h3>
+                    <h3 class="fs-20 font-weight-semi-bold">راه های ارتباطی</h3>
                     <span class="section-divider section--divider"></span>
-                    <ul class="social-icons social-icons-styled">
-                        <li class="mr-r icon-social">
-                            <a href="https://eitaa.com/hamahdzohoor" target="_blank" class="eitaa">
-                                <img src="{{asset('site/images/eitaa.png')}}" alt="eitaa">
-                            </a>
-                        </li>
-                    </ul>
-                    <h3 class="fs-20 font-weight-semi-bold pt-4 pb-2">راه های ارتباطی</h3>
+                        <ul class="social-icons social-icons-styled">
+                            <li class="mr-1"><a href="https://facebook.com/BestaAgency"       class="facebook-bg"> <i class="la la-facebook"> </i></a></li>
+                            <li class="mr-1"><a href="https://twitter.com/BestaAgency"        class="twitter-bg">  <i class="la la-twitter">  </i></a></li>
+                            <li class="mr-1"><a href="https://instagram.com/bestagroup.ir"    class="instagram-bg"><i class="la la-instagram"></i></a></li>
+                            <li class="mr-1"><a href="https://linkedin.com/company/bestagroup"class="linkedin-bg"> <i class="la la-linkedin"> </i></a></li>
+                        </ul>
                     <ul class="generic-list-item pt-4">
-                        <li><a href="tel:+989128119938">+989128119938</a></li>
-                        <li><a href="tel:+982177116213">021-77116213</a></li>
-                        <li><a href="mailto:info@bestagroup.ir">info@bestagroup.ir</a></li>
+                        <li style="direction:ltr;text-align: left"><a href="tel:+989128119938">+989128119938</a></li>
+                        <li style="direction:ltr;text-align: left"><a href="tel:+982177116213">021-77116213</a></li>
+                        <li style="direction:ltr;text-align: left"><a href="mailto:info@bestagroup.ir">info@bestagroup.ir</a></li>
                     </ul>
                 </div>
             </div>
