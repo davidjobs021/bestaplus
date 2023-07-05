@@ -16,7 +16,7 @@ class SubmenuController extends Controller
 
     public function index(Request $request)
     {
-        $submenus        = Submenu::all();
+        $submenus       = Submenu::all();
         $menupanels     = Menu_panel::whereStatus(4)->get();
         $submenupanels  = Submenu_panel::whereStatus(4)->get();
 
@@ -63,7 +63,7 @@ class SubmenuController extends Controller
 
         $menupanels     = Menu_panel::whereStatus(4)->get();
         $submenupanels  = Submenu_panel::whereStatus(4)->get();
-        $menus          = Menu::whereSubmenu_route(1)->get();
+        $menus          = Menu::whereSubmenu_route(1)->whereStatus(4)->orderBy('priority')->get();
 
         return view('Admin.submenus.create')
             ->with(compact(['menupanels' , 'submenupanels', 'menus']));
